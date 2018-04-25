@@ -1,0 +1,1576 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{aft}{misc}{}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.webperformancetoday.com/}}
+  \field{title}{{Above the fold time}}
+\endentry
+
+\entry{flywheel}{inproceedings}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Agababov}{A.}%
+     {Victor}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buettner}{B.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chudnovsky}{C.}%
+     {Victor}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cogan}{C.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenstein}{G.}%
+     {Ben}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McDaniel}{M.}%
+     {Shane}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Piatek}{P.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scott}{S.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Welsh}{W.}%
+     {Matt}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yin}{Y.}%
+     {Bolian}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {USENIX Association}%
+  }
+  \strng{namehash}{AV+1}
+  \strng{fullhash}{AVBMCVCMGBMSPMSCWMYB1}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of the 12th USENIX Conference on Networked
+  Systems Design and Implementation}
+  \field{series}{NSDI'15}
+  \field{title}{Flywheel: Google's Data Compression Proxy for the Mobile Web}
+  \field{year}{2015}
+\endentry
+
+\entry{ager_imc2011}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Ager}{A.}%
+     {Bernhard}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muhlbauer}{M.}%
+     {Wolfgang}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smaragdakis}{S.}%
+     {Georgios}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uhlig}{U.}%
+     {Steve}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AB+1}
+  \strng{fullhash}{ABMWSGUS1}
+  \field{sortinit}{A}
+  \field{booktitle}{Proc. of the SIGCOMM conference on Internet Measurement
+  Conference (IMC), 2011}
+  \field{title}{{Web Content Cartography}}
+\endentry
+
+\entry{alexa}{misc}{}
+  \field{sortinit}{A}
+  \field{howpublished}{\url{http://www.alexa.com/}}
+  \field{title}{{Alexa}}
+\endentry
+
+\entry{bui2015rethinking}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Bui}{B.}%
+     {Duc~Hoang}{D.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Yunxin}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kim}{K.}%
+     {Hyosu}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shin}{S.}%
+     {Insik}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhao}{Z.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{BDH+1}
+  \strng{fullhash}{BDHLYKHSIZF1}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking}
+  \field{pages}{14\bibrangedash 26}
+  \field{title}{Rethinking Energy-Performance Trade-Off in Mobile Web Page
+  Loading}
+  \field{year}{2015}
+\endentry
+
+\entry{butkiewicz_imc2011}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Butkiewicz}{B.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha~V.}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sekar}{S.}%
+     {Vyas}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMMHVSV1}
+  \strng{fullhash}{BMMHVSV1}
+  \field{sortinit}{B}
+  \field{booktitle}{Proc. of the SIGCOMM conference on Internet Measurement
+  Conference (IMC), 2011}
+  \field{title}{Understanding website complexity: measurements, metrics, and
+  implications}
+\endentry
+
+\entry{butkiewicz2011understanding}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Butkiewicz}{B.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha~V}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sekar}{S.}%
+     {Vyas}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{BMMHVSV2}
+  \strng{fullhash}{BMMHVSV2}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the 2011 ACM SIGCOMM conference on Internet
+  measurement conference}
+  \field{pages}{313\bibrangedash 328}
+  \field{title}{Understanding website complexity: measurements, metrics, and
+  implications}
+  \field{year}{2011}
+\endentry
+
+\entry{klotski}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Butkiewicz}{B.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Daimeng}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Zhe}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha~V.}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sekar}{S.}%
+     {Vyas}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {USENIX Association}%
+  }
+  \strng{namehash}{BM+1}
+  \strng{fullhash}{BMWDWZMHVSV1}
+  \field{sortinit}{B}
+  \field{booktitle}{12th USENIX Symposium on Networked Systems Design and
+  Implementation (NSDI 15)}
+  \field{title}{Klotski: Reprioritizing Web Content to Improve User Experience
+  on Mobile Devices}
+  \verb{url}
+  \verb https://www.usenix.org/conference/nsdi15/technical-sessions/presentatio
+  \verb n/butkiewicz
+  \endverb
+  \list{location}{1}{%
+    {Oakland, CA}%
+  }
+  \field{year}{2015}
+\endentry
+
+\entry{charlie_mobicom2015}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Xiaomeng}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jindal}{J.}%
+     {Abhilash}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ding}{D.}%
+     {Ning}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hu}{H.}%
+     {Yu~Charlie}{Y.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gupta}{G.}%
+     {Maruti}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vannithamby}{V.}%
+     {Rath}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{CX+1}
+  \strng{fullhash}{CXJADNHYCGMVR1}
+  \field{sortinit}{C}
+  \field{booktitle}{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking}
+  \verb{doi}
+  \verb 10.1145/2789168.2790107
+  \endverb
+  \field{isbn}{978-1-4503-3619-2}
+  \field{pages}{40\bibrangedash 52}
+  \field{series}{MobiCom '15}
+  \field{title}{Smartphone Background Activities in the Wild: Origin, Energy
+  Drain, and Optimization}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2789168.2790107
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{google_developer_tools}{misc}{}
+  \field{sortinit}{C}
+  \field{howpublished}{\url{https://developer.chrome.com/devtools/}}
+  \field{title}{{Chrome developer tools}}
+\endentry
+
+\entry{d3}{misc}{}
+  \field{sortinit}{D}
+  \field{howpublished}{\url{http://d3js.org/}}
+  \field{title}{{d3.js: Data Driven Documents}}
+\endentry
+
+\entry{dns-pre-resolution}{misc}{}
+  \field{sortinit}{D}
+  \field{howpublished}{\url{http://blogs.msdn.com/b/ie/archive/2011/03/17/internet-explorer-9-network-performance-improvements.aspx}}
+  \field{title}{{DNS pre-resolution}}
+\endentry
+
+\entry{dukkipati_imc2011}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Dukkipati}{D.}%
+     {Nandita}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mathis}{M.}%
+     {Matt}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Yuchung}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghobadi}{G.}%
+     {Monia}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DN+1}
+  \strng{fullhash}{DNMMCYGM1}
+  \field{sortinit}{D}
+  \field{booktitle}{Proceedings of the 11th ACM SIGCOMM Conference on Internet
+  Measurement 2011, Berlin, Germany - November 2-4, 2011}
+  \field{title}{Proportional Rate Reduction for TCP}
+  \verb{url}
+  \verb http://conferences.sigcomm.org/imc/2011/program.htm
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{ericcson_report}{misc}{}
+  \field{sortinit}{E}
+  \field{title}{Ericsson Mobility Report June 2015:
+  \url{http://www.ericsson.com/res/docs/2015/ericsson-mobility-report-june-2015.pdf}}
+\endentry
+
+\entry{spydier}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Erman}{E.}%
+     {Jeffrey}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gopalakrishnan}{G.}%
+     {Vijay}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jana}{J.}%
+     {Rittwik}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramakrishnan}{R.}%
+     {K.~K.}{K.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{cellular networks, mobile web, spdy}
+  \strng{namehash}{EJ+1}
+  \strng{fullhash}{EJGVJRRKK1}
+  \field{sortinit}{E}
+  \field{booktitle}{Proceedings of the Ninth ACM Conference on Emerging
+  Networking Experiments and Technologies}
+  \verb{doi}
+  \verb 10.1145/2535372.2535399
+  \endverb
+  \field{isbn}{978-1-4503-2101-3}
+  \field{pages}{303\bibrangedash 314}
+  \field{series}{CoNEXT '13}
+  \field{title}{Towards a SPDY'Ier Mobile Web?}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2535372.2535399
+  \endverb
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{year}{2013}
+\endentry
+
+\entry{firebug}{misc}{}
+  \field{sortinit}{F}
+  \field{howpublished}{\url{http://getfirebug.com/}}
+  \field{title}{{Firebug}}
+\endentry
+
+\entry{firefox}{misc}{}
+  \field{sortinit}{F}
+  \field{howpublished}{\url{https://developer.mozilla.org/en-US/docs/Tools}}
+  \field{title}{{Firefox Developer Tools}}
+\endentry
+
+\entry{critical_path}{misc}{}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{https://developers.google.com/web/fundamentals/performance/critical-rendering-path/?hl=en
+  }}
+  \field{title}{{Google developers: Analyzing critical rendering path
+  performance}}
+\endentry
+
+\entry{googleio2014}{misc}{}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{https://www.google.com/events/io/schedule}}
+  \field{title}{{Google I/O 2014: Making the Mobile Web Faster}}
+\endentry
+
+\entry{pagespeedinsight}{misc}{}
+  \field{sortinit}{G}
+  \field{howpublished}{\url{https://developers.google.com/speed/pagespeed/insights}}
+  \field{title}{{Google Pagespeed Insights}}
+\endentry
+
+\entry{httparchive}{misc}{}
+  \field{sortinit}{H}
+  \field{howpublished}{\url{http://httparchive.org/}}
+  \field{title}{{HTTP Archive}}
+\endentry
+
+\entry{huang_mobisys2010}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Huang}{H.}%
+     {Junxian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xu}{X.}%
+     {Qiang}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tiwana}{T.}%
+     {Birjodh}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mao}{M.}%
+     {Z.~Morley}{Z.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Ming}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bahl}{B.}%
+     {Paramvir}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ+1}
+  \strng{fullhash}{HJXQTBMZMZMBP1}
+  \field{sortinit}{H}
+  \field{booktitle}{Proc. of the international conference on Mobile systems,
+  applications, and services (Mobisys), 2010}
+  \field{title}{{Anatomizing application performance differences on
+  smartphones}}
+\endentry
+
+\entry{ihm_imc2011}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ihm}{I.}%
+     {Sunghwan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pai}{P.}%
+     {Vivek~S.}{V.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ISPVS1}
+  \strng{fullhash}{ISPVS1}
+  \field{sortinit}{I}
+  \field{booktitle}{Proc. of the SIGCOMM conference on Internet Measurement
+  Conference (IMC), 2011}
+  \field{title}{{Towards understanding modern web traffic}}
+\endentry
+
+\entry{krishnan_imc2009}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Krishnan}{K.}%
+     {Rupa}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Srinivasan}{S.}%
+     {Sridhar}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jain}{J.}%
+     {Sushant}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Arvind}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anderson}{A.}%
+     {Thoma}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gao}{G.}%
+     {Jie}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KR+1}
+  \strng{fullhash}{KRMHSSJSKAATGJ1}
+  \field{sortinit}{K}
+  \field{booktitle}{Proc. of the SIGCOMM conference on Internet Measurement
+  Conference (IMC), 2009}
+  \field{title}{{Moving Beyond End-to-End Path Information to Optimize CDN
+  Performance}}
+\endentry
+
+\entry{webprophet}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Li}{L.}%
+     {Zhichun}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Ming}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Zhaosheng}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Yan}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenberg}{G.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Yi-Min}{Y.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LZ+1}
+  \strng{fullhash}{LZZMZZCYGAWYM1}
+  \field{sortinit}{L}
+  \field{booktitle}{Proc. of the USENIX conference on Networked Systems Design
+  and Implementation (NSDI), 2010}
+  \field{title}{{WebProphet: automating performance prediction for web
+  services}}
+\endentry
+
+\entry{google_mobile_friendly}{misc}{}
+  \field{sortinit}{M}
+  \field{howpublished}{\url{https://support.google.com/adsense/answer/6196932?hl=en}}
+  \field{title}{{Make sure your site's ready for mobile-friendly Google search
+  results}}
+\endentry
+
+\entry{meyerovich_www2010}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Meyerovich}{M.}%
+     {Leo~A.}{L.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bodik}{B.}%
+     {Rastislav}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MLABR1}
+  \strng{fullhash}{MLABR1}
+  \field{sortinit}{M}
+  \field{booktitle}{{Proc. of the international conference on World Wide Web
+  (WWW), 2010}}
+  \field{title}{{Fast and parallel webpage layout}}
+\endentry
+
+\entry{silo}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mickens}{M.}%
+     {Jame}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ1}
+  \strng{fullhash}{MJ1}
+  \field{sortinit}{M}
+  \field{booktitle}{Proc. of USENIX conference on Web Application Development
+  (WebApps), 2010}
+  \field{title}{{Silo: Exploiting JavaScript and DOM Storage for Faster Page
+  Loads}}
+\endentry
+
+\entry{mickens_nsdi2010}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mickens}{M.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elson}{E.}%
+     {Jeremy}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Howell}{H.}%
+     {Jon}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorch}{L.}%
+     {Jay}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MJ+1}
+  \strng{fullhash}{MJEJHJLJ1}
+  \field{sortinit}{M}
+  \field{booktitle}{Proc. of the USENIX conference on Networked Systems Design
+  and Implementation (NSDI), 2010}
+  \field{title}{{Crom: Faster web browsing using speculative execution}}
+\endentry
+
+\entry{mobile-overtake}{misc}{}
+  \field{sortinit}{M}
+  \field{howpublished}{\url{http://www.comscore.com/Insights/Blog/Mobile-Internet-Usage-Skyrockets-in-Past-4-Years-to-Overtake-Desktop-as-Most-Used-Digital-Platform}}
+  \field{title}{{Mobile Internet Usage Skyrockets in Past 4 Years to Overtake
+  Desktop as Most Used Digital Platform}}
+\endentry
+
+\entry{mobile-only}{misc}{}
+  \field{sortinit}{M}
+  \field{howpublished}{\url{http://marketingland.com/mobile-only-users-surpassed-pc-only-users-in-march-comscore-126952}}
+  \field{title}{{Mobile-only users surpass desktop-only users}}
+\endentry
+
+\entry{modpagespeed}{misc}{}
+  \field{sortinit}{M}
+  \field{howpublished}{\url{http://www.modpagespeed.com/}}
+  \field{title}{{mod\_pagespeed}}
+\endentry
+
+\entry{mahimahi}{inproceedings}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Netravali}{N.}%
+     {Ravi}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sivaraman}{S.}%
+     {Anirudh}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Das}{D.}%
+     {Somak}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goyal}{G.}%
+     {Ameesh}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Winstein}{W.}%
+     {Keith}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mickens}{M.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balakrishnan}{B.}%
+     {Hari}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NR+1}
+  \strng{fullhash}{NRSADSGAWKMJBH1}
+  \field{sortinit}{N}
+  \field{booktitle}{USENIX Annual Technical Conference 2015}
+  \field{title}{{Mahimahi: Accurate Record-and-Replay for HTTP}}
+  \list{location}{1}{%
+    {Santa Clara, CA}%
+  }
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{namespace}{misc}{}
+  \field{sortinit}{N}
+  \field{howpublished}{\url{http://blog.scottlowe.org/2013/09/04/introducing-linux-network-namespaces}}
+  \field{title}{{Network Namespace}}
+\endentry
+
+\entry{qian_mobisys2014}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Qian}{Q.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sen}{S.}%
+     {Subhabrata}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spatscheck}{S.}%
+     {Oliver}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{cellular networks, energy consumption, http, mobile web, smartphones,
+  spdy, ssl}
+  \strng{namehash}{QFSSSO1}
+  \strng{fullhash}{QFSSSO1}
+  \field{sortinit}{Q}
+  \field{booktitle}{Proceedings of the 12th Annual International Conference on
+  Mobile Systems, Applications, and Services}
+  \verb{doi}
+  \verb 10.1145/2594368.2594372
+  \endverb
+  \field{isbn}{978-1-4503-2793-0}
+  \field{pages}{218\bibrangedash 231}
+  \field{series}{MobiSys '14}
+  \field{title}{Characterizing Resource Usage for Mobile Web Browsing}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2594368.2594372
+  \endverb
+  \list{location}{1}{%
+    {Bretton Woods, New Hampshire, USA}%
+  }
+  \field{year}{2014}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{webcaching}{inproceedings}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Qian}{Q.}%
+     {Feng}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Quah}{Q.}%
+     {Kee~Shen}{K.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huang}{H.}%
+     {Junxian}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erman}{E.}%
+     {Jeffrey}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gerber}{G.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mao}{M.}%
+     {Zhuoqing}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sen}{S.}%
+     {Subhabrata}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spatscheck}{S.}%
+     {Oliver}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{QF+1}
+  \strng{fullhash}{QFQKSHJEJGAMZSSSO1}
+  \field{sortinit}{Q}
+  \field{booktitle}{MobiSys '12}
+  \field{pages}{127\bibrangedash 140}
+  \field{title}{Web Caching on Smartphones: Ideal vs. Reality}
+  \list{location}{1}{%
+    {Low Wood Bay, Lake District, UK}%
+  }
+  \field{year}{2012}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{quic}{misc}{}
+  \field{sortinit}{Q}
+  \field{howpublished}{\url{https://www.chromium.org/quic}}
+  \field{title}{{Quic}}
+\endentry
+
+\entry{radhakrishnan_conext2011}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Radhakrishnan}{R.}%
+     {Sivasankar}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheng}{C.}%
+     {Yuchung}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chu}{C.}%
+     {Jerry}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jain}{J.}%
+     {Arvind}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raghavan}{R.}%
+     {Barath}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RS+1}
+  \strng{fullhash}{RSCYCJJARB1}
+  \field{sortinit}{R}
+  \field{booktitle}{Proc. of the International Conference on emerging
+  Networking EXperiments and Technologies (CoNEXT), 2011}
+  \field{title}{{Crom: Faster web browsing using speculative execution}}
+\endentry
+
+\entry{mobilehub}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Shen}{S.}%
+     {Haichen}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasubramanian}{B.}%
+     {Aruna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LaMarca}{L.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wetherall}{W.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{dynamic taint tracking, energy-efficiency, machine learning, mobile
+  sensing, sensor hub}
+  \strng{namehash}{SH+1}
+  \strng{fullhash}{SHBALAWD1}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 2015 ACM International Joint Conference
+  on Pervasive and Ubiquitous Computing}
+  \verb{doi}
+  \verb 10.1145/2750858.2804260
+  \endverb
+  \field{isbn}{978-1-4503-3574-4}
+  \field{pages}{227\bibrangedash 238}
+  \field{series}{UbiComp '15}
+  \field{title}{Enhancing Mobile Apps to Use Sensor Hubs Without Programmer
+  Effort}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2750858.2804260
+  \endverb
+  \list{location}{1}{%
+    {Osaka, Japan}%
+  }
+  \field{year}{2015}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{pltrevenue}{misc}{}
+  \field{sortinit}{S}
+  \field{howpublished}{\url{http://www.strangeloopnetworks.com/resources/infographics/web-performance-and-ecommerce/shopzilla-faster-pages-12-revenue-increase/}}
+  \field{title}{{Shopzilla: faster page load time = 12\% revenue increase}}
+\endentry
+
+\entry{flexiweb}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Singh}{S.}%
+     {Shailendra}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha~V.}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Srikanth~V.}{S.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Govindan}{G.}%
+     {Ramesh}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{cellular network, compression proxy, middle box, mobile web browsing}
+  \strng{namehash}{SS+1}
+  \strng{fullhash}{SSMHVKSVGR1}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking}
+  \verb{doi}
+  \verb 10.1145/2789168.2790128
+  \endverb
+  \field{isbn}{978-1-4503-3619-2}
+  \field{pages}{604\bibrangedash 616}
+  \field{series}{MobiCom '15}
+  \field{title}{FlexiWeb: Network-Aware Compaction for Accelerating Mobile Web
+  Transfers}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2789168.2790128
+  \endverb
+  \list{location}{1}{%
+    {Paris, France}%
+  }
+  \field{year}{2015}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{singh2015flexiweb}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Singh}{S.}%
+     {Shailendra}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madhyastha}{M.}%
+     {Harsha~V}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Srikanth~V}{S.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Govindan}{G.}%
+     {Ramesh}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{SS+1}
+  \strng{fullhash}{SSMHVKSVGR2}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking}
+  \field{pages}{604\bibrangedash 616}
+  \field{title}{FlexiWeb: Network-Aware Compaction for Accelerating Mobile Web
+  Transfers}
+  \field{year}{2015}
+\endentry
+
+\entry{cloud_hotmobile2014}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Sivakumar}{S.}%
+     {Ashiwan}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gopalakrishnan}{G.}%
+     {Vijay}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Seungjoon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rao}{R.}%
+     {Sanjay~G.}{S.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sen}{S.}%
+     {Subhabrata}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spatscheck}{S.}%
+     {Oliver}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{SA+1}
+  \strng{fullhash}{SAGVLSRSGSSSO1}
+  \field{sortinit}{S}
+  \field{booktitle}{HotMobile}
+  \field{title}{Cloud is not a silver bullet: a case study of cloud-based
+  mobile browsing.}
+  \list{location}{1}{%
+    {California}%
+  }
+  \field{year}{2014}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{parcel}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Sivakumar}{S.}%
+     {Ashiwan}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Puzhavakath~Narayanan}{P.~N.}%
+     {Shankaranarayanan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gopalakrishnan}{G.}%
+     {Vijay}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lee}{L.}%
+     {Seungjoon}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rao}{R.}%
+     {Sanjay}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sen}{S.}%
+     {Subhabrata}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{cellular networks, cloud browsers, energy consump- tion, mobile web,
+  proxy-assisted browsing, smartphones, web optimization}
+  \strng{namehash}{SA+1}
+  \strng{fullhash}{SAPNSGVLSRSSS1}
+  \field{sortinit}{S}
+  \field{booktitle}{Proceedings of the 10th ACM International on Conference on
+  Emerging Networking Experiments and Technologies}
+  \field{series}{CoNEXT '14}
+  \field{title}{PARCEL: Proxy Assisted BRowsing in Cellular Networks for Energy
+  and Latency Reduction}
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{year}{2014}
+\endentry
+
+\entry{spdy}{misc}{}
+  \field{sortinit}{S}
+  \field{howpublished}{\url{https://www.chromium.org/spdy/spdy-whitepaper}}
+  \field{title}{{SPDY}}
+\endentry
+
+\entry{tcp-pre-connect}{misc}{}
+  \field{sortinit}{T}
+  \field{howpublished}{\url{http://www.igvita.com/2012/06/04/chrome-networking-dns-prefetch-and-tcp-preconnect/}}
+  \field{title}{{TCP pre-connect}}
+\endentry
+
+\entry{chrome_tracing}{misc}{}
+  \field{sortinit}{T}
+  \field{howpublished}{\url{
+  https://www.chromium.org/developers/how-tos/trace-event-profiling-tool}}
+  \field{title}{{The Trace Event Profiling Tool }}
+\endentry
+
+\entry{dom}{misc}{}
+  \field{sortinit}{W}
+  \field{howpublished}{\url{http://www.w3.org/DOM/}}
+  \field{title}{{W3C: Document Object Model}}
+\endentry
+
+\entry{wprof}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Xiao~Sophia}{X.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasubramanian}{B.}%
+     {Aruna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Arvind}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wetherall}{W.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WXS+1}
+  \strng{fullhash}{WXSBAKAWD1}
+  \field{sortinit}{W}
+  \field{booktitle}{Proc. of the USENIX conference on Networked Systems Design
+  and Implementation (NSDI)}
+  \field{title}{Demystify Page Load Performance with WProf}
+  \field{year}{2013}
+\endentry
+
+\entry{spdy_nsdi}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Xiao~Sophia}{X.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balasubramanian}{B.}%
+     {Aruna}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krishnamurthy}{K.}%
+     {Arvind}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wetherall}{W.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {USENIX Association}%
+  }
+  \strng{namehash}{WXS+1}
+  \strng{fullhash}{WXSBAKAWD1}
+  \field{sortinit}{W}
+  \field{booktitle}{Proceedings of the 11th USENIX Conference on Networked
+  Systems Design and Implementation}
+  \field{isbn}{978-1-931971-09-6}
+  \field{pages}{387\bibrangedash 399}
+  \field{series}{NSDI'14}
+  \field{title}{How Speedy is SPDY?}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=2616448.2616484
+  \endverb
+  \list{location}{1}{%
+    {Berkeley, CA, USA}%
+  }
+  \field{year}{2014}
+\endentry
+
+\entry{wang_www2012}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Zhen}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Felix~Xiaozhu}{F.~X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhong}{Z.}%
+     {Lin}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chishtie}{C.}%
+     {Mansoor}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WZ+1}
+  \strng{fullhash}{WZLFXZLCM1}
+  \field{sortinit}{W}
+  \field{booktitle}{{Proc. of the international conference on World Wide Web
+  (WWW), 2012}}
+  \field{title}{{How far can client-only solutions go for mobile browser
+  speed?}}
+\endentry
+
+\entry{www_lin}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Zhen}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Felix~Xiaozhu}{F.~X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhong}{Z.}%
+     {Lin}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chishtie}{C.}%
+     {Mansoor}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \keyw{browser, mobile devices, web}
+  \strng{namehash}{WZ+1}
+  \strng{fullhash}{WZLFXZLCM1}
+  \field{sortinit}{W}
+  \field{booktitle}{Proceedings of the 21st International Conference on World
+  Wide Web}
+  \verb{doi}
+  \verb 10.1145/2187836.2187842
+  \endverb
+  \field{isbn}{978-1-4503-1229-5}
+  \field{pages}{31\bibrangedash 40}
+  \field{series}{WWW '12}
+  \field{title}{How Far Can Client-only Solutions Go for Mobile Browser Speed?}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/2187836.2187842
+  \endverb
+  \list{location}{1}{%
+    {Lyon, France}%
+  }
+  \field{year}{2012}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\entry{wang_hotmobile2011}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wang}{W.}%
+     {Zhen}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lin}{L.}%
+     {Felix~Xiaozhu}{F.~X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhong}{Z.}%
+     {Lin}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chishtie}{C.}%
+     {Mansoor}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WZ+1}
+  \strng{fullhash}{WZLFXZLCM1}
+  \field{sortinit}{W}
+  \field{booktitle}{Proc. of the Workshop on Mobile Computing Systems and
+  Applications (HotMobile), 2011}
+  \field{title}{{Why are web browsers slow on smartphones?}}
+\endentry
+
+\entry{webpagetest}{misc}{}
+  \field{sortinit}{W}
+  \field{howpublished}{\url{http://www.webpagetest.org/}}
+  \field{title}{{WebPagetest}}
+\endentry
+
+\entry{wiki_minification}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{note}{[Online; accessed 3-July-2015]}
+  \field{title}{Minification (programming)}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Minification_(programming)
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{yslow}{misc}{}
+  \field{sortinit}{Y}
+  \field{howpublished}{\url{http://yslow.org/}}
+  \field{title}{{YSlow}}
+\endentry
+
+\entry{ghana}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Zaki}{Z.}%
+     {Yasir}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chen}{C.}%
+     {Jay}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {P{\"o}tsch}{P.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahmad}{A.}%
+     {Talal}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Subramanian}{S.}%
+     {Lakshmi}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZY+1}
+  \strng{fullhash}{ZYCJPTATSL1}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proceedings of the Internet Measurement Conference (IMC).
+  Vancouver, Canada, November 2014.}
+  \field{title}{Dissecting Web Latency in Ghana}
+  \field{year}{2014}
+\endentry
+
+\entry{zhang_www2010}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Kaimin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wang}{W.}%
+     {Lu}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pan}{P.}%
+     {Aimin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhu}{Z.}%
+     {Bin~Benjamin}{B.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZK+1}
+  \strng{fullhash}{ZKWLPAZBB1}
+  \field{sortinit}{Z}
+  \field{booktitle}{{Proc. of the international conference on World Wide Web
+  (WWW), 2010}}
+  \field{title}{{Smart caching for web browsers}}
+\endentry
+
+\entry{zhou-conext2011}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zhou}{Z.}%
+     {Wenxuan}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Qingxi}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Caesar}{C.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Godfrey}{G.}%
+     {Brighten}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZW+1}
+  \strng{fullhash}{ZWLQCMGB1}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proc. of the International Conference on emerging
+  Networking EXperiments and Technologies (CoNEXT), 2011}
+  \field{title}{{ASAP: A Low-Latency Transport Layer}}
+\endentry
+
+\entry{zhu_micro2015}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zhu}{Z.}%
+     {Yuhao}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Halpern}{H.}%
+     {Matthew}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reddi}{R.}%
+     {Vijay~Janapa}{V.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZYHMRVJ1}
+  \strng{fullhash}{ZYHMRVJ1}
+  \field{sortinit}{Z}
+  \field{booktitle}{In IEEE Micro -- Special Issue on Mobile Systems}
+  \field{series}{(EEE Micro'2015}
+  \field{title}{The Role of the CPU in Energy-Efficient Mobile Web Browsing}
+  \field{year}{2015}
+\endentry
+
+\entry{webcore}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Zhu}{Z.}%
+     {Yuhao}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reddi}{R.}%
+     {Vijay~Janapa}{V.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Press}%
+  }
+  \strng{namehash}{ZYRVJ1}
+  \strng{fullhash}{ZYRVJ1}
+  \field{sortinit}{Z}
+  \field{booktitle}{Proceeding of the 41st Annual International Symposium on
+  Computer Architecuture}
+  \field{isbn}{978-1-4799-4394-4}
+  \field{pages}{541\bibrangedash 552}
+  \field{series}{ISCA '14}
+  \field{title}{WebCore: Architectural Support for Mobileweb Browsing}
+  \verb{url}
+  \verb http://dl.acm.org/citation.cfm?id=2665671.2665749
+  \endverb
+  \list{location}{1}{%
+    {Minneapolis, Minnesota, USA}%
+  }
+  \field{year}{2014}
+  \warn{\item Can't use 'location' + 'address'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

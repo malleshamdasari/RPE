@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGdefault{p}{\PYGdefaultZob{}}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}kind\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}pagespeedonline\PYGdefaultZsh{}result\PYGdefaultZdq{}}\PYGdefault{p}{,}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}id\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}/speed/pagespeed\PYGdefaultZdq{}}\PYGdefault{p}{,}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}responseCode\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{200}\PYGdefault{p}{,}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}title\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}PageSpeed Home\PYGdefaultZdq{}}\PYGdefault{p}{,}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}score\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{90}\PYGdefault{p}{,}
+ \PYGdefault{n+nt}{\PYGdefaultZdq{}pageStats\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{p}{\PYGdefaultZob{}}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}numberResources\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{22}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}numberHosts\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{7}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}totalRequestBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}2761\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}numberStaticResources\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{16}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}htmlResponseBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}91981\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}cssResponseBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}37728\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}imageResponseBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}13909\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}javascriptResponseBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}247214\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}otherResponseBytes\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}8804\PYGdefaultZdq{}}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}numberJsResources\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{6}\PYGdefault{p}{,}
+  \PYGdefault{n+nt}{\PYGdefaultZdq{}numberCssResources\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mi}{2}
+ \PYGdefault{p}{\PYGdefaultZcb{},}
+   \PYGdefault{n+nt}{\PYGdefaultZdq{}comment\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}...\PYGdefaultZdq{}}
+   \PYGdefault{l+s+s2}{\PYGdefaultZdq{}MinifyJavaScript\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{p}{\PYGdefaultZob{}}
+    \PYGdefault{n+nt}{\PYGdefaultZdq{}localizedRuleName\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}Minify JavaScript\PYGdefaultZdq{}}\PYGdefault{p}{,}
+    \PYGdefault{n+nt}{\PYGdefaultZdq{}ruleImpact\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+m+mf}{0.1417}\PYGdefault{p}{,}
+   \PYGdefault{n+nt}{\PYGdefaultZdq{}comment\PYGdefaultZdq{}}\PYGdefault{p}{:} \PYGdefault{l+s+s2}{\PYGdefaultZdq{}...\PYGdefaultZdq{}}
+ \PYGdefault{p}{\PYGdefaultZcb{}}
+\PYGdefault{p}{\PYGdefaultZcb{}}
+\end{Verbatim}
