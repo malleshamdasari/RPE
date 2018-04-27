@@ -1,8 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYGdefault{n+nt}{\PYGdefaultZlt{}html\PYGdefaultZgt{}}
-  \PYGdefault{n+nt}{\PYGdefaultZlt{}body\PYGdefaultZgt{}}
-     \PYGdefault{n+nt}{\PYGdefaultZlt{}img} \PYGdefault{n+na}{src =} \PYGdefault{l+s}{\PYGdefaultZdq{}a.jpg\PYGdefaultZdq{}}\PYGdefault{n+nt}{/\PYGdefaultZgt{}}
-     \PYGdefault{n+nt}{\PYGdefaultZlt{}img} \PYGdefault{n+na}{src =} \PYGdefault{l+s}{\PYGdefaultZdq{}b.jpg\PYGdefaultZdq{}}\PYGdefault{n+nt}{/\PYGdefaultZgt{}}
-  \PYGdefault{n+nt}{\PYGdefaultZlt{}/body\PYGdefaultZgt{}}
-\PYGdefault{n+nt}{\PYGdefaultZlt{}/html\PYGdefaultZgt{}}
-\end{Verbatim}
