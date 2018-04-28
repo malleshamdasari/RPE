@@ -1,0 +1,165 @@
+\begin{thebibliography}{10}
+
+\bibitem{turk-amazon}
+{Amazon Mechanical Turk}.
+\newblock https://www.mturk.com/.
+
+\bibitem{ffmpeg}
+{FFmpeg}.
+\newblock ffmpeg.org/.
+
+\bibitem{azscreen}
+http://az-screen-recorder.en.uptodown.com/android.
+
+\bibitem{micro-avg}
+{Micro- vs. Macro-Average}.
+\newblock https://www.clips.uantwerpen.be/~vincent/pdf/microaverage.pdf.
+
+\bibitem{spt}
+{Space Pirate Trainer}.
+\newblock {www.spacepiratetrainer.com/}.
+
+\bibitem{theblu}
+{theBlu: Encounter}.
+\newblock {wevr.com/project/theblu-encounter}.
+
+\bibitem{awc}
+Android View~Cient (AVC).
+\newblock https://github.com/dtmilano/androidviewclient.
+
+\bibitem{chen2006quantifying}
+Kuan-Ta Chen, Chun-Ying Huang, Polly Huang, and Chin-Laung Lei.
+\newblock Quantifying skype user satisfaction.
+\newblock In {\em ACM SIGCOMM}, 2006.
+
+\bibitem{cui2008image}
+Li~Cui and Alastair~R Allen.
+\newblock An image quality metric based on corner, edge and symmetry maps.
+\newblock In {\em BMVC}, pages 1--10, 2008.
+
+\bibitem{drucker1997improving}
+Harris Drucker.
+\newblock Improving regressors using boosting techniques.
+\newblock In {\em ICML}, 1997.
+
+\bibitem{aggarwal2014prometheus}
+Aggarwal et.al.
+\newblock Prometheus: toward quality-of-experience estimation for mobile apps
+  from passive network measurements.
+\newblock In {\em ACM HotMobile}, 2014.
+
+\bibitem{balachandran2013developing}
+Balachandran et.al.
+\newblock Developing a predictive model of quality of experience for internet
+  video.
+\newblock In {\em ACM SIGCOMM}, 2013.
+
+\bibitem{borer2010model}
+Borer et.al.
+\newblock A model of jerkiness for temporal impairments in video transmission.
+\newblock In {\em IEEE QoMEX}, 2010.
+
+\bibitem{fiedler2010generic}
+Fiedler et.al.
+\newblock A generic quantitative relationship between quality of experience and
+  quality of service.
+\newblock {\em IEEE Network}, 24(2), 2010.
+
+\bibitem{golestaneh2014no}
+Golestaneh et.al.
+\newblock No-reference quality assessment of jpeg images via a quality
+  relevance map.
+\newblock {\em IEEE signal processing letters}, 21(2):155--158, 2014.
+
+\bibitem{jana2016qoe}
+Jana et.al.
+\newblock Qoe prediction model for mobile video telephony.
+\newblock {\em Multimedia Tools and Applications}, 75(13):7957--7980, 2016.
+
+\bibitem{marichal1999blur}
+Marichal et.al.
+\newblock Blur determination in the compressed domain using dct information.
+\newblock In {\em IEEE ICIP}, 1999.
+
+\bibitem{marziliano2002no}
+Marziliano et.al.
+\newblock A no-reference perceptual blur metric.
+\newblock In {\em IEEE ICIP}, 2002.
+
+\bibitem{mittal2012no}
+Mittal et.al.
+\newblock No-reference image quality assessment in the spatial domain.
+\newblock {\em IEEE Transactions on Image Processing}, pages 4695--4708, 2012.
+
+\bibitem{pastrana2006automatic}
+Pastrana-Vidal et.al.
+\newblock Automatic quality assessment of video fluidity impairments using a
+  no-reference metric.
+\newblock In {\em VPQM}, 2006.
+
+\bibitem{tong2004blur}
+Tong et.al.
+\newblock Blur detection for digital images using wavelet transform.
+\newblock In {\em IEEE ICME}, 2004.
+
+\bibitem{usman2017no}
+Usman et.al.
+\newblock A no reference video quality metric based on jerkiness estimation
+  focusing on multiple frame freezing in video streaming.
+\newblock {\em IETE Technical Review}, 34(3):309--320, 2017.
+
+\bibitem{zhang2012profiling}
+Zhang et.al.
+\newblock Profiling skype video calls: Rate control and video quality.
+\newblock In {\em IEEE INFOCOM}, 2012.
+
+\bibitem{forecast2016cisco}
+Cisco~VNI Forecast.
+\newblock Cisco visual networking index: Global mobile data traffic forecast
+  update, 2016--2021 white paper.
+\newblock 2017.
+
+\bibitem{freund1997decision}
+Yoav Freund and Robert~E Schapire.
+\newblock A decision-theoretic generalization of on-line learning and an
+  application to boosting.
+\newblock {\em Journal of computer and system sciences}, 55(1):119--139, 1997.
+
+\bibitem{mancam}
+Manycam.
+\newblock https://manycam.com/.
+
+\bibitem{xiph2008org}
+media.xiph.org/video/derf/.
+\newblock {Xiph.org Video Test Media}.
+
+\bibitem{ensemblemethods2008}
+Ensemble Methods.
+\newblock http://scikit-learn.org/stable/modules/ensemble.html.
+
+\bibitem{pestov2013k}
+Vladimir Pestov.
+\newblock Is the k-nn classifier in high dimensions affected by the curse of
+  dimensionality?
+\newblock {\em Computers \& Mathematics with Applications}, 65(10):1427--1437,
+  2013.
+
+\bibitem{richardson2004h}
+Iain~E Richardson.
+\newblock {\em H. 264 and MPEG-4 video compression: video coding for
+  next-generation multimedia}.
+\newblock John Wiley \& Sons, 2004.
+
+\bibitem{series2012methodology}
+BT~Series.
+\newblock Methodology for the subjective assessment of the quality of
+  television pictures.
+\newblock {\em Recommendation ITU-R BT}, pages 500--13, 2012.
+
+\bibitem{wolf2009no}
+Stephen Wolf and M~Pinson.
+\newblock A no reference (nr) and reduced reference (rr) metric for detecting
+  dropped video frames.
+\newblock In {\em VPQM}, 2009.
+
+\end{thebibliography}

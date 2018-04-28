@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: plain.bst
+Database file #1: qos-qoe.bib
+Warning--entry type for "xiph2008org" isn't style-file defined
+--line 48 of file qos-qoe.bib
+Warning--entry type for "awc" isn't style-file defined
+--line 363 of file qos-qoe.bib
+Warning--entry type for "mancam" isn't style-file defined
+--line 368 of file qos-qoe.bib
+Warning--entry type for "azscreen" isn't style-file defined
+--line 373 of file qos-qoe.bib
+Warning--entry type for "ensemblemethods2008" isn't style-file defined
+--line 378 of file qos-qoe.bib
+Warning--I didn't find a database entry for "chakraborty2016exbox"
+Warning--to sort, need author or key in spt
+Warning--to sort, need author or key in theblu
+Warning--to sort, need author or key in azscreen
+Warning--to sort, need author or key in ffmpeg
+Warning--to sort, need author or key in turk-amazon
+Warning--to sort, need author or key in micro-avg
+Warning--empty journal in forecast2016cisco
+You've used 32 entries,
+            2118 wiz_defined-function locations,
+            644 strings with 7482 characters,
+and the built_in function-call counts, 7858 in all, are:
+= -- 737
+> -- 222
+< -- 3
++ -- 103
+- -- 64
+* -- 374
+:= -- 1226
+add.period$ -- 85
+call.type$ -- 32
+change.case$ -- 127
+chr.to.int$ -- 0
+cite$ -- 39
+duplicate$ -- 372
+empty$ -- 833
+format.name$ -- 64
+if$ -- 1727
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 23
+newline$ -- 152
+num.names$ -- 52
+pop$ -- 215
+preamble$ -- 1
+purify$ -- 96
+quote$ -- 0
+skip$ -- 280
+stack$ -- 0
+substring$ -- 392
+swap$ -- 68
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 7
+while$ -- 71
+width$ -- 34
+write$ -- 298
+(There were 13 warnings)
