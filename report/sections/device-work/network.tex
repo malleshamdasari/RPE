@@ -1,0 +1,48 @@
+%!TEX root = ../paper.tex
+
+\begin{figure*}[h]
+     \subfloat[Throughput vs. Clock]{%
+       \includegraphics[height=0.27\textwidth,width=0.5\textwidth]{sections/Throughput}
+     }
+     \subfloat[Packet processing delay vs. Clock]{%
+       \includegraphics[height=0.27\textwidth,width=0.5\textwidth]{sections/ppd}
+     }
+     \vspace{-0.1in}
+     \caption{Second-order effect of CPU speed on network. (a) TCP throughput reduces from an average of 48 Mbps to 32 Mbps under slow clock under the same network conditions, b) The cause for this reduction in throughput is internal to the device; the average TCP packet processing delay increases by 12 ms at slow CPU speeds. Experiments conducted on Nexus 4.}
+     \label{fig:tcp-perf}
+\end{figure*}
+
+\section{Second-Order Effect of CPU Clock on the Network} \label{label:throughput}
+
+One of our findings when studying the impact of CPU speed on application performance is that 
+the CPU clock not only affects application processing, {\em but has a second-order effect on network 
+latency/throughput because of the packet processing delays.} This in turn impacts
+application performance as well. In our experiment, we generate traffic using the IPerf tool~\cite{iperf-2015} from a server to the Nexus 4 smartphone. IPerf generates continuous traffic, and we measure the average throughput over 5 minutes duration. We repeat the experiment 20 times for 12 different CPU clock frequencies. 
+%to send continuous data from a server to the Nexus 4 smartphone \todo{how long is the experiment?}. We estimate the average throughput 
+
+Fig. \ref{fig:tcp-perf}a shows the effect of clock on network throughput. When the clock frequency is reduced from 1512 MHz to 384 MHz, the average throughput drops from 48 Mbps to 32 Mbps. This decrease in throughput is entirely internal to the device. Recall (\S\ref{sec:setup}) that in our set up, the network condition is held near-constant since we use an over-provisioned LAN and the video and Web content are served from a server located in the LAN. 
+
+The reason for the decreased TCP throughput is that packet processing is compute intensive, and a slow CPU increases the packet processing delays. Figure~\ref{fig:tcp-perf}b shows the average delay to process a packet under different clock frequencies for the same IPerf experiment. Android timestamps packets when it reaches the kernel which can be obtained using the IOCTL system call. We measure the packet processing delay as the time between when the packet reaches the application and when it is received at the kernel.
+
+Figure~\ref{fig:tcp-perf}b shows that the packet processing delay when the CPU frequency is 384 MHz is 
+12\,ms more compared to when the CPU frequency is 1512\,MHz, per packet. This increase in packet processing significantly affects TCP throughput, even when the network conditions remain the same. We repeated these experiments on the higher end Google Pixel 2 phone and found similar trends; even though the packet processing was considerably faster ($<$ 2ms under high clock) compared to Nexus 4, the difference in processing between the slow and the fast CPU frequency settings was 10ms.  
+
+This second-order effect has significant implications.  The CPU capacity can affect application QoE both by slowing down the compute and the network components of the application. Isolating these effects is critical for designing new optimizations.
+
+% and appl on application QoE, the resulting effect cannot be attributed to the compute alone. resulting QoE effect  is a combination of slower processing and slower network throughput.
+
+% This reduction is network throughput is because of higher packet processing time when the CPU  This could directly impact the total network throughput which eventually impacts the network applications like Web browsing and video transport. Therefore the packet processing is becoming a second-order bottleneck under low clock frequencies. 
+
+ %On Nexus 4 phone, we We observe a $>$30mbps standard deviation in throughput under low clock which is 20mbps less throughput from high clock. The problem here is the time it takes to process a packet throughout the network stack is very slow under slower clock. We show this by measuring packet processing delay under different clock conditions as described below.
+
+
+
+%Many prior works have proposed network optimizations to reduce latency in downloading the data. For example, techniques such as HTTP2 server push is designed to avoid too many RTTs. However, a little is known about how the TCP/IP stack overhead is, once the packet is reached client device i.e, the journey from network driver to Application. We find that mobile devices have poor packet processing latencies because of the limited hardware capabilities. We show this by measuring the network throughput and packet processing delays under varying clock frequency.
+
+%We use iPerf tool to measure the network throughput. We use a Linux laptop as server and Nexus4 mobile phone as a client and measure network throughput under different CPU clocks on Nexus4. 
+%We use IOCTL system call with SIOCGSTAMP flag to timestamp a received packet. Android timestamps each packet received from network driver to kernel and exposes the timestamp to userspace applications through IOCTL system call. We set-up a client server socket application and host the server on Nexus4. We initiate the client application from a Linux laptop. We record the timestamp for each packet received by issuing IOCTL system call.
+
+
+
+%This effect of hardware bottleneck on packet processing is an important issue in applications involving both high bandwidth requirements and computation.
+%In such cases, having poor hardware hurts performance in two different ways -- both packet processing and actual computation get slowed down.

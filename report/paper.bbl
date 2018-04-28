@@ -27,6 +27,12 @@ http://az-screen-recorder.en.uptodown.com/android.
 Android View~Cient (AVC).
 \newblock https://github.com/dtmilano/androidviewclient.
 
+\bibitem{chakraborty2016exbox}
+Ayon Chakraborty, Shruti Sanadhya, Samir~R Das, Dongho Kim, and Kyu-Han Kim.
+\newblock Exbox: Experience management middlebox for wireless networks.
+\newblock In {\em Proceedings of the 12th International on Conference on
+  emerging Networking EXperiments and Technologies}, pages 145--159. ACM, 2016.
+
 \bibitem{chen2006quantifying}
 Kuan-Ta Chen, Chun-Ying Huang, Polly Huang, and Chin-Laung Lei.
 \newblock Quantifying skype user satisfaction.
@@ -48,6 +54,11 @@ Aggarwal et.al.
   from passive network measurements.
 \newblock In {\em ACM HotMobile}, 2014.
 
+\bibitem{balachandran2012quest}
+Balachandran et.al.
+\newblock A quest for an internet video quality-of-experience metric.
+\newblock In {\em ACM Hotnets}, 2012.
+
 \bibitem{balachandran2013developing}
 Balachandran et.al.
 \newblock Developing a predictive model of quality of experience for internet
@@ -58,6 +69,12 @@ Balachandran et.al.
 Borer et.al.
 \newblock A model of jerkiness for temporal impairments in video transmission.
 \newblock In {\em IEEE QoMEX}, 2010.
+
+\bibitem{chen2014qoe}
+Chen et.al.
+\newblock Qoe doctor: Diagnosing mobile app qoe with automated ui control and
+  cross-layer analysis.
+\newblock In {\em ACM IMC}, 2014.
 
 \bibitem{fiedler2010generic}
 Fiedler et.al.
@@ -97,6 +114,11 @@ Pastrana-Vidal et.al.
   no-reference metric.
 \newblock In {\em VPQM}, 2006.
 
+\bibitem{seufert2015survey}
+Seufert et.al.
+\newblock A survey on quality of experience of http adaptive streaming.
+\newblock {\em IEEE Communications Surveys \& Tutorials}, pages 469--492, 2015.
+
 \bibitem{tong2004blur}
 Tong et.al.
 \newblock Blur detection for digital images using wavelet transform.
@@ -107,6 +129,11 @@ Usman et.al.
 \newblock A no reference video quality metric based on jerkiness estimation
   focusing on multiple frame freezing in video streaming.
 \newblock {\em IETE Technical Review}, 34(3):309--320, 2017.
+
+\bibitem{yu2014can}
+Yu~et.al.
+\newblock Can you see me now? a measurement study of mobile video calls.
+\newblock In {\em IEEE INFOCOM}, 2014.
 
 \bibitem{zhang2012profiling}
 Zhang et.al.

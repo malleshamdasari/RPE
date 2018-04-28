@@ -1,0 +1,18 @@
+%!TEX root = ../paper.tex
+
+\begin{abstract}
+A large fraction of users in developing regions use relatively
+inexpensive low-end smartphones.
+However, the impact of device capabilities on the performance of mobile
+Internet applications has not been explored. In order to bridge this gap 
+we study the quality-of-experience performance of three 
+popular applications: Web browsing, video streaming, and interactive video telephony
+for different device hardware capabilities. We find that hardware capability (specifically
+CPU speed) does have an impact on the application performance. The influence is the most significant
+for Web browsing. This is not only because poor CPU speeds increases the time required for object processing, but slow CPU also  
+increases the time for object loading. The latter is because of a second-order effect we observe, where slow CPU 
+significantly increases the latency of TCP packet processing. Slow CPU does not affect video streaming and telephony 
+as significantly as the Web. This is because video applications offload computation to dedicated
+co-processors/accelerators available on all phones regardless of cost. Finally, we conduct a what-if analysis to analyze if offloading Web computation to hardware can improve performance, similar to video applications. Our analysis shows that offloading Javascript evaluation to DSP results in modest gains in terms of performance, but substantial gains in terms of energy consumption. %Our results suggest that leveraging DSP processors to improve Web page loads for low-end phones has considerable potential and needs to be explored.
+%The performance of mobile Internet application depends on many factors including application complexity, underlying network conditions, and processing capabilities of devices. Although previous works have highlighted the effects of application quality and network conditions on mobile Internet QoE, it is not immediately clear how applications react to changes in device hardware. In order to bridge this gap, we study the performance of three types of popular mobile Internet applications: Web browsing, video streaming, and interactive video telephony, under varying hardware conditions. We find that a change in hardware indeed impacts the QoE, but at the same time, the impact significantly varies according to the type of application. Specifically, video streaming and video telephony are most resistant to changes in the device hardware conditions because of offloading techniques. However, Web browsing is the application whose QoE is degraded most severely under bad hardware conditions. Consequently, we propose and evaluate possible solutions to improve Web QoE under low-end hardware by parallelizing and offloading compute activities.
+\end{abstract}

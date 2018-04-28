@@ -13,7 +13,6 @@ Warning--entry type for "azscreen" isn't style-file defined
 --line 373 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
 --line 378 of file qos-qoe.bib
-Warning--I didn't find a database entry for "chakraborty2016exbox"
 Warning--to sort, need author or key in spt
 Warning--to sort, need author or key in theblu
 Warning--to sort, need author or key in azscreen
@@ -21,45 +20,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 32 entries,
+You've used 37 entries,
             2118 wiz_defined-function locations,
-            644 strings with 7482 characters,
-and the built_in function-call counts, 7858 in all, are:
-= -- 737
-> -- 222
-< -- 3
-+ -- 103
-- -- 64
-* -- 374
-:= -- 1226
-add.period$ -- 85
-call.type$ -- 32
-change.case$ -- 127
+            665 strings with 8170 characters,
+and the built_in function-call counts, 9516 in all, are:
+= -- 899
+> -- 278
+< -- 5
++ -- 128
+- -- 82
+* -- 458
+:= -- 1480
+add.period$ -- 101
+call.type$ -- 37
+change.case$ -- 151
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 372
-empty$ -- 833
-format.name$ -- 64
-if$ -- 1727
+cite$ -- 44
+duplicate$ -- 457
+empty$ -- 990
+format.name$ -- 82
+if$ -- 2099
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 23
-newline$ -- 152
-num.names$ -- 52
-pop$ -- 215
+int.to.str$ -- 37
+missing$ -- 28
+newline$ -- 177
+num.names$ -- 62
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 115
 quote$ -- 0
-skip$ -- 280
+skip$ -- 338
 stack$ -- 0
-substring$ -- 392
-swap$ -- 68
-text.length$ -- 3
+substring$ -- 483
+swap$ -- 95
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 146
 warning$ -- 7
-while$ -- 71
-width$ -- 34
-write$ -- 298
-(There were 13 warnings)
+while$ -- 87
+width$ -- 39
+write$ -- 351
+(There were 12 warnings)
