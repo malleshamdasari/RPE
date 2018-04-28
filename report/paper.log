@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 APR 2018 00:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 APR 2018 01:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,33 +497,57 @@ Package pdftex.def Info: sections/network-work/bar-pbr.pdf used on input line 1
 1.
 (pdftex.def)             Requested size: 240.0pt x 132.22087pt.
 
-<sections/network-work/content-stutter.pdf, id=72, 1445.4pt x 722.7pt>
+<sections/network-work/content-bitrate.pdf, id=72, 1445.4pt x 722.7pt>
+File: sections/network-work/content-bitrate.pdf Graphic file (type pdf)
+
+<use sections/network-work/content-bitrate.pdf>
+Package pdftex.def Info: sections/network-work/content-bitrate.pdf used on inpu
+t line 67.
+(pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
+
+<sections/network-work/app-bitrate.pdf, id=73, 1445.4pt x 722.7pt>
+File: sections/network-work/app-bitrate.pdf Graphic file (type pdf)
+
+<use sections/network-work/app-bitrate.pdf>
+Package pdftex.def Info: sections/network-work/app-bitrate.pdf used on input li
+ne 72.
+(pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
+
+<sections/network-work/dev-bitrate.pdf, id=74, 1445.4pt x 722.7pt>
+File: sections/network-work/dev-bitrate.pdf Graphic file (type pdf)
+
+<use sections/network-work/dev-bitrate.pdf>
+Package pdftex.def Info: sections/network-work/dev-bitrate.pdf used on input li
+ne 77.
+(pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
+
+<sections/network-work/content-stutter.pdf, id=75, 1445.4pt x 722.7pt>
 File: sections/network-work/content-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/content-stutter.pdf>
 Package pdftex.def Info: sections/network-work/content-stutter.pdf used on inpu
-t line 67.
+t line 83.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/app-stutter.pdf, id=73, 1445.4pt x 722.7pt>
+<sections/network-work/app-stutter.pdf, id=76, 1445.4pt x 722.7pt>
 File: sections/network-work/app-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/app-stutter.pdf>
 Package pdftex.def Info: sections/network-work/app-stutter.pdf used on input li
-ne 72.
+ne 88.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/dev-stutter.pdf, id=74, 1445.4pt x 722.7pt>
+<sections/network-work/dev-stutter.pdf, id=77, 1445.4pt x 722.7pt>
 File: sections/network-work/dev-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/dev-stutter.pdf>
 Package pdftex.def Info: sections/network-work/dev-stutter.pdf used on input li
-ne 77.
+ne 93.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
 
 LaTeX Warning: Citation `chakraborty2016exbox' on page \thepage  undefined on i
-nput line 97.
+nput line 113.
 
 [4 <./sections/network-work/setup.pdf> <./sections/network-work/bar-pbr.pdf
 
@@ -533,24 +557,22 @@ ion: multiple pdfs with page group included in a single page
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig:cont-pbr' on page \thepage  undefined on input li
-ne 136.
+ [5 <./sections/network-work/content-bitrate.pdf> <./sections/network-work/app-
+bitrate.pdf
 
+pdfTeX warning: pdflatex (file ./sections/network-work/app-bitrate.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./sections/network-work/dev-bitrate.pdf
 
-LaTeX Warning: Reference `fig:cont-st' on page \thepage  undefined on input lin
-e 137.
+pdfTeX warning: pdflatex (file ./sections/network-work/dev-bitrate.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <./sections/network-work/content-stutter.pdf
 
-
-LaTeX Warning: Reference `fig:app-pbr' on page \thepage  undefined on input lin
-e 142.
-
-
-LaTeX Warning: Reference `fig:app-st' on page \thepage  undefined on input line
- 142.
-
-[5 <./sections/network-work/content-stutter.pdf> <./sections/network-work/app-s
-tutter.pdf
+pdfTeX warning: pdflatex (file ./sections/network-work/content-stutter.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+> <./sections/network-work/app-stutter.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/app-stutter.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
@@ -560,25 +582,47 @@ pdfTeX warning: pdflatex (file ./sections/network-work/dev-stutter.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]
 
+LaTeX Warning: Reference `fig:cont-pbr' on page \thepage  undefined on input li
+ne 152.
+
+
+LaTeX Warning: Reference `fig:cont-st' on page \thepage  undefined on input lin
+e 153.
+
+
+LaTeX Warning: Reference `fig:app-pbr' on page \thepage  undefined on input lin
+e 158.
+
+
+LaTeX Warning: Reference `fig:app-st' on page \thepage  undefined on input line
+ 158.
+
+
 LaTeX Warning: Reference `fig:dev-st' on page \thepage  undefined on input line
- 151.
+ 167.
 
 
 LaTeX Warning: Reference `fig:dev-pbr' on page \thepage  undefined on input lin
-e 151.
+e 167.
 
 ) (./sections/network-work/user-study.tex
-<sections/network-work/mos.pdf, id=278, 1340.60847pt x 738.59943pt>
+<sections/network-work/mos.pdf, id=377, 1340.60847pt x 738.59943pt>
 File: sections/network-work/mos.pdf Graphic file (type pdf)
 
 <use sections/network-work/mos.pdf>
 Package pdftex.def Info: sections/network-work/mos.pdf used on input line 3.
 (pdftex.def)             Requested size: 403.20154pt x 222.13377pt.
-) (./sections/network-work/model.tex
-[6]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./sections/network-work/model.tex [6]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ¦ in font cmr9!
+
+Underfull \vbox (badness 1331) has occurred while \output is active []
+
 
 Overfull \hbox (12.96748pt too wide) in paragraph at lines 147--151
 \T1/aer/m/n/9 Forests (RF), Multi-Layer Per-cep-tron (MLP), K-Nearest Neigh-
@@ -590,10 +634,10 @@ Overfull \hbox (3.52553pt too wide) in paragraph at lines 147--151
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1043) has occurred while \output is active []
 
-
-<sections/network-work/scores.pdf, id=282, 1340.60847pt x 738.59943pt>
+ [7 <./sections/network-work/mos.pdf>]
+<sections/network-work/scores.pdf, id=424, 1340.60847pt x 738.59943pt>
 File: sections/network-work/scores.pdf Graphic file (type pdf)
 
 <use sections/network-work/scores.pdf>
@@ -601,20 +645,17 @@ Package pdftex.def Info: sections/network-work/scores.pdf used on input line 15
 4.
 (pdftex.def)             Requested size: 240.0pt x 132.22087pt.
 
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [7 <./sections/network-work/mos.pdf>]
 Overfull \hbox (1.71742pt too wide) in paragraph at lines 174--181
 \T1/aer/m/n/9 for-mance of Face-Time model across dif-fer-ent re-gres-sors. Sim
 -
  []
 
-) (./sections/network-work/feature_vs_baseline.tex
+) (./sections/network-work/feature_vs_baseline.tex [8]
 Overfull \hbox (4.54594pt too wide) in paragraph at lines 1--1
 []\secfnt Comparison with Base-line and Fea-ture Im-
  []
 
-[8] <sections/network-work/baseline.pdf, id=329, 1340.60847pt x 738.59943pt>
+<sections/network-work/baseline.pdf, id=429, 1340.60847pt x 738.59943pt>
 File: sections/network-work/baseline.pdf Graphic file (type pdf)
 
 <use sections/network-work/baseline.pdf>
@@ -622,7 +663,7 @@ Package pdftex.def Info: sections/network-work/baseline.pdf used on input line
 7.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
 
-<sections/network-work/feature-imp.pdf, id=330, 1340.60847pt x 738.59943pt>
+<sections/network-work/feature-imp.pdf, id=430, 1340.60847pt x 738.59943pt>
 File: sections/network-work/feature-imp.pdf Graphic file (type pdf)
 
 <use sections/network-work/feature-imp.pdf>
@@ -630,10 +671,8 @@ Package pdftex.def Info: sections/network-work/feature-imp.pdf used on input li
 ne 16.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
 ) (./sections/conclusion.tex)
-(./paper.bbl
-Underfull \vbox (badness 7722) has occurred while \output is active []
-
- [9 <./sections/network-work/scores.pdf> <./sections/network-work/baseline.pdf
+(./paper.bbl [9 <./sections/network-work/scores.pdf> <./sections/network-work/b
+aseline.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/baseline.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
@@ -649,10 +688,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5597 strings out of 493029
- 80667 string characters out of 6136234
- 177846 words of memory out of 5000000
- 8925 multiletter control sequences out of 15000+600000
+ 5612 strings out of 493029
+ 81233 string characters out of 6136234
+ 176846 words of memory out of 5000000
+ 8937 multiletter control sequences out of 15000+600000
  60412 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,94p,1898b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -673,10 +712,10 @@ ts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb>
-Output written on paper.pdf (10 pages, 575872 bytes).
+Output written on paper.pdf (10 pages, 603679 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 611 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
