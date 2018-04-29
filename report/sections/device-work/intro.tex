@@ -118,22 +118,42 @@ improvement in power consumption. %\todo{check the numbers.}
 
 %Summary: We find mobile browsing has a non-linear impact of clock while other applications has a linear impact. Video applications also has only second-order effect because of computation offloading to co-processors. Web browsing has both computation overhead and second-order effect of hardware on network. We try to solve computation effect by offloading certain Javascript computation to DSP.
 
-
-\begin{figure*}[h!]
-     \subfloat[Web Browsing]{%
-       \includegraphics[width=0.33\textwidth]{sections/device-work/plt-devices}
-     }
-     \subfloat[Video Streaming]{%
-       \includegraphics[width=0.33\textwidth]{sections/device-work/youtube-motivation}
-     }
-     \subfloat[Video Telephony]{%
-       \includegraphics[width=0.33\textwidth]{sections/device-work/skype-motivation}
-     }
-     %\vspace{-0.15in}
-     \caption{Mobile application performance across diverse devices: (a) Web Browsing, (b)Video Streaming, (c) Video Telephony. The horizontal axis shows the device type; their corresponding specifications are tabulated in Table~\ref{tab:device_types}.}
-     %\vspace{-0.2in}
-     \label{fig:motivation}
+\begin{figure*}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/plt-devices}
+        \caption{Content and Motion}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/youtube-motivation}
+        \caption{Applications}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/skype-motivation}
+        \caption{Devices}
+    \end{subfigure}
+     \vspace*{-1em}
 \end{figure*}
+
+
+
+%\begin{figure*}[h!]
+%     \subfloat[Web Browsing]{%
+%       \includegraphics[width=0.33\textwidth]{sections/device-work/plt-devices}
+%     }
+%     \subfloat[Video Streaming]{%
+%       \includegraphics[width=0.33\textwidth]{sections/device-work/youtube-motivation}
+%     }
+%     \subfloat[Video Telephony]{%
+%       \includegraphics[width=0.33\textwidth]{sections/device-work/skype-motivation}
+%     }
+%     %\vspace{-0.15in}
+%     \caption{Mobile application performance across diverse devices: (a) Web Browsing, (b)Video Streaming, (c) Video Telephony. The horizontal axis shows the device type; their corresponding specifications are tabulated in Table~\ref{tab:device_types}.}
+%     %\vspace{-0.2in}
+%     \label{fig:motivation}
+%\end{figure*}
 \begin{table*}[h!]
   \centering
    \scalebox{0.9}{
