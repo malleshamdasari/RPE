@@ -200,6 +200,10 @@ Cao Gao, Anthony Gutierrez, Madhav Rajan, Ronald~G Dreslinski, Trevor Mudge,
 \newblock In {\em Performance Analysis of Systems and Software (ISPASS), 2015
   IEEE International Symposium on}, pages 225--234. IEEE, 2015.
 
+\bibitem{hbogo}
+HBO Go.
+\newblock https://play.hbogo.com/.
+
 \bibitem{ad-governors}
 Android Governors.
 \newblock https://androidmodguide.blogspot.com/p/blog-page.html.
@@ -259,6 +263,10 @@ Javad Nejati and Aruna Balasubramanian.
 \newblock An in-depth study of mobile browser performance.
 \newblock In {\em Proc. WWW 2016}, pages 1305--1315, 2016.
 
+\bibitem{netflix}
+Netflix.
+\newblock https://www.netflix.com/.
+
 \bibitem{pestov2013k}
 Vladimir Pestov.
 \newblock Is the k-nn classifier in high dimensions affected by the curse of
@@ -280,6 +288,10 @@ Vaspol Ruamviboonsuk, Ravi Netravali, Muhammed Uluyol, and Harsha~V.
 \newblock In {\em Proceedings of the Conference of the ACM Special Interest
   Group on Data Communication}, SIGCOMM '17, pages 390--403, New York, NY, USA,
   2017. ACM.
+
+\bibitem{andriodsdk}
+Android SDK.
+\newblock https://developer.android.com/sdk/download.html.
 
 \bibitem{series2012methodology}
 BT~Series.
@@ -311,6 +323,10 @@ Tesseract.
 \bibitem{unity}
 Unity.
 \newblock http://hwstats.unity3d.com/mobile/.
+
+\bibitem{andriodvlc}
+Android VLC.
+\newblock https://code.videolan.org/videolan/vlc-android.
 
 \bibitem{wang2013demystifying}
 Xiao~Sophia Wang, Aruna Balasubramanian, Arvind Krishnamurthy, and David

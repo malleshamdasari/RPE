@@ -1,6 +1,6 @@
 %!TEX root = ../paper.tex
 
-\section{Video} 
+\subsection{Video} 
 \label{label:video}
 
 We experiment with YouTube and Skype applications to study the performance of video streaming and telephony, respectively. The set up and the QoE metrics used are described in \S\ref{sec:setup}. Similar to the Web experiments, we analyze application performance across 12 different CPU frequencies in one device and repeat the experiments over three smartphones. As before, we present the results from Nexus 4 and summarize the results from the other two phones.
@@ -13,7 +13,7 @@ We experiment with YouTube and Skype applications to study the performance of vi
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.8\linewidth]{sections/vlc-fps}
+  \includegraphics[width=0.8\linewidth]{sections/device-work/vlc-fps}
    \vspace{-0.1in}
      \caption{Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em is} affected by slow CPU. However, when  rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table~\ref{tab:device_types}) offload rendering to a hardware decoder. }
    \vspace{-0.1in}
@@ -21,7 +21,7 @@ We experiment with YouTube and Skype applications to study the performance of vi
 \end{figure}
 
 
-\subsection{Video Streaming: YouTube}
+\subsubsection{Video Streaming: YouTube}
 
 Figure~\ref{fig:youtube}a shows the startup latency and stall ratio of YouTube for 12 different CPU clock frequencies on Nexus 4. 
 The startup latency increases from 1.2 to 3.5 seconds as the clock speed decreases, however 
@@ -57,21 +57,21 @@ Figure \ref{fig:youtube}b shows the RAC time across different CPU speeds.  There
 
 \begin{figure*}
 \begin{minipage}[t]{.33\textwidth}
-   \includegraphics[width=\linewidth]{sections/skype-fps.pdf}
+   \includegraphics[width=\linewidth]{sections/device-work/skype-fps.pdf}
    \caption{Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.} 
    \vspace{-0.2in}
    \label{fig:skype-framerate}
 \end{minipage}
 \hspace{0.1in}
 \begin{minipage}[t]{.33\textwidth}
-   \includegraphics[width=\linewidth]{sections/skype-call-setup.pdf}
+   \includegraphics[width=\linewidth]{sections/device-work/skype-call-setup.pdf}
    \caption{Effect of CPU speeds on the network-centric metric, call set-up delay.} 
    \vspace{-0.2in}
    \label{fig:skype-call}
 \end{minipage}
 \hspace{0.1in}
 \begin{minipage}[t]{.33\textwidth}
-   \includegraphics[width=\linewidth]{sections/skype-bitrate.pdf}
+   \includegraphics[width=\linewidth]{sections/device-work/skype-bitrate.pdf}
    \caption{Effect of CPU speeds on the network-centric metric, bitrate.} 
    \vspace{-0.2in}
    \label{fig:skype-bitrate}
@@ -97,7 +97,7 @@ We verify (using Android logs)  that YouTube indeed offloads video decoding to a
 
 
 
-\subsection{Video Telephony: Skype}
+\subsubsection{Video Telephony: Skype}
 
 The key difference between streaming and telephony is that telephony is interactive. This means that unlike streaming,  video frames cannot be prefetched by the application. The performance of telephony is measured in terms of frame rate %and the call set-up time. The call set up time is the time between when call is initiated by one client and answered by another client. 
 and the measurement set-up is described in \S\ref{sec:setup}.

@@ -207,6 +207,20 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Web Browsing}{\thepage }}
 \newlabel{label:web}{{3.3}{\thepage }}
 \citation{alexa}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure\nobreakspace  {}12\hbox {}. As the CPU slows down, the compute activities are affected more than the network activities. \relax }}{\thepage }}
+\newlabel{fig:plt_isolate}{{13}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces An example page load process divided into its network and compute activities, obtained from the WProf tool\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The red line shows the critical path during the page load process, and represents the page load time. \relax }}{\thepage }}
+\newlabel{fig:wprof-dp}{{14}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The time spent on compute activities during page load is further divided into individual activities---Scripting (or Javascript evaluation), HTML Parsing, Layout, and Painting. The scripting time increases significantly when the CPU slows down. \relax }}{\thepage }}
+\newlabel{fig:dissect}{{15}{\thepage }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Video}{\thepage }}
+\newlabel{label:video}{{3.4}{\thepage }}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Video Streaming: YouTube}{\thepage }}
+\citation{netflix}
+\citation{hbogo}
+\citation{andriodvlc}
+\citation{andriodvlc}
+\citation{andriodsdk}
 \bibstyle{plain}
 \bibdata{qos-qoe}
 \bibcite{turk-amazon}{1}
@@ -214,6 +228,10 @@
 \bibcite{azscreen}{3}
 \bibcite{micro-avg}{4}
 \bibcite{spt}{5}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
+\newlabel{fig:sites-effect}{{16}{\thepage }}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Video Telephony: Skype}{\thepage }}
+\@writefile{toc}{\contentsline {section}{\numberline {4}References}{\thepage }}
 \bibcite{theblu}{6}
 \bibcite{mobilephones}{7}
 \bibcite{adb}{8}
@@ -221,13 +239,6 @@
 \bibcite{awc}{10}
 \bibcite{blake2010evolution}{11}
 \bibcite{butkiewicz2015klotski}{12}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure\nobreakspace  {}12\hbox {}. As the CPU slows down, the compute activities are affected more than the network activities. \relax }}{\thepage }}
-\newlabel{fig:plt_isolate}{{13}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces An example page load process divided into its network and compute activities, obtained from the WProf tool\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The red line shows the critical path during the page load process, and represents the page load time. \relax }}{\thepage }}
-\newlabel{fig:wprof-dp}{{14}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The time spent on compute activities during page load is further divided into individual activities---Scripting (or Javascript evaluation), HTML Parsing, Layout, and Painting. The scripting time increases significantly when the CPU slows down. \relax }}{\thepage }}
-\newlabel{fig:dissect}{{15}{\thepage }}
-\@writefile{toc}{\contentsline {section}{\numberline {4}References}{\thepage }}
 \bibcite{chakraborty2016exbox}{13}
 \bibcite{chen2006quantifying}{14}
 \bibcite{chen2016effective}{15}
@@ -243,6 +254,10 @@
 \bibcite{fiedler2010generic}{25}
 \bibcite{golestaneh2014no}{26}
 \bibcite{jana2016qoe}{27}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
+\newlabel{fig:youtube}{{17}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em  is} affected by slow CPU. However, when rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table\nobreakspace  {}9\hbox {}) offload rendering to a hardware decoder. \relax }}{\thepage }}
+\newlabel{fig:vlc}{{18}{\thepage }}
 \bibcite{marichal1999blur}{28}
 \bibcite{marziliano2002no}{29}
 \bibcite{mittal2012no}{30}
@@ -255,33 +270,39 @@
 \bibcite{forecast2016cisco}{37}
 \bibcite{freund1997decision}{38}
 \bibcite{gao2015study}{39}
-\bibcite{ad-governors}{40}
-\bibcite{ggle}{41}
-\bibcite{jioplans1}{42}
-\bibcite{jioplans2}{43}
-\bibcite{iperf-2015}{44}
-\bibcite{jones2009parallelizing}{45}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
-\newlabel{fig:sites-effect}{{16}{\thepage }}
-\bibcite{kelton2017improving}{46}
-\bibcite{ramdisks}{47}
-\bibcite{mai2012case}{48}
-\bibcite{mancam}{49}
-\bibcite{xiph2008org}{50}
-\bibcite{ensemblemethods2008}{51}
-\bibcite{nejati2016depth}{52}
-\bibcite{pestov2013k}{53}
-\bibcite{richardson2004h}{54}
-\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{55}
-\bibcite{series2012methodology}{56}
-\bibcite{Shafiqund}{57}
-\bibcite{singh2015flexiweb}{58}
-\bibcite{ocr-tesseract}{59}
-\bibcite{unity}{60}
-\bibcite{wang2013demystifying}{61}
-\bibcite{alexa}{62}
-\bibcite{wolf2009no}{63}
-\bibcite{Xiaodash2m}{64}
-\bibcite{zhu2017optimizing}{65}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
-\newlabel{fig:youtube}{{17}{\thepage }}
+\bibcite{hbogo}{40}
+\bibcite{ad-governors}{41}
+\bibcite{ggle}{42}
+\bibcite{jioplans1}{43}
+\bibcite{jioplans2}{44}
+\bibcite{iperf-2015}{45}
+\bibcite{jones2009parallelizing}{46}
+\bibcite{kelton2017improving}{47}
+\bibcite{ramdisks}{48}
+\bibcite{mai2012case}{49}
+\bibcite{mancam}{50}
+\bibcite{xiph2008org}{51}
+\bibcite{ensemblemethods2008}{52}
+\bibcite{nejati2016depth}{53}
+\bibcite{netflix}{54}
+\bibcite{pestov2013k}{55}
+\bibcite{richardson2004h}{56}
+\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{57}
+\bibcite{andriodsdk}{58}
+\bibcite{series2012methodology}{59}
+\bibcite{Shafiqund}{60}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.\relax }}{\thepage }}
+\newlabel{fig:skype-framerate}{{19}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Effect of CPU speeds on the network-centric metric, call set-up delay.\relax }}{\thepage }}
+\newlabel{fig:skype-call}{{20}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Effect of CPU speeds on the network-centric metric, bitrate.\relax }}{\thepage }}
+\newlabel{fig:skype-bitrate}{{21}{\thepage }}
+\bibcite{singh2015flexiweb}{61}
+\bibcite{ocr-tesseract}{62}
+\bibcite{unity}{63}
+\bibcite{andriodvlc}{64}
+\bibcite{wang2013demystifying}{65}
+\bibcite{alexa}{66}
+\bibcite{wolf2009no}{67}
+\bibcite{Xiaodash2m}{68}
+\bibcite{zhu2017optimizing}{69}

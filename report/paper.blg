@@ -29,6 +29,10 @@ Repeated entry---line 830 of file qos-qoe.bib
  : @inproceedings{balachandran2012quest
  :                                     ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "andriodvlc" isn't style-file defined
+--line 1024 of file qos-qoe.bib
+Warning--entry type for "andriodsdk" isn't style-file defined
+--line 1034 of file qos-qoe.bib
 Warning--entry type for "youtubeapi" isn't style-file defined
 --line 1039 of file qos-qoe.bib
 Repeated entry---line 1049 of file qos-qoe.bib
@@ -49,6 +53,10 @@ Warning--entry type for "ad-governors" isn't style-file defined
 --line 1074 of file qos-qoe.bib
 Warning--entry type for "iperf-2015" isn't style-file defined
 --line 1079 of file qos-qoe.bib
+Warning--entry type for "netflix" isn't style-file defined
+--line 1084 of file qos-qoe.bib
+Warning--entry type for "hbogo" isn't style-file defined
+--line 1089 of file qos-qoe.bib
 Warning--entry type for "mobilephones" isn't style-file defined
 --line 1094 of file qos-qoe.bib
 Warning--entry type for "ramdisks" isn't style-file defined
@@ -68,45 +76,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 65 entries,
+You've used 69 entries,
             2118 wiz_defined-function locations,
-            786 strings with 12433 characters,
-and the built_in function-call counts, 19124 in all, are:
-= -- 1820
-> -- 730
+            798 strings with 12644 characters,
+and the built_in function-call counts, 19896 in all, are:
+= -- 1884
+> -- 758
 < -- 16
-+ -- 311
-- -- 234
-* -- 1010
-:= -- 2967
-add.period$ -- 179
-call.type$ -- 65
-change.case$ -- 311
++ -- 323
+- -- 242
+* -- 1030
+:= -- 3091
+add.period$ -- 187
+call.type$ -- 69
+change.case$ -- 327
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 848
-empty$ -- 1802
-format.name$ -- 234
-if$ -- 4210
+cite$ -- 76
+duplicate$ -- 876
+empty$ -- 1890
+format.name$ -- 242
+if$ -- 4378
 int.to.chr$ -- 0
-int.to.str$ -- 65
+int.to.str$ -- 69
 missing$ -- 44
-newline$ -- 305
-num.names$ -- 118
-pop$ -- 486
+newline$ -- 321
+num.names$ -- 126
+pop$ -- 518
 preamble$ -- 1
-purify$ -- 247
+purify$ -- 259
 quote$ -- 0
-skip$ -- 700
+skip$ -- 740
 stack$ -- 0
-substring$ -- 975
-swap$ -- 227
+substring$ -- 995
+swap$ -- 231
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 258
+type$ -- 274
 warning$ -- 7
-while$ -- 178
-width$ -- 67
-write$ -- 621
+while$ -- 186
+width$ -- 71
+write$ -- 649
 (There were 6 error messages)
