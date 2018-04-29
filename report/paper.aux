@@ -221,6 +221,14 @@
 \citation{andriodvlc}
 \citation{andriodvlc}
 \citation{andriodsdk}
+\citation{qualsnap}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
+\newlabel{fig:sites-effect}{{16}{\thepage }}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Video Telephony: Skype}{\thepage }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Discussions}{\thepage }}
+\newlabel{sec:energy}{{3.5}{\thepage }}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Energy Consumption}{\thepage }}
+\citation{ad-governors}
 \bibstyle{plain}
 \bibdata{qos-qoe}
 \bibcite{turk-amazon}{1}
@@ -228,10 +236,6 @@
 \bibcite{azscreen}{3}
 \bibcite{micro-avg}{4}
 \bibcite{spt}{5}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
-\newlabel{fig:sites-effect}{{16}{\thepage }}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Video Telephony: Skype}{\thepage }}
-\@writefile{toc}{\contentsline {section}{\numberline {4}References}{\thepage }}
 \bibcite{theblu}{6}
 \bibcite{mobilephones}{7}
 \bibcite{adb}{8}
@@ -240,6 +244,11 @@
 \bibcite{blake2010evolution}{11}
 \bibcite{butkiewicz2015klotski}{12}
 \bibcite{chakraborty2016exbox}{13}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
+\newlabel{fig:youtube}{{17}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em  is} affected by slow CPU. However, when rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table\nobreakspace  {}9\hbox {}) offload rendering to a hardware decoder. \relax }}{\thepage }}
+\newlabel{fig:vlc}{{18}{\thepage }}
+\@writefile{toc}{\contentsline {section}{\numberline {4}References}{\thepage }}
 \bibcite{chen2006quantifying}{14}
 \bibcite{chen2016effective}{15}
 \bibcite{contreras2017patents}{16}
@@ -254,10 +263,6 @@
 \bibcite{fiedler2010generic}{25}
 \bibcite{golestaneh2014no}{26}
 \bibcite{jana2016qoe}{27}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
-\newlabel{fig:youtube}{{17}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em  is} affected by slow CPU. However, when rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table\nobreakspace  {}9\hbox {}) offload rendering to a hardware decoder. \relax }}{\thepage }}
-\newlabel{fig:vlc}{{18}{\thepage }}
 \bibcite{marichal1999blur}{28}
 \bibcite{marziliano2002no}{29}
 \bibcite{mittal2012no}{30}
@@ -265,6 +270,14 @@
 \bibcite{seufert2015survey}{32}
 \bibcite{tong2004blur}{33}
 \bibcite{usman2017no}{34}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.\relax }}{\thepage }}
+\newlabel{fig:skype-framerate}{{19}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Effect of CPU speeds on the network-centric metric, call set-up delay.\relax }}{\thepage }}
+\newlabel{fig:skype-call}{{20}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Effect of CPU speeds on the network-centric metric, bitrate.\relax }}{\thepage }}
+\newlabel{fig:skype-bitrate}{{21}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Energy consumption vs. clock rate for (a) video streaming and telephony and (b) Web page load\relax }}{\thepage }}
+\newlabel{fig:power-video-web}{{22}{\thepage }}
 \bibcite{yu2014can}{35}
 \bibcite{zhang2012profiling}{36}
 \bibcite{forecast2016cisco}{37}
@@ -285,24 +298,19 @@
 \bibcite{ensemblemethods2008}{52}
 \bibcite{nejati2016depth}{53}
 \bibcite{netflix}{54}
-\bibcite{pestov2013k}{55}
-\bibcite{richardson2004h}{56}
-\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{57}
-\bibcite{andriodsdk}{58}
-\bibcite{series2012methodology}{59}
-\bibcite{Shafiqund}{60}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.\relax }}{\thepage }}
-\newlabel{fig:skype-framerate}{{19}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Effect of CPU speeds on the network-centric metric, call set-up delay.\relax }}{\thepage }}
-\newlabel{fig:skype-call}{{20}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Effect of CPU speeds on the network-centric metric, bitrate.\relax }}{\thepage }}
-\newlabel{fig:skype-bitrate}{{21}{\thepage }}
-\bibcite{singh2015flexiweb}{61}
-\bibcite{ocr-tesseract}{62}
-\bibcite{unity}{63}
-\bibcite{andriodvlc}{64}
-\bibcite{wang2013demystifying}{65}
-\bibcite{alexa}{66}
-\bibcite{wolf2009no}{67}
-\bibcite{Xiaodash2m}{68}
-\bibcite{zhu2017optimizing}{69}
+\bibcite{qualsnap}{55}
+\bibcite{pestov2013k}{56}
+\bibcite{richardson2004h}{57}
+\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{58}
+\bibcite{andriodsdk}{59}
+\bibcite{series2012methodology}{60}
+\bibcite{Shafiqund}{61}
+\bibcite{singh2015flexiweb}{62}
+\bibcite{ocr-tesseract}{63}
+\bibcite{unity}{64}
+\bibcite{andriodvlc}{65}
+\bibcite{wang2013demystifying}{66}
+\bibcite{alexa}{67}
+\bibcite{wolf2009no}{68}
+\bibcite{Xiaodash2m}{69}
+\bibcite{zhu2017optimizing}{70}

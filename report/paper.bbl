@@ -267,6 +267,10 @@ Javad Nejati and Aruna Balasubramanian.
 Netflix.
 \newblock https://www.netflix.com/.
 
+\bibitem{qualsnap}
+Qualcomm~Development Network.
+\newblock developer.qualcomm.com/software/snapdragon-profiler.
+
 \bibitem{pestov2013k}
 Vladimir Pestov.
 \newblock Is the k-nn classifier in high dimensions affected by the curse of

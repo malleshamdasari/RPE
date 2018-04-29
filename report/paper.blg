@@ -3,6 +3,8 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: plain.bst
 Database file #1: qos-qoe.bib
+Warning--entry type for "qualsnap" isn't style-file defined
+--line 38 of file qos-qoe.bib
 Warning--entry type for "ggle" isn't style-file defined
 --line 43 of file qos-qoe.bib
 Warning--entry type for "xiph2008org" isn't style-file defined
@@ -15,6 +17,10 @@ Warning--entry type for "azscreen" isn't style-file defined
 --line 373 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
 --line 378 of file qos-qoe.bib
+Repeated entry---line 619 of file qos-qoe.bib
+ : @online{qualsnap
+ :                 ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 635 of file qos-qoe.bib
  : @online{ggle
  :             ,
@@ -76,45 +82,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 69 entries,
+You've used 70 entries,
             2118 wiz_defined-function locations,
-            798 strings with 12644 characters,
-and the built_in function-call counts, 19896 in all, are:
-= -- 1884
-> -- 758
+            801 strings with 12731 characters,
+and the built_in function-call counts, 20089 in all, are:
+= -- 1900
+> -- 765
 < -- 16
-+ -- 323
-- -- 242
-* -- 1030
-:= -- 3091
-add.period$ -- 187
-call.type$ -- 69
-change.case$ -- 327
++ -- 326
+- -- 244
+* -- 1035
+:= -- 3122
+add.period$ -- 189
+call.type$ -- 70
+change.case$ -- 331
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 876
-empty$ -- 1890
-format.name$ -- 242
-if$ -- 4378
+cite$ -- 77
+duplicate$ -- 883
+empty$ -- 1912
+format.name$ -- 244
+if$ -- 4420
 int.to.chr$ -- 0
-int.to.str$ -- 69
+int.to.str$ -- 70
 missing$ -- 44
-newline$ -- 321
-num.names$ -- 126
-pop$ -- 518
+newline$ -- 325
+num.names$ -- 128
+pop$ -- 526
 preamble$ -- 1
-purify$ -- 259
+purify$ -- 262
 quote$ -- 0
-skip$ -- 740
+skip$ -- 750
 stack$ -- 0
-substring$ -- 995
-swap$ -- 231
+substring$ -- 1000
+swap$ -- 232
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 274
+type$ -- 278
 warning$ -- 7
-while$ -- 186
-width$ -- 71
-write$ -- 649
-(There were 6 error messages)
+while$ -- 188
+width$ -- 72
+write$ -- 656
+(There were 7 error messages)
