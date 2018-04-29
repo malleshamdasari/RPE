@@ -1,13 +1,13 @@
 %!TEX root = ../paper.tex
 \begin{figure*}
-    \begin{subfigure}[b]{0.33\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/Throughput}
+        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/Throughput}
         \caption{Throughput vs. Clock}
     \end{subfigure}
-    \begin{subfigure}[b]{0.33\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/ppd}
+        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/ppd}
         \caption{Packet processing delay vs. Clock}
     \end{subfigure}%
      \caption{Second-order effect of CPU speed on network. (a) TCP throughput reduces from an average of 48 Mbps to 32 Mbps under slow clock under the same network conditions, b) The cause for this reduction in throughput is internal to the device; the average TCP packet processing delay increases by 12 ms at slow CPU speeds. Experiments conducted on Nexus 4.}
@@ -27,7 +27,7 @@
 %     \label{fig:tcp-perf}
 %\end{figure*}
 
-\section{Second-Order Effect of CPU Clock on the Network} \label{label:throughput}
+\subsection{Second-Order Effect of CPU Clock on the Network} \label{label:throughput}
 
 One of our findings when studying the impact of CPU speed on application performance is that 
 the CPU clock not only affects application processing, {\em but has a second-order effect on network 
@@ -44,20 +44,3 @@ Figure~\ref{fig:tcp-perf}b shows that the packet processing delay when the CPU f
 
 This second-order effect has significant implications.  The CPU capacity can affect application QoE both by slowing down the compute and the network components of the application. Isolating these effects is critical for designing new optimizations.
 
-% and appl on application QoE, the resulting effect cannot be attributed to the compute alone. resulting QoE effect  is a combination of slower processing and slower network throughput.
-
-% This reduction is network throughput is because of higher packet processing time when the CPU  This could directly impact the total network throughput which eventually impacts the network applications like Web browsing and video transport. Therefore the packet processing is becoming a second-order bottleneck under low clock frequencies. 
-
- %On Nexus 4 phone, we We observe a $>$30mbps standard deviation in throughput under low clock which is 20mbps less throughput from high clock. The problem here is the time it takes to process a packet throughout the network stack is very slow under slower clock. We show this by measuring packet processing delay under different clock conditions as described below.
-
-
-
-%Many prior works have proposed network optimizations to reduce latency in downloading the data. For example, techniques such as HTTP2 server push is designed to avoid too many RTTs. However, a little is known about how the TCP/IP stack overhead is, once the packet is reached client device i.e, the journey from network driver to Application. We find that mobile devices have poor packet processing latencies because of the limited hardware capabilities. We show this by measuring the network throughput and packet processing delays under varying clock frequency.
-
-%We use iPerf tool to measure the network throughput. We use a Linux laptop as server and Nexus4 mobile phone as a client and measure network throughput under different CPU clocks on Nexus4. 
-%We use IOCTL system call with SIOCGSTAMP flag to timestamp a received packet. Android timestamps each packet received from network driver to kernel and exposes the timestamp to userspace applications through IOCTL system call. We set-up a client server socket application and host the server on Nexus4. We initiate the client application from a Linux laptop. We record the timestamp for each packet received by issuing IOCTL system call.
-
-
-
-%This effect of hardware bottleneck on packet processing is an important issue in applications involving both high bandwidth requirements and computation.
-%In such cases, having poor hardware hurts performance in two different ways -- both packet processing and actual computation get slowed down.

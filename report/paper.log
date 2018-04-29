@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  28 APR 2018 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  29 APR 2018 00:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,17 +788,17 @@ File: sections/device-work/Throughput.pdf Graphic file (type pdf)
 <use sections/device-work/Throughput.pdf>
 Package pdftex.def Info: sections/device-work/Throughput.pdf used on input line
  5.
-(pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
+(pdftex.def)             Requested size: 252.00043pt x 126.0002pt.
 
 <sections/device-work/ppd.pdf, id=713, 1340.60847pt x 722.7pt>
 File: sections/device-work/ppd.pdf Graphic file (type pdf)
 
 <use sections/device-work/ppd.pdf>
 Package pdftex.def Info: sections/device-work/ppd.pdf used on input line 10.
-(pdftex.def)             Requested size: 166.32092pt x 89.65356pt.
+(pdftex.def)             Requested size: 251.9976pt x 126.0002pt.
 
-Overfull \hbox (20.1194pt too wide) in paragraph at lines 30--30
-[]\secfnt SECOND-ORDER EF-FECT OF CPU CLOCK
+Overfull \hbox (2.05199pt too wide) in paragraph at lines 3--13
+[][] [] 
  []
 
 
@@ -806,8 +806,11 @@ Overfull \hbox (1.53738pt too wide) in paragraph at lines 40--41
 \T1/aer/m/n/9 pro-cess-ing de-lay as the time be-tween when the packet reaches
  []
 
-[12 <./sections/device-work/clock-device.pdf> <./sections/device-work/plt-memor
-y.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./sections/device-work/clock-device.pdf> <./sections/device-work/plt-memo
+ry.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/plt-memory.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -821,9 +824,65 @@ Overfull \hbox (1.93208pt too wide) in paragraph at lines 42--44
 gh-
  []
 
-) (./paper.bbl
-Overfull \hbox (9.21399pt too wide) in paragraph at lines 35--37
-\T1/aer/m/n/9 https://developers.google.com/youtube/android/player/.  
+) (./sections/device-work/web.tex
+<sections/device-work/plt-clock.pdf, id=829, 1589.94pt x 867.24pt>
+File: sections/device-work/plt-clock.pdf Graphic file (type pdf)
+
+<use sections/device-work/plt-clock.pdf>
+Package pdftex.def Info: sections/device-work/plt-clock.pdf used on input line 
+6.
+(pdftex.def)             Requested size: 215.99854pt x 117.8134pt.
+
+<sections/device-work/plt-isolate.pdf, id=830, 2023.56pt x 722.7pt>
+File: sections/device-work/plt-isolate.pdf Graphic file (type pdf)
+
+<use sections/device-work/plt-isolate.pdf>
+Package pdftex.def Info: sections/device-work/plt-isolate.pdf used on input lin
+e 13.
+(pdftex.def)             Requested size: 403.20154pt x 143.99709pt.
+
+<sections/device-work/wprof-dp.pdf, id=831, 719.5683pt x 383.031pt>
+File: sections/device-work/wprof-dp.pdf Graphic file (type pdf)
+
+<use sections/device-work/wprof-dp.pdf>
+Package pdftex.def Info: sections/device-work/wprof-dp.pdf used on input line 2
+0.
+(pdftex.def)             Requested size: 240.0pt x 127.75072pt.
+
+<sections/device-work/plt-pie.pdf, id=832, 1662.21pt x 867.24pt>
+File: sections/device-work/plt-pie.pdf Graphic file (type pdf)
+
+<use sections/device-work/plt-pie.pdf>
+Package pdftex.def Info: sections/device-work/plt-pie.pdf used on input line 36
+.
+(pdftex.def)             Requested size: 240.0pt x 125.21065pt.
+
+<sections/device-work/sites-effect.pdf, id=833, 1445.4pt x 722.7pt>
+File: sections/device-work/sites-effect.pdf Graphic file (type pdf)
+
+<use sections/device-work/sites-effect.pdf>
+Package pdftex.def Info: sections/device-work/sites-effect.pdf used on input li
+ne 43.
+(pdftex.def)             Requested size: 240.0pt x 119.99022pt.
+
+<sections/device-work/youtube-clock.pdf, id=834, 1445.4pt x 722.7pt>
+File: sections/device-work/youtube-clock.pdf Graphic file (type pdf)
+
+<use sections/device-work/youtube-clock.pdf>
+Package pdftex.def Info: sections/device-work/youtube-clock.pdf used on input l
+ine 56.
+(pdftex.def)             Requested size: 252.00043pt x 126.0002pt.
+
+<sections/device-work/youtube-rac.pdf, id=835, 1445.4pt x 722.7pt>
+File: sections/device-work/youtube-rac.pdf Graphic file (type pdf)
+
+<use sections/device-work/youtube-rac.pdf>
+Package pdftex.def Info: sections/device-work/youtube-rac.pdf used on input lin
+e 61.
+(pdftex.def)             Requested size: 252.00043pt x 126.0002pt.
+
+Overfull \hbox (2.05199pt too wide) in paragraph at lines 54--64
+[][] [] 
  []
 
 
@@ -833,25 +892,61 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./sections/device-work/ppd.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
+> <./sections/device-work/plt-clock.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/plt-clock.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
 >]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (6.1455pt too wide) in paragraph at lines 88--91
+[]\T1/aer/m/n/9 Figure 15[] fur-ther dis-sects the com-pute ac-tiv-i-ties into 
+HTML
+ []
+
+
+LaTeX Warning: Reference `label:whatif' on page \thepage  undefined on input li
+ne 98.
+
+) (./paper.bbl
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+
+Overfull \hbox (9.21399pt too wide) in paragraph at lines 35--37
+\T1/aer/m/n/9 https://developers.google.com/youtube/android/player/.  
+ []
+
+[14 <./sections/device-work/plt-isolate.pdf> <./sections/device-work/wprof-dp.p
+df
+
+pdfTeX warning: pdflatex (file ./sections/device-work/wprof-dp.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+> <./sections/device-work/plt-pie.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/plt-pie.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 3364) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-[15
+ [15 <./sections/device-work/sites-effect.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./paper.aux)
+) [16 <./sections/device-work/youtube-clock.pdf> <./sections/device-work/youtub
+e-rac.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/youtube-rac.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+>] (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5705 strings out of 493029
- 83627 string characters out of 6136233
- 177073 words of memory out of 5000000
- 9010 multiletter control sequences out of 15000+600000
+ 5751 strings out of 493029
+ 85019 string characters out of 6136233
+ 177139 words of memory out of 5000000
+ 9046 multiletter control sequences out of 15000+600000
  61548 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,94p,1898b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -872,10 +967,10 @@ ts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (15 pages, 750026 bytes).
+Output written on paper.pdf (16 pages, 1167127 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
+ 1336 PDF objects out of 1440 (max. 8388607)
+ 344 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
