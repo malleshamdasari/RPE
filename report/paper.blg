@@ -3,6 +3,8 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: plain.bst
 Database file #1: qos-qoe.bib
+Warning--entry type for "ggle" isn't style-file defined
+--line 43 of file qos-qoe.bib
 Warning--entry type for "xiph2008org" isn't style-file defined
 --line 48 of file qos-qoe.bib
 Warning--entry type for "awc" isn't style-file defined
@@ -13,6 +15,10 @@ Warning--entry type for "azscreen" isn't style-file defined
 --line 373 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
 --line 378 of file qos-qoe.bib
+Repeated entry---line 635 of file qos-qoe.bib
+ : @online{ggle
+ :             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 640 of file qos-qoe.bib
  : @online{mancam
  :               ,
@@ -23,16 +29,28 @@ Repeated entry---line 830 of file qos-qoe.bib
  : @inproceedings{balachandran2012quest
  :                                     ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "youtubeapi" isn't style-file defined
+--line 1039 of file qos-qoe.bib
 Repeated entry---line 1049 of file qos-qoe.bib
  : @online{azscreen
  :                 ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "adb" isn't style-file defined
+--line 1054 of file qos-qoe.bib
+Warning--entry type for "ocr-tesseract" isn't style-file defined
+--line 1059 of file qos-qoe.bib
 Repeated entry---line 1064 of file qos-qoe.bib
  : @online{awc
  :            ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "alexa" isn't style-file defined
+--line 1069 of file qos-qoe.bib
+Warning--entry type for "ad-governors" isn't style-file defined
+--line 1074 of file qos-qoe.bib
 Warning--entry type for "mobilephones" isn't style-file defined
 --line 1094 of file qos-qoe.bib
+Warning--entry type for "ramdisks" isn't style-file defined
+--line 1099 of file qos-qoe.bib
 Warning--entry type for "jioplans1" isn't style-file defined
 --line 1125 of file qos-qoe.bib
 Warning--entry type for "jioplans2" isn't style-file defined
@@ -48,45 +66,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 54 entries,
+You've used 64 entries,
             2118 wiz_defined-function locations,
-            746 strings with 11152 characters,
-and the built_in function-call counts, 16074 in all, are:
-= -- 1540
-> -- 590
-< -- 14
-+ -- 253
-- -- 188
-* -- 857
-:= -- 2485
-add.period$ -- 152
-call.type$ -- 54
-change.case$ -- 255
+            783 strings with 12400 characters,
+and the built_in function-call counts, 18931 in all, are:
+= -- 1804
+> -- 723
+< -- 16
++ -- 308
+- -- 232
+* -- 1005
+:= -- 2936
+add.period$ -- 177
+call.type$ -- 64
+change.case$ -- 307
 chr.to.int$ -- 0
-cite$ -- 61
-duplicate$ -- 737
-empty$ -- 1520
-format.name$ -- 188
-if$ -- 3549
+cite$ -- 71
+duplicate$ -- 841
+empty$ -- 1780
+format.name$ -- 232
+if$ -- 4168
 int.to.chr$ -- 0
-int.to.str$ -- 54
-missing$ -- 41
-newline$ -- 258
-num.names$ -- 96
-pop$ -- 394
+int.to.str$ -- 64
+missing$ -- 44
+newline$ -- 301
+num.names$ -- 116
+pop$ -- 478
 preamble$ -- 1
-purify$ -- 202
+purify$ -- 244
 quote$ -- 0
-skip$ -- 580
+skip$ -- 690
 stack$ -- 0
-substring$ -- 838
-swap$ -- 198
-text.length$ -- 14
+substring$ -- 970
+swap$ -- 226
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 214
+type$ -- 254
 warning$ -- 7
-while$ -- 148
-width$ -- 56
-write$ -- 530
-(There were 5 error messages)
+while$ -- 176
+width$ -- 66
+write$ -- 614
+(There were 6 error messages)

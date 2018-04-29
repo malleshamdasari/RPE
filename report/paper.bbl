@@ -27,9 +27,22 @@ http://az-screen-recorder.en.uptodown.com/android.
 Smartphone~Stats 2017.
 \newblock https://perma.cc/ya27-x5hf.
 
+\bibitem{adb}
+ADB.
+\newblock developer.android.com/tools/help/adb.html.
+
+\bibitem{youtubeapi}
+YouTube~Player API.
+\newblock https://developers.google.com/youtube/android/player/.
+
 \bibitem{awc}
 Android View~Cient (AVC).
 \newblock https://github.com/dtmilano/androidviewclient.
+
+\bibitem{blake2010evolution}
+Geoffrey Blake, Ronald~G Dreslinski, Trevor Mudge, and Kriszti{\'a}n Flautner.
+\newblock Evolution of thread-level parallelism in desktop applications.
+\newblock {\em ACM SIGARCH Computer Architecture News}, 38(3):302--313, 2010.
 
 \bibitem{butkiewicz2015klotski}
 Michael Butkiewicz, Daimeng Wang, Zhe Wu, Harsha~V Madhyastha, and Vyas Sekar.
@@ -58,6 +71,13 @@ Ling-Jyh Chen and Ting-Kai Huang.
 Jorge~L Contreras and Rohini Lakshan{\'e}.
 \newblock Patents and mobile devices in india: An empirical survey.
 \newblock {\em Vand. J. Transnat'l L.}, 50:1, 2017.
+
+\bibitem{corral2016preserving}
+Luis Corral, Ilenia Fronza, Nabil El~Ioini, Andrea Janes, and Peter Plant.
+\newblock Preserving energy resources using an android kernel extension: a case
+  study.
+\newblock In {\em Proceedings of the International Conference on Mobile
+  Software Engineering and Systems}, pages 23--24. ACM, 2016.
 
 \bibitem{cui2008image}
 Li~Cui and Alastair~R Allen.
@@ -173,6 +193,21 @@ Yoav Freund and Robert~E Schapire.
   application to boosting.
 \newblock {\em Journal of computer and system sciences}, 55(1):119--139, 1997.
 
+\bibitem{gao2015study}
+Cao Gao, Anthony Gutierrez, Madhav Rajan, Ronald~G Dreslinski, Trevor Mudge,
+  and Carole-Jean Wu.
+\newblock A study of mobile device utilization.
+\newblock In {\em Performance Analysis of Systems and Software (ISPASS), 2015
+  IEEE International Symposium on}, pages 225--234. IEEE, 2015.
+
+\bibitem{ad-governors}
+Android Governors.
+\newblock https://androidmodguide.blogspot.com/p/blog-page.html.
+
+\bibitem{ggle}
+https://developer.chrome.com/devtools.
+\newblock Chrome developer tools.
+
 \bibitem{jioplans1}
 https://www.jio.com/en-in/4g plans.
 \newblock 4g data plans, jio.
@@ -193,6 +228,10 @@ Christopher~Grant Jones, Rose Liu, Leo Meyerovich, Krste Asanovic, and
 Conor Kelton, Jihoon Ryoo, Aruna Balasubramanian, and Samir~R Das.
 \newblock Improving user perceived page load times using gaze.
 \newblock In {\em NSDI}, pages 545--559, 2017.
+
+\bibitem{ramdisks}
+RAM~Disks. Linux.
+\newblock https://kerneltalks.com/linux/how-to-create-ram-disk-in-linux/.
 
 \bibitem{mai2012case}
 Haohui Mai, Shuo Tang, Samuel~T King, Calin Cascaval, and Pablo Montesinos.
@@ -261,6 +300,10 @@ Shailendra Singh, Harsha~V Madhyastha, Srikanth~V Krishnamurthy, and Ramesh
 \newblock In {\em Proceedings of the 21st Annual International Conference on
   Mobile Computing and Networking}, pages 604--616. ACM, 2015.
 
+\bibitem{ocr-tesseract}
+Tesseract.
+\newblock https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/.
+
 \bibitem{unity}
 Unity.
 \newblock http://hwstats.unity3d.com/mobile/.
@@ -270,6 +313,10 @@ Xiao~Sophia Wang, Aruna Balasubramanian, Arvind Krishnamurthy, and David
   Wetherall.
 \newblock Demystifying page load performance with wprof.
 \newblock In {\em NSDI}, pages 473--485, 2013.
+
+\bibitem{alexa}
+Alexa Websites.
+\newblock https://www.alexa.com/topsites.
 
 \bibitem{wolf2009no}
 Stephen Wolf and M~Pinson.

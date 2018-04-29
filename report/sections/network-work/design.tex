@@ -15,10 +15,10 @@
   \label{fig:ourblurdetection}
 \end{figure}
 
-\section{Design for Scalable QoE Annotation} \label{label:design}
+\subsection{Design for Scalable QoE Annotation} \label{label:design}
 In this section, we first describe our framework and measurement methodology. 
 We then explain our QoE metrics and evaluate them across different applications and devices. We validate that our metrics capture video artefacts caused by diverse network conditions.
-\subsection{Measurement Methodology}
+\subsubsection{Measurement Methodology}
 
 \noindent \textbf{Set-up:} 
 In Figure~\ref{fig:set-up}, we show our measurement set-up and QoE labeling framework. 
@@ -106,7 +106,7 @@ All videos are downloaded in Full HD (1920x1280) resolution.
 %Our automated Telephony client is restricted to few container formats, so we could not host raw videos but had to encode into AVI container format. 
 %While converting $y4m$ into $AVI$, we use $ffmpeg$ to extract $fps$ and $bitrate$ of compression. We exploit these video coding artifacts in classifying the motion present in the video. We observe motion is directly proportional to $fps$ and inversely proportional to output $bitrate$ of video coding. Table~\ref{tab:table2} gives statistics corresponding to motion in the video. All the videos are of High Definition (HD ) resolution with $16:9$ aspect ratio and $4:4:4$ color space format. The videos are encoded under same encoding parameters such as libx264 video codec, quantization parameter (25), YUV $4:2:0$ output color space format.
 
-\subsection{Our QoE Metrics}
+\subsubsection{Our QoE Metrics}
 %In this section, we describe our QoE metrics.
 
 \noindent \noindent \textbf{PBR:} 
@@ -143,7 +143,7 @@ However, we think that it is a reasonable assumption that most of video telephon
 
 In addition to freeze ratio, we also compute length and number freezes in video. We define a freeze if the video is stalled for more than one second. We observe that users do not perceive the stall when the length of freeze is very short or if there are very few such short freezes in the video. Therefore, we employ \texttt{freeze ratio, length and number of freezes} metrics to capture the temporal artefacts of QoE.
 
-\subsection{Micro-Benchmarking of Video Artefacts}
+\subsubsection{Micro-Benchmarking of Video Artefacts}
 In this section, we show the scalability of our metrics through measurements across different applications and devices. As described above, we use a total of 4 metrics: PBR, freeze ratio, length and number of freezes in the video. For brevity, we show measurements for only PBR and freeze ratio. We find similar trends with other metrics as well. We measure these metrics with 6 different videos from the 20 videos described in Section \ref{MOTIVATION}, that cover high video-motion and content diversity. These experiments are run on Skype and Samsung Galaxy Tab S2 unless otherwise specified. All videos are recorded under Full HD (1920x1280) resolution with 60 Fps. Each experiment consists of 20 minutes video call with a total of 18 hours of video recordings. The videos are recorded under different network conditions to obtain different video quality  levels. We use the following network conditions: good case (0\% loss, 0 latency and 100 Mbps bandwidth), average case (5\% loss, 100 ms and 1 Mbps bandwidth) and bad case (20\% loss, 200 ms, and 512 Kbps bandwidth). Fig. \ref{fig:measurements} shows PBR and freeze ratio across different applications and devices. Our observations are the following.
 
 
