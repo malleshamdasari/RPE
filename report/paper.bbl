@@ -31,6 +31,13 @@ Smartphone~Stats 2017.
 ADB.
 \newblock developer.android.com/tools/help/adb.html.
 
+\bibitem{agababov2015flywheel}
+Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben
+  Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and
+  Bolian Yin.
+\newblock Flywheel: Google's data compression proxy for the mobile web.
+\newblock In {\em NSDI}, volume~15, pages 367--380, 2015.
+
 \bibitem{youtubeapi}
 YouTube~Player API.
 \newblock https://developers.google.com/youtube/android/player/.
@@ -38,6 +45,13 @@ YouTube~Player API.
 \bibitem{awc}
 Android View~Cient (AVC).
 \newblock https://github.com/dtmilano/androidviewclient.
+
+\bibitem{balachandran2014modeling}
+Athula Balachandran, Vaneet Aggarwal, Emir Halepovic, Jeffrey Pang, Srinivasan
+  Seshan, Shobha Venkataraman, and He~Yan.
+\newblock Modeling web quality-of-experience on cellular networks.
+\newblock In {\em Proceedings of the 20th annual international conference on
+  Mobile computing and networking}, pages 213--224. ACM, 2014.
 
 \bibitem{blake2010evolution}
 Geoffrey Blake, Ronald~G Dreslinski, Trevor Mudge, and Kriszti{\'a}n Flautner.
@@ -208,6 +222,13 @@ HBO Go.
 Android Governors.
 \newblock https://androidmodguide.blogspot.com/p/blog-page.html.
 
+\bibitem{hoque2013dissecting}
+Mohammad~Ashraful Hoque, Matti Siekkinen, Jukka~K Nurminen, and Mika Aalto.
+\newblock Dissecting mobile video services: An energy consumption perspective.
+\newblock In {\em World of Wireless, Mobile and Multimedia Networks (WoWMoM),
+  2013 IEEE 14th International Symposium and Workshops on a}, pages 1--11.
+  IEEE, 2013.
+
 \bibitem{ggle}
 https://developer.chrome.com/devtools.
 \newblock Chrome developer tools.
@@ -221,9 +242,22 @@ https://www.ndtv.com/business/jios-sub-rs-200-prepaid-recharge-plans-with-more-d
   2018-1808464.
 \newblock 4g data plans, jio.
 
+\bibitem{huang2010anatomizing}
+Junxian Huang, Qiang Xu, Birjodh Tiwana, Z~Morley Mao, Ming Zhang, and Paramvir
+  Bahl.
+\newblock Anatomizing application performance differences on smartphones.
+\newblock In {\em Proceedings of the 8th international conference on Mobile
+  systems, applications, and services}, pages 165--178. ACM, 2010.
+
 \bibitem{iperf-2015}
 IPerf.
 \newblock https://iperf.fr/.
+
+\bibitem{jiang2017pytheas}
+Junchen Jiang, Shijie Sun, Vyas Sekar, and Hui Zhang.
+\newblock Pytheas: Enabling data-driven quality of experience optimization
+  using group-based exploration-exploitation.
+\newblock In {\em NSDI}, volume~1, page~3, 2017.
 
 \bibitem{jones2009parallelizing}
 Christopher~Grant Jones, Rose Liu, Leo Meyerovich, Krste Asanovic, and
@@ -258,6 +292,12 @@ media.xiph.org/video/derf/.
 Ensemble Methods.
 \newblock http://scikit-learn.org/stable/modules/ensemble.html.
 
+\bibitem{meyerovich2010fast}
+Leo~A Meyerovich and Rastislav Bodik.
+\newblock Fast and parallel webpage layout.
+\newblock In {\em Proceedings of the 19th international conference on World
+  wide web}, pages 711--720. ACM, 2010.
+
 \bibitem{nejati2016depth}
 Javad Nejati and Aruna Balasubramanian.
 \newblock An in-depth study of mobile browser performance.
@@ -267,9 +307,18 @@ Javad Nejati and Aruna Balasubramanian.
 Netflix.
 \newblock https://www.netflix.com/.
 
+\bibitem{netravali2016polaris}
+Ravi Netravali, Ameesh Goyal, James Mickens, and Hari Balakrishnan.
+\newblock Polaris: Faster page loads using fine-grained dependency tracking.
+\newblock In {\em NSDI}, pages 123--136, 2016.
+
 \bibitem{qualsnap}
 Qualcomm~Development Network.
 \newblock developer.qualcomm.com/software/snapdragon-profiler.
+
+\bibitem{hexqual2013qcom}
+Qualcomm~Development Network.
+\newblock https://developer.qualcomm.com/software/hexagon-dsp-sdk/tools.
 
 \bibitem{pestov2013k}
 Vladimir Pestov.
@@ -277,6 +326,19 @@ Vladimir Pestov.
   dimensionality?
 \newblock {\em Computers \& Mathematics with Applications}, 65(10):1427--1437,
   2013.
+
+\bibitem{qian2014characterizing}
+Feng Qian, Subhabrata Sen, and Oliver Spatscheck.
+\newblock Characterizing resource usage for mobile web browsing.
+\newblock In {\em Proceedings of the 12th annual international conference on
+  Mobile systems, applications, and services}, pages 218--231. ACM, 2014.
+
+\bibitem{rajaraman2014energy}
+Swaminathan~Vasanth Rajaraman, Matti Siekkinen, and Mohammad~A Hoque.
+\newblock Energy consumption anatomy of live video streaming from a smartphone.
+\newblock In {\em Personal, Indoor, and Mobile Radio Communication (PIMRC),
+  2014 IEEE 25th Annual International Symposium on}, pages 2013--2017. IEEE,
+  2014.
 
 \bibitem{richardson2004h}
 Iain~E Richardson.
@@ -292,6 +354,13 @@ Vaspol Ruamviboonsuk, Ravi Netravali, Muhammed Uluyol, and Harsha~V.
 \newblock In {\em Proceedings of the Conference of the ACM Special Interest
   Group on Data Communication}, SIGCOMM '17, pages 390--403, New York, NY, USA,
   2017. ACM.
+
+\bibitem{ruamviboonsuk2017vroom}
+Vaspol Ruamviboonsuk, Ravi Netravali, Muhammed Uluyol, and Harsha~V Madhyastha.
+\newblock Vroom: Accelerating the mobile web with server-aided dependency
+  resolution.
+\newblock In {\em Proceedings of the Conference of the ACM Special Interest
+  Group on Data Communication}, pages 390--403. ACM, 2017.
 
 \bibitem{andriodsdk}
 Android SDK.
@@ -320,6 +389,39 @@ Shailendra Singh, Harsha~V Madhyastha, Srikanth~V Krishnamurthy, and Ramesh
 \newblock In {\em Proceedings of the 21st Annual International Conference on
   Mobile Computing and Networking}, pages 604--616. ACM, 2015.
 
+\bibitem{sivakumar2017nutshell}
+Ashiwan Sivakumar, Chuan Jiang, Yun~Seong Nam, Shankaranarayanan
+  Puzhavakath~Narayanan, Vijay Gopalakrishnan, Sanjay~G Rao, Subhabrata Sen,
+  Mithuna Thottethodi, and TN~Vijaykumar.
+\newblock Nutshell: Scalable whittled proxy execution for low-latency web over
+  cellular networks.
+\newblock In {\em Proceedings of the 23rd Annual International Conference on
+  Mobile Computing and Networking}, pages 448--461. ACM, 2017.
+
+\bibitem{sivakumar2014parcel}
+Ashiwan Sivakumar, Shankaranarayanan Puzhavakath~Narayanan, Vijay
+  Gopalakrishnan, Seungjoon Lee, Sanjay Rao, and Subhabrata Sen.
+\newblock Parcel: Proxy assisted browsing in cellular networks for energy and
+  latency reduction.
+\newblock In {\em Proceedings of the 10th ACM International on Conference on
+  emerging Networking Experiments and Technologies}, pages 325--336. ACM, 2014.
+
+\bibitem{stokke2015energy}
+Kristoffer~Robin Stokke, H{\aa}kon~Kvale Stensland, Carsten Griwodz, and
+  P{\aa}l Halvorsen.
+\newblock Energy efficient continuous multimedia processing using the tegra k1
+  mobile soc.
+\newblock In {\em Proceedings of the 7th ACM International Workshop on Mobile
+  Video}, pages 15--16. ACM, 2015.
+
+\bibitem{sun2016cs2p}
+Yi~Sun, Xiaoqi Yin, Junchen Jiang, Vyas Sekar, Fuyuan Lin, Nanshu Wang, Tao
+  Liu, and Bruno Sinopoli.
+\newblock Cs2p: Improving video bitrate selection and adaptation with
+  data-driven throughput prediction.
+\newblock In {\em Proceedings of the 2016 conference on ACM SIGCOMM 2016
+  Conference}, pages 272--285. ACM, 2016.
+
 \bibitem{ocr-tesseract}
 Tesseract.
 \newblock https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/.
@@ -337,6 +439,17 @@ Xiao~Sophia Wang, Aruna Balasubramanian, Arvind Krishnamurthy, and David
   Wetherall.
 \newblock Demystifying page load performance with wprof.
 \newblock In {\em NSDI}, pages 473--485, 2013.
+
+\bibitem{wang2016speeding}
+Xiao~Sophia Wang, Arvind Krishnamurthy, and David Wetherall.
+\newblock Speeding up web page loads with shandian.
+\newblock In {\em NSDI}, pages 109--122, 2016.
+
+\bibitem{wang2012far}
+Zhen Wang, Felix~Xiaozhu Lin, Lin Zhong, and Mansoor Chishtie.
+\newblock How far can client-only solutions go for mobile browser speed?
+\newblock In {\em Proceedings of the 21st international conference on World
+  Wide Web}, pages 31--40. ACM, 2012.
 
 \bibitem{alexa}
 Alexa Websites.

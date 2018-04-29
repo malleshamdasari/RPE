@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  29 APR 2018 00:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  29 APR 2018 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,7 +450,7 @@ Overfull \hbox (12.85588pt too wide) in paragraph at lines 26--27
 
 ) (./sections/network-work/motivation.tex
 Overfull \hbox (1.95068pt too wide) in paragraph at lines 39--50
-\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [28] f
+\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [30] f
 rom
  []
 
@@ -902,10 +902,6 @@ Overfull \hbox (6.1455pt too wide) in paragraph at lines 88--91
 HTML
  []
 
-
-LaTeX Warning: Reference `label:whatif' on page \thepage  undefined on input li
-ne 98.
-
 ) (./sections/device-work/video.tex
 Underfull \vbox (badness 3758) has occurred while \output is active []
 
@@ -989,13 +985,48 @@ Overfull \hbox (2.05199pt too wide) in paragraph at lines 22--32
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
 )
-(./paper.bbl
-Overfull \hbox (9.21399pt too wide) in paragraph at lines 35--37
-\T1/aer/m/n/9 https://developers.google.com/youtube/android/player/.  
+(./sections/device-work/dspimp.tex
+<sections/device-work/dsp-plt.pdf, id=1187, 1300.86pt x 722.7pt>
+File: sections/device-work/dsp-plt.pdf Graphic file (type pdf)
+
+<use sections/device-work/dsp-plt.pdf>
+Package pdftex.def Info: sections/device-work/dsp-plt.pdf used on input line 8.
+
+(pdftex.def)             Requested size: 252.0pt x 139.9941pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 6--11
+[][] 
  []
 
-[16 <./sections/device-work/youtube-clock.pdf> <./sections/device-work/youtube-
-rac.pdf
+<sections/device-work/dsp-power.pdf, id=1188, 1300.86pt x 722.7pt>
+File: sections/device-work/dsp-power.pdf Graphic file (type pdf)
+
+<use sections/device-work/dsp-power.pdf>
+Package pdftex.def Info: sections/device-work/dsp-power.pdf used on input line 
+14.
+(pdftex.def)             Requested size: 252.0pt x 139.9941pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 12--17
+[][] 
+ []
+
+<sections/device-work/dsp-plt5.pdf, id=1189, 1300.86pt x 794.97pt>
+File: sections/device-work/dsp-plt5.pdf Graphic file (type pdf)
+
+<use sections/device-work/dsp-plt5.pdf>
+Package pdftex.def Info: sections/device-work/dsp-plt5.pdf used on input line 2
+0.
+(pdftex.def)             Requested size: 252.0pt x 153.99352pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 18--23
+[][] 
+ []
+
+
+Underfull \vbox (badness 6284) has occurred while \output is active []
+
+ [16 <./sections/device-work/youtube-clock.pdf> <./sections/device-work/youtube
+-rac.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/youtube-rac.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
@@ -1006,11 +1037,10 @@ on: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./sections/device-work/skype-fps.pdf> <./sections/device-work/skype-call-
-setup.pdf
+)
+(./sections/device-work/conclusion.tex) (./sections/device-work/related.tex
+[17 <./sections/device-work/skype-fps.pdf> <./sections/device-work/skype-call-s
+etup.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/skype-call-setup.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
@@ -1026,20 +1056,45 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/device-work/power-plt.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
+>]) (./paper.bbl [18 <./sections/device-work/dsp-plt.pdf> <./sections/device-wo
+rk/dsp-power.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/dsp-power.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./sections/device-work/dsp-plt5.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/dsp-plt5.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
 >]
+Overfull \hbox (9.21399pt too wide) in paragraph at lines 42--44
+\T1/aer/m/n/9 https://developers.google.com/youtube/android/player/.  
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [18]
-(./paper.aux)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
+[21
+
+] (./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5803 strings out of 493029
- 86408 string characters out of 6136233
- 177224 words of memory out of 5000000
- 9083 multiletter control sequences out of 15000+600000
+ 5843 strings out of 493029
+ 87457 string characters out of 6136233
+ 177313 words of memory out of 5000000
+ 9113 multiletter control sequences out of 15000+600000
  64038 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,94p,1898b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1061,10 +1116,10 @@ ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type
 urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 /uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (18 pages, 1265767 bytes).
+Output written on paper.pdf (21 pages, 1314512 bytes).
 PDF statistics:
- 1616 PDF objects out of 1728 (max. 8388607)
- 382 compressed objects within 4 object streams
+ 1733 PDF objects out of 2073 (max. 8388607)
+ 405 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 

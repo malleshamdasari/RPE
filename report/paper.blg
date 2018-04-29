@@ -21,6 +21,8 @@ Repeated entry---line 619 of file qos-qoe.bib
  : @online{qualsnap
  :                 ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "hexqual2013qcom" isn't style-file defined
+--line 624 of file qos-qoe.bib
 Repeated entry---line 635 of file qos-qoe.bib
  : @online{ggle
  :             ,
@@ -34,6 +36,10 @@ Warning--entry type for "unity" isn't style-file defined
 Repeated entry---line 830 of file qos-qoe.bib
  : @inproceedings{balachandran2012quest
  :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 848 of file qos-qoe.bib
+ : @inproceedings{sun2016cs2p
+ :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "andriodvlc" isn't style-file defined
 --line 1024 of file qos-qoe.bib
@@ -82,45 +88,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 70 entries,
+You've used 87 entries,
             2118 wiz_defined-function locations,
-            801 strings with 12731 characters,
-and the built_in function-call counts, 20089 in all, are:
-= -- 1900
-> -- 765
-< -- 16
-+ -- 326
-- -- 244
-* -- 1035
-:= -- 3122
-add.period$ -- 189
-call.type$ -- 70
-change.case$ -- 331
+            876 strings with 16798 characters,
+and the built_in function-call counts, 28963 in all, are:
+= -- 2794
+> -- 1225
+< -- 34
++ -- 507
+- -- 408
+* -- 1640
+:= -- 4441
+add.period$ -- 251
+call.type$ -- 87
+change.case$ -- 464
 chr.to.int$ -- 0
-cite$ -- 77
-duplicate$ -- 883
-empty$ -- 1912
-format.name$ -- 244
-if$ -- 4420
+cite$ -- 94
+duplicate$ -- 1246
+empty$ -- 2571
+format.name$ -- 408
+if$ -- 6404
 int.to.chr$ -- 0
-int.to.str$ -- 70
-missing$ -- 44
-newline$ -- 325
-num.names$ -- 128
-pop$ -- 526
+int.to.str$ -- 87
+missing$ -- 60
+newline$ -- 409
+num.names$ -- 162
+pop$ -- 710
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 378
 quote$ -- 0
-skip$ -- 750
+skip$ -- 1040
 stack$ -- 0
-substring$ -- 1000
-swap$ -- 232
-text.length$ -- 16
+substring$ -- 1546
+swap$ -- 399
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 278
+type$ -- 346
 warning$ -- 7
-while$ -- 188
-width$ -- 72
-write$ -- 656
-(There were 7 error messages)
+while$ -- 268
+width$ -- 89
+write$ -- 853
+(There were 8 error messages)
