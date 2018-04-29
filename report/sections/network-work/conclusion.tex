@@ -1,2 +1,10 @@
 \subsection{Summary}
 Enterprise network administrators need QoE information to model QoS to QoE relationship and to efficiently provision their resources. Currently, applications do not provide QoE ground-truth. In this work, we address this problem for video telephony by introducing four scalable, no-reference QoE metrics that capture spatial and temporal artefacts of video quality. We investigate the performance of our metrics over three popular applications -- Skype, FaceTime and Hangouts -- across diverse video content and five mobile devices. Finally, we map our metrics with a large-scale MOS user-study and show a median accuracy of 90\% in annotating the QoE labels according to MOS. Our metrics outperform state-of-the-art work while capturing exact user rating. We plan to extend this study to video streaming, such as YouTube and Netflix, and VR/AR applications.
+
+In conclusion, our contributions are the following:
+\begin{itemize}[leftmargin=*]
+    \item We uncover limitations of existing work for QoE annotation of video telephony in enterprise networks (Section~\ref{MOTIVATION}).
+    \item We introduce new QoE metrics for video telephony that are content, application and device independent (Section~\ref{label:design}).
+    \item We micro-benchmark our metrics with the three most popular applications, i.e., Skype, FaceTime and Hangouts, and five different mobile devices (Section~\ref{label:design}).
+    \item We develop a model to map our QoE metrics to MOS and demonstrate a median 90\% accuracy across applications and devices (Section~\ref{label:results}).
+\end{itemize}

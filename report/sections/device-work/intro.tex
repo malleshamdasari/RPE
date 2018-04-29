@@ -59,24 +59,6 @@ Our goal now is in {\em isolating} the effect of CPU clock on the network and th
 performance can be improved for low-end devices: should the optimization focus on improving the TCP packet processing or the application compute? While straightforward for video applications, for Web browsing, this isolation is challenging.  
 Loading of Web objects, a network process, and processing of these objects, a compute process, are intertwined during the page load process and cannot be cleanly separated. To this end, we leverage the WProf tool~\cite{wang2013demystifying,nejati2016depth} that breaks down the Web page load process into network and compute processes on the critical path. The key findings of our study are: %In the case of video applications, we isolate the effect of network and compute by
 
-% using  is challenging because Isolate the network and compute for video applications bIsolating the effect of network is more straightforward for video applications, since there are no dependencies. However, isolating the effect of compute is harder because many video applications are not open. Instead, we experiment with the open source VLC player to study the compute performance in detail. \todo{this para does not have any message.}
-
-
-%because loading the Web objects (a network process) and processing the Web objects (a compute process) cannot be decoupled easily due to dependencies~\cite{wang2013demystifying,nejati2016depth}. To this end, we leverage the WProf tool that uses dependency analysis to divide the application performance into network and compute components on the critical path. Using the dependency and critical path analysis, we `fix' either the network or the compute component of the page load 
-%to be constant and study the effect of CPU clock on the other component. 
-
-
-
-
-% \todo{what do we do?} \mallesh{ For video applications, it difficult to isolate the effect of clock on network and compute on our applications( i.e, YouTube and Skype) because of lack of open source. In another way, for video applications it is more straightforward because there is no such dependencies as in Web. So, we use an open source VLC player to decouple the impact of clock on network and compute. To isolate compute, we play a video locally without any network involvement and measure the video decoding performance. To isolate network, we tap the source code and measure the number of video packets received before video decoding a particular packet.}
-
-%Therefore, we need to isolate the effect of hardware on application performance from network to find the individual impact. But the challenge in isolating the effect of hardware is: First, the applications are different and require separate mechanism in isolating hardware from network. Second, for applications such as Web browsing, we decouple the network from compute by scheduling (replaying) object downloads by keeping the compute constant. But, this requires us to preserve the dependencies and computaion of live pages. We use WProf to preserve the dependencies.
-%\aruna{We need to say something concrete here. Simply saying, we keep one parameter constant is not enough. Think of what is the most interesting challenge in isolating the effect of hardware}
-
-
-%\aruna{again, extremely vague. What does "such as" mean, what exactly are you changing, why did you choose this parameters. How exactly are you doing this study. We need a lot more details here . For instance, why is clock frequency what is being changed? }.
-
-
 \begin{itemize}    
 
    \item {\bf Mobile Web performance is significantly affected by slow clocks:} Web page loads slow down by a
@@ -177,35 +159,3 @@ improvement in power consumption. %\todo{check the numbers.}
   \label{tab:device_types}
 \end{table*}
 
-
-%\aruna{add something about the significance of these observations}
-
-%We aim to develop a systematic methodology and analyze hardware and software performance of smartphones. We first study the network performance in smartphones with respect to different device characteristics with a longitudinal data. Then, we focus on mobile Internet QoE with respect to device performance based on hardware parameters i.e, Quality of Service (QoS). We target three popular mobile Internet applications: 1) Mobile web browsing is proven to be constrained by device capabilities over network capacity \cite{nejati2016depth}. We investigate this poor mobile web performance and identify critical factors. 2) File download is also another most used Internet application for which the download time should as small as possible. Although the network is the dominant factor for this application, we observe a significant change in download performance with respect to device capabilities. 3) Video streaming and telephony is computationally intensive because of decoder complexity. We identify the QoE parameters for these applications and investigate the performance with respect to QoS. We observe a significant change in the impact of device performance on all three applications.
-
-
-
-%This motivates us to understand the impact of hardware bottlenecks in mobile Internet QoE for low-end mobile users. We believe this work provides consumers, application developers, vendors and content providers in improving the mobile QoE. In this work, we show evidence to suggest that computation bottlenecks are still present in high-end mobile devices and it becomes far worse for low-end mobile devices.
-
-%Unlike desktop-based Internet applications, whose performance is mostly constrained by just the quality of the network, mobile Internet applications face challenges in multiple dimensions: the network characteristics and the underlying software and hardware capabilities. Understanding the performance of mobile Internet applications is useful in assisting: 1) end-users to choose the best suitable smartphone, 2) application developers to make optimize the software, and 3) Vendors to optimize the architecture and operating system for better application Quality of Experience (QoE). At the same time, the service providers can use this knowledge in customizing the content for smartphone users. A lot of work has been there in understanding the impact of the network on mobile Internet applications \cite{Ruamviboonsuk:2017:VAM:3098822.3098851, kelton2017improving, sun2016cs2p}, while a little is there on hardware and software impact. Understanding device impact is quite challenging due to a lack of a systematic approach for controlled experiments and comparative analysis. Our work tries fill this gap.
-
-
-
-%Often, the smartphone application processor has a combination of co-processors: a Central Processing Unit (CPU), Graphics Processing Unit (GPU), Digital Signal Processor (DSP) and Image Signal Processor (ISP). Mobile applications such as video and web exploit these heterogeneous devices in offloading the CPU computation, improving the performance and optimizing/scarifying power consumption. The application performance improvement heavily depends on how efficiently one exploits the co-processor (e.g, video decoding can be completely offloaded to GPU or DSP, but web browsing is hard to efficiently offload because of lack of concurrency).
-
-%We find a significant impact of CPU clock frequency and load on different mobile applications.
-%For example, we look at the performance of three applications -- file download, web browsing and video transport.
-%Reducing clock frequency from $1512 \ Mhz$ to $384 \ Mhz$ slows down file download time an average of 3 times at a CPU load of $50\%$.
-%Under the same conditions, the web page load slows down by an average of 4 times.
-%Furthermore, we find that a reduction in processor performance hurts web browsing by slowing down both its downloading and compute requests.
-%It reduces network throughput, which forces the browser to wait longer for the data.
-%It also directly slows down the browser's scripts due to its slower processing.
-
-%Interestingly, we do not observe this effect for video transport. For instance, video streaming (YouTube) has almost zero effect of clock frequency while Skype has some effect though not as much as web browsing. This is despite the fact that video applications impose much higher computation demand on the mobile hardware than file download and web browsing. We find that this discrepancy in performance occurs largely due to efficient offloading of decoding to the GPU processor. Unlike video transport, web browsing is not offloaded to coprocessors and thus its performance is affected more by the processor. Therefore, we investigate this direct impact of hardware on applications as well as indirect impact of hardware through network.
-
-
-
-%We summarize the contributions of this paper as follows:
-%\begin{itemize}
-%\item An in-depth study of device performance impact on mobile Internet QoE. We find web browsing is greatly effected compared to other applications.
-%\item We investigate the direct and indirect effect of hardware on these applications.
-%\end{itemize}

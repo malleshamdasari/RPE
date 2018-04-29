@@ -1,8 +1,4 @@
-\section{Application Independent QoE Labeling}
-
-% Goal to understand application QoE, enterprise wireless networks want to manage their resources effectively
-% Several recent work have looked at building QoS to QoE mapping for specific applications
-% Limited to applications which can provide accurate ground truth for labeling 
+\section{QoE Labeling}
 
 Over the past decade, mobile video traffic has increased dramatically (from 50\% in year 2011 to 60\% in 2016 and is predicted to reach 78\% by 2021)~\cite{forecast2016cisco}. This is due to the proliferation of mobile video applications (such as Skype, FaceTime, Hangouts, YouTube, and Netflix etc). These applications can be categorized into video telephony (Skype, Hangouts, FaceTime), streaming (YouTube, Netflix), and upcoming virtual reality and augmented reality streaming (SPT~\cite{spt}, theBlu~\cite{theblu}). 
 Users demand high Quality of Experience (QoE) while using these applications on wireless networks, such as WiFi and LTE. This poses a unique challenge for network administrators in enterprise environments, such as offices, university campuses and retail stores.
@@ -20,10 +16,4 @@ Further, we show that these metrics capture spatial and temporal artefacts of vi
 We then validate our metrics by mapping them to actual users' experience. To this end, we obtain Mean Opinion Score (MOS) from our user-study and apply ML models to map our metrics with users' MOS.
 We use \texttt{Adaboosted} decision trees in predicting the MOS scores, as we describe in Section \ref{label:results}.
 
-In summary, our contributions are the following:
-\begin{itemize}[leftmargin=*]
-    \item We uncover limitations of existing work for QoE annotation of video telephony in enterprise networks (Section~\ref{MOTIVATION}).
-    \item We introduce new QoE metrics for video telephony that are content, application and device independent (Section~\ref{label:design}).
-    \item We micro-benchmark our metrics with the three most popular applications, i.e., Skype, FaceTime and Hangouts, and five different mobile devices (Section~\ref{label:design}).
-    \item We develop a model to map our QoE metrics to MOS and demonstrate a median 90\% accuracy across applications and devices (Section~\ref{label:results}).
-\end{itemize}
+
