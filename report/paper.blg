@@ -3,6 +3,8 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: plain.bst
 Database file #1: qos-qoe.bib
+Warning--entry type for "ggle" isn't style-file defined
+--line 43 of file qos-qoe.bib
 Warning--entry type for "xiph2008org" isn't style-file defined
 --line 48 of file qos-qoe.bib
 Warning--entry type for "awc" isn't style-file defined
@@ -13,6 +15,50 @@ Warning--entry type for "azscreen" isn't style-file defined
 --line 373 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
 --line 378 of file qos-qoe.bib
+Repeated entry---line 635 of file qos-qoe.bib
+ : @online{ggle
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 640 of file qos-qoe.bib
+ : @online{mancam
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "unity" isn't style-file defined
+--line 656 of file qos-qoe.bib
+Repeated entry---line 830 of file qos-qoe.bib
+ : @inproceedings{balachandran2012quest
+ :                                     ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "youtubeapi" isn't style-file defined
+--line 1039 of file qos-qoe.bib
+Repeated entry---line 1049 of file qos-qoe.bib
+ : @online{azscreen
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "adb" isn't style-file defined
+--line 1054 of file qos-qoe.bib
+Warning--entry type for "ocr-tesseract" isn't style-file defined
+--line 1059 of file qos-qoe.bib
+Repeated entry---line 1064 of file qos-qoe.bib
+ : @online{awc
+ :            ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "alexa" isn't style-file defined
+--line 1069 of file qos-qoe.bib
+Warning--entry type for "ad-governors" isn't style-file defined
+--line 1074 of file qos-qoe.bib
+Warning--entry type for "mobilephones" isn't style-file defined
+--line 1094 of file qos-qoe.bib
+Warning--entry type for "ramdisks" isn't style-file defined
+--line 1099 of file qos-qoe.bib
+Warning--entry type for "jioplans1" isn't style-file defined
+--line 1125 of file qos-qoe.bib
+Warning--entry type for "jioplans2" isn't style-file defined
+--line 1130 of file qos-qoe.bib
+Repeated entry---line 1157 of file qos-qoe.bib
+ : @inproceedings{yu2014can
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in spt
 Warning--to sort, need author or key in theblu
 Warning--to sort, need author or key in azscreen
@@ -20,45 +66,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 37 entries,
+You've used 64 entries,
             2118 wiz_defined-function locations,
-            665 strings with 8170 characters,
-and the built_in function-call counts, 9516 in all, are:
-= -- 899
-> -- 278
-< -- 5
-+ -- 128
-- -- 82
-* -- 458
-:= -- 1480
-add.period$ -- 101
-call.type$ -- 37
-change.case$ -- 151
+            783 strings with 12400 characters,
+and the built_in function-call counts, 18931 in all, are:
+= -- 1804
+> -- 723
+< -- 16
++ -- 308
+- -- 232
+* -- 1005
+:= -- 2936
+add.period$ -- 177
+call.type$ -- 64
+change.case$ -- 307
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 457
-empty$ -- 990
-format.name$ -- 82
-if$ -- 2099
+cite$ -- 71
+duplicate$ -- 841
+empty$ -- 1780
+format.name$ -- 232
+if$ -- 4168
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 28
-newline$ -- 177
-num.names$ -- 62
-pop$ -- 254
+int.to.str$ -- 64
+missing$ -- 44
+newline$ -- 301
+num.names$ -- 116
+pop$ -- 478
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 244
 quote$ -- 0
-skip$ -- 338
+skip$ -- 690
 stack$ -- 0
-substring$ -- 483
-swap$ -- 95
-text.length$ -- 5
+substring$ -- 970
+swap$ -- 226
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
+type$ -- 254
 warning$ -- 7
-while$ -- 87
-width$ -- 39
-write$ -- 351
-(There were 12 warnings)
+while$ -- 176
+width$ -- 66
+write$ -- 614
+(There were 6 error messages)

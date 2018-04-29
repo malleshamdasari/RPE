@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 APR 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  28 APR 2018 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,19 +437,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (5.67403pt too wide) in paragraph at lines 26--27
+Overfull \hbox (2.84132pt too wide) in paragraph at lines 25--26
+\T1/aer/m/n/9 tion of video tele-phony in en-ter-prise net-works (Sec-tion 2.1[
+]). 
+ []
+
+
+Overfull \hbox (12.85588pt too wide) in paragraph at lines 26--27
 \T1/aer/m/n/9 are con-tent, ap-pli-ca-tion and de-vice in-de-pen-dent (Sec-tion
- 5[]). 
+ 2.3[]). 
  []
 
 ) (./sections/network-work/motivation.tex
-Overfull \hbox (6.2233pt too wide) in paragraph at lines 1--1
-[]\secfnt MOTIVATION FOR SCAL-ABLE QOE AN-
- []
-
-
 Overfull \hbox (1.95068pt too wide) in paragraph at lines 39--50
-\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [20] f
+\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [28] f
 rom
  []
 
@@ -485,14 +486,14 @@ on.
  []
 
 [3]) (./sections/network-work/design.tex
-<sections/network-work/setup.pdf, id=70, 1091.27695pt x 505.89pt>
+<sections/network-work/setup.pdf, id=71, 1091.27695pt x 505.89pt>
 File: sections/network-work/setup.pdf Graphic file (type pdf)
 
 <use sections/network-work/setup.pdf>
 Package pdftex.def Info: sections/network-work/setup.pdf used on input line 3.
 (pdftex.def)             Requested size: 240.0pt x 111.25754pt.
 
-<sections/network-work/bar-pbr.pdf, id=71, 1340.60847pt x 738.59943pt>
+<sections/network-work/bar-pbr.pdf, id=72, 1340.60847pt x 738.59943pt>
 File: sections/network-work/bar-pbr.pdf Graphic file (type pdf)
 
 <use sections/network-work/bar-pbr.pdf>
@@ -500,7 +501,10 @@ Package pdftex.def Info: sections/network-work/bar-pbr.pdf used on input line 1
 1.
 (pdftex.def)             Requested size: 240.0pt x 132.22087pt.
 
-<sections/network-work/content-bitrate.pdf, id=72, 1445.4pt x 722.7pt>
+Underfull \vbox (badness 1082) has occurred while \output is active []
+
+
+<sections/network-work/content-bitrate.pdf, id=73, 1445.4pt x 722.7pt>
 File: sections/network-work/content-bitrate.pdf Graphic file (type pdf)
 
 <use sections/network-work/content-bitrate.pdf>
@@ -508,7 +512,7 @@ Package pdftex.def Info: sections/network-work/content-bitrate.pdf used on inpu
 t line 67.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/app-bitrate.pdf, id=73, 1445.4pt x 722.7pt>
+<sections/network-work/app-bitrate.pdf, id=74, 1445.4pt x 722.7pt>
 File: sections/network-work/app-bitrate.pdf Graphic file (type pdf)
 
 <use sections/network-work/app-bitrate.pdf>
@@ -516,7 +520,7 @@ Package pdftex.def Info: sections/network-work/app-bitrate.pdf used on input li
 ne 72.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/dev-bitrate.pdf, id=74, 1445.4pt x 722.7pt>
+<sections/network-work/dev-bitrate.pdf, id=75, 1445.4pt x 722.7pt>
 File: sections/network-work/dev-bitrate.pdf Graphic file (type pdf)
 
 <use sections/network-work/dev-bitrate.pdf>
@@ -524,7 +528,7 @@ Package pdftex.def Info: sections/network-work/dev-bitrate.pdf used on input li
 ne 77.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/content-stutter.pdf, id=75, 1445.4pt x 722.7pt>
+<sections/network-work/content-stutter.pdf, id=76, 1445.4pt x 722.7pt>
 File: sections/network-work/content-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/content-stutter.pdf>
@@ -532,7 +536,7 @@ Package pdftex.def Info: sections/network-work/content-stutter.pdf used on inpu
 t line 83.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/app-stutter.pdf, id=76, 1445.4pt x 722.7pt>
+<sections/network-work/app-stutter.pdf, id=77, 1445.4pt x 722.7pt>
 File: sections/network-work/app-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/app-stutter.pdf>
@@ -540,7 +544,7 @@ Package pdftex.def Info: sections/network-work/app-stutter.pdf used on input li
 ne 88.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
 
-<sections/network-work/dev-stutter.pdf, id=77, 1445.4pt x 722.7pt>
+<sections/network-work/dev-stutter.pdf, id=78, 1445.4pt x 722.7pt>
 File: sections/network-work/dev-stutter.pdf Graphic file (type pdf)
 
 <use sections/network-work/dev-stutter.pdf>
@@ -604,17 +608,14 @@ LaTeX Warning: Reference `fig:dev-pbr' on page \thepage  undefined on input lin
 e 167.
 
 ) (./sections/network-work/user-study.tex
-<sections/network-work/mos.pdf, id=377, 1340.60847pt x 738.59943pt>
+<sections/network-work/mos.pdf, id=378, 1340.60847pt x 738.59943pt>
 File: sections/network-work/mos.pdf Graphic file (type pdf)
 
 <use sections/network-work/mos.pdf>
 Package pdftex.def Info: sections/network-work/mos.pdf used on input line 3.
 (pdftex.def)             Requested size: 403.20154pt x 222.13377pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./sections/network-work/model.tex [6]
+) (./sections/network-work/model.tex
+[6]
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ¦ in font cmr9!
@@ -632,7 +633,7 @@ Overfull \hbox (3.52553pt too wide) in paragraph at lines 147--151
  []
 
 [7 <./sections/network-work/mos.pdf>]
-<sections/network-work/scores.pdf, id=424, 1340.60847pt x 738.59943pt>
+<sections/network-work/scores.pdf, id=425, 1340.60847pt x 738.59943pt>
 File: sections/network-work/scores.pdf Graphic file (type pdf)
 
 <use sections/network-work/scores.pdf>
@@ -650,7 +651,7 @@ Overfull \hbox (4.54594pt too wide) in paragraph at lines 1--1
 []\secfnt Comparison with Base-line and Fea-ture Im-
  []
 
-<sections/network-work/baseline.pdf, id=429, 1340.60847pt x 738.59943pt>
+<sections/network-work/baseline.pdf, id=430, 1340.60847pt x 738.59943pt>
 File: sections/network-work/baseline.pdf Graphic file (type pdf)
 
 <use sections/network-work/baseline.pdf>
@@ -658,7 +659,7 @@ Package pdftex.def Info: sections/network-work/baseline.pdf used on input line
 7.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
 
-<sections/network-work/feature-imp.pdf, id=430, 1340.60847pt x 738.59943pt>
+<sections/network-work/feature-imp.pdf, id=431, 1340.60847pt x 738.59943pt>
 File: sections/network-work/feature-imp.pdf Graphic file (type pdf)
 
 <use sections/network-work/feature-imp.pdf>
@@ -666,8 +667,9 @@ Package pdftex.def Info: sections/network-work/feature-imp.pdf used on input li
 ne 16.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
 )
-(./sections/network-work/related.tex) (./sections/network-work/conclusion.tex
-[9 <./sections/network-work/scores.pdf> <./sections/network-work/baseline.pdf
+(./sections/network-work/related.tex) (./sections/network-work/conclusion.tex)
+(./sections/device-work/intro.tex [9 <./sections/network-work/scores.pdf> <./se
+ctions/network-work/baseline.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/baseline.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
@@ -675,89 +677,11 @@ sion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/network-work/feature-imp.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
->]) (./sections/device-work/intro.tex
-
-LaTeX Warning: Citation `mobilephones' on page \thepage  undefined on input lin
-e 13.
-
-
-LaTeX Warning: Citation `contreras2017patents' on page \thepage  undefined on i
-nput line 13.
-
-
-LaTeX Warning: Citation `butkiewicz2015klotski' on page \thepage  undefined on 
-input line 18.
-
-
-LaTeX Warning: Citation `kelton2017improving' on page \thepage  undefined on in
-put line 18.
-
-
-LaTeX Warning: Citation `singh2015flexiweb' on page \thepage  undefined on inpu
-t line 18.
-
-
-LaTeX Warning: Citation `Ruamviboonsuk:2017:VAM:3098822.3098851' on page \thepa
-ge  undefined on input line 18.
-
-
-LaTeX Warning: Citation `Shafiqund' on page \thepage  undefined on input line 1
-8.
-
-
-LaTeX Warning: Citation `Xiaodash2m' on page \thepage  undefined on input line 
-18.
-
-
-LaTeX Warning: Citation `chen2016effective' on page \thepage  undefined on inpu
-t line 18.
-
-
-LaTeX Warning: Citation `zhu2017optimizing' on page \thepage  undefined on inpu
-t line 19.
-
-
-LaTeX Warning: Citation `jones2009parallelizing' on page \thepage  undefined on
- input line 19.
-
-
-LaTeX Warning: Citation `mai2012case' on page \thepage  undefined on input line
- 19.
-
-
-LaTeX Warning: Citation `unity' on page \thepage  undefined on input line 26.
-
-
-LaTeX Warning: Citation `mobilephones' on page \thepage  undefined on input lin
-e 29.
-
-
-LaTeX Warning: Citation `contreras2017patents' on page \thepage  undefined on i
-nput line 29.
-
-
-LaTeX Warning: Citation `jioplans1' on page \thepage  undefined on input line 2
-9.
-
-
-LaTeX Warning: Citation `jioplans2' on page \thepage  undefined on input line 2
-9.
-
-
-LaTeX Warning: Reference `sec:motivation' on page \thepage  undefined on input 
-line 29.
-
-
-LaTeX Warning: Reference `sec:impact_cpu' on page \thepage  undefined on input 
-line 37.
-
-
-LaTeX Warning: Citation `wang2013demystifying' on page \thepage  undefined on i
-nput line 60.
-
-
-LaTeX Warning: Citation `nejati2016depth' on page \thepage  undefined on input 
-line 60.
+>]
+Overfull \hbox (3.7239pt too wide) in paragraph at lines 34--43
+\T1/aer/m/n/9 per-for-mance among other as-pects of the spec-i-fi-ca-tion (Ÿ3.1
+.3[]). 
+ []
 
 
 Overfull \hbox (3.87pt too wide) in paragraph at lines 82--86
@@ -779,7 +703,7 @@ Overfull \hbox (3.22998pt too wide) in paragraph at lines 104--105
 []\T1/aer/bx/n/9 Increasing CPU speeds be-yond a in-flec-tion point
  []
 
-<sections/device-work/plt-devices.pdf, id=553, 1300.86pt x 722.7pt>
+<sections/device-work/plt-devices.pdf, id=554, 1300.86pt x 722.7pt>
 File: sections/device-work/plt-devices.pdf Graphic file (type pdf)
 
 <use sections/device-work/plt-devices.pdf>
@@ -787,7 +711,7 @@ Package pdftex.def Info: sections/device-work/plt-devices.pdf used on input lin
 e 124.
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
 
-<sections/device-work/youtube-motivation.pdf, id=554, 1300.86pt x 722.7pt>
+<sections/device-work/youtube-motivation.pdf, id=555, 1300.86pt x 722.7pt>
 File: sections/device-work/youtube-motivation.pdf Graphic file (type pdf)
 
 <use sections/device-work/youtube-motivation.pdf>
@@ -795,7 +719,7 @@ Package pdftex.def Info: sections/device-work/youtube-motivation.pdf used on in
 put line 129.
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
 
-<sections/device-work/skype-motivation.pdf, id=555, 1300.86pt x 722.7pt>
+<sections/device-work/skype-motivation.pdf, id=556, 1300.86pt x 722.7pt>
 File: sections/device-work/skype-motivation.pdf Graphic file (type pdf)
 
 <use sections/device-work/skype-motivation.pdf>
@@ -806,8 +730,52 @@ t line 134.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./paper.bbl [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) (./sections/device-work/motivation.tex [10]
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+
+<sections/device-work/clock-device.pdf, id=560, 1156.32pt x 867.24pt>
+File: sections/device-work/clock-device.pdf Graphic file (type pdf)
+
+<use sections/device-work/clock-device.pdf>
+Package pdftex.def Info: sections/device-work/clock-device.pdf used on input li
+ne 69.
+(pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
+
+<sections/device-work/plt-memory.pdf, id=561, 1156.32pt x 867.24pt>
+File: sections/device-work/plt-memory.pdf Graphic file (type pdf)
+
+<use sections/device-work/plt-memory.pdf>
+Package pdftex.def Info: sections/device-work/plt-memory.pdf used on input line
+ 74.
+(pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
+
+<sections/device-work/plt-gpu.pdf, id=562, 1156.32pt x 867.24pt>
+File: sections/device-work/plt-gpu.pdf Graphic file (type pdf)
+
+<use sections/device-work/plt-gpu.pdf>
+Package pdftex.def Info: sections/device-work/plt-gpu.pdf used on input line 79
+.
+(pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
+
+
+LaTeX Warning: Reference `fig:motivation' on page \thepage  undefined on input 
+line 104.
+
+
+LaTeX Warning: Reference `fig:motivation' on page \thepage  undefined on input 
+line 107.
+
+
+LaTeX Warning: Reference `fig:motivation' on page \thepage  undefined on input 
+line 109.
+
+
+LaTeX Warning: Reference `fig:motivation' on page \thepage  undefined on input 
+line 110.
+
+
+Underfull \vbox (badness 3019) has occurred while \output is active []
 
  [11 <./sections/device-work/plt-devices.pdf> <./sections/device-work/youtube-m
 otivation.pdf
@@ -818,7 +786,56 @@ PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/device-work/skype-motivation.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->]) [12
+>]
+Overfull \hbox (19.24895pt too wide) in paragraph at lines 130--133
+\T1/aer/m/n/9 tions in Ta-ble 9[] can po-ten-tially im-pact ap-pli-ca-tion perf
+ormance---
+ []
+
+
+LaTeX Warning: Reference `fig:isolation' on page \thepage  undefined on input l
+ine 134.
+
+
+Overfull \hbox (14.33542pt too wide) in paragraph at lines 134--135
+[]\T1/aer/m/n/9 Figure [] shows the im-pact of the re-main-ing three resources-
+--
+ []
+
+
+LaTeX Warning: Reference `fig:isolation' on page \thepage  undefined on input l
+ine 136.
+
+
+LaTeX Warning: Reference `fig:isolation' on page \thepage  undefined on input l
+ine 141.
+
+
+LaTeX Warning: Reference `fig:isolation' on page \thepage  undefined on input l
+ine 141.
+
+) (./paper.bbl
+Overfull \hbox (9.21399pt too wide) in paragraph at lines 35--37
+\T1/aer/m/n/9 https://developers.google.com/youtube/android/player/.  
+ []
+
+[12 <./sections/device-work/clock-device.pdf> <./sections/device-work/plt-memor
+y.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/plt-memory.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
+> <./sections/device-work/plt-gpu.pdf
+
+pdfTeX warning: pdflatex (file ./sections/device-work/plt-gpu.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13])
+[14
 
 ] (./paper.aux)
 
@@ -826,11 +843,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5658 strings out of 493029
- 82439 string characters out of 6136234
- 176882 words of memory out of 5000000
- 8974 multiletter control sequences out of 15000+600000
- 60412 words of font info for 90 fonts, out of 8000000 for 9000
+ 5689 strings out of 493029
+ 83199 string characters out of 6136233
+ 177035 words of memory out of 5000000
+ 8999 multiletter control sequences out of 15000+600000
+ 61548 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,11n,94p,1898b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -849,11 +866,11 @@ ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb>
-Output written on paper.pdf (12 pages, 658096 bytes).
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on paper.pdf (14 pages, 717484 bytes).
 PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
+ 893 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
