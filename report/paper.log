@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 APR 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.31)  28 APR 2018 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,7 +449,7 @@ Overfull \hbox (6.2233pt too wide) in paragraph at lines 1--1
 
 
 Overfull \hbox (1.95068pt too wide) in paragraph at lines 39--50
-\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [20] f
+\T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [24] f
 rom
  []
 
@@ -677,87 +677,12 @@ pdfTeX warning: pdflatex (file ./sections/network-work/feature-imp.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >]) (./sections/device-work/intro.tex
 
-LaTeX Warning: Citation `mobilephones' on page \thepage  undefined on input lin
-e 13.
-
-
-LaTeX Warning: Citation `contreras2017patents' on page \thepage  undefined on i
-nput line 13.
-
-
-LaTeX Warning: Citation `butkiewicz2015klotski' on page \thepage  undefined on 
-input line 18.
-
-
-LaTeX Warning: Citation `kelton2017improving' on page \thepage  undefined on in
-put line 18.
-
-
-LaTeX Warning: Citation `singh2015flexiweb' on page \thepage  undefined on inpu
-t line 18.
-
-
-LaTeX Warning: Citation `Ruamviboonsuk:2017:VAM:3098822.3098851' on page \thepa
-ge  undefined on input line 18.
-
-
-LaTeX Warning: Citation `Shafiqund' on page \thepage  undefined on input line 1
-8.
-
-
-LaTeX Warning: Citation `Xiaodash2m' on page \thepage  undefined on input line 
-18.
-
-
-LaTeX Warning: Citation `chen2016effective' on page \thepage  undefined on inpu
-t line 18.
-
-
-LaTeX Warning: Citation `zhu2017optimizing' on page \thepage  undefined on inpu
-t line 19.
-
-
-LaTeX Warning: Citation `jones2009parallelizing' on page \thepage  undefined on
- input line 19.
-
-
-LaTeX Warning: Citation `mai2012case' on page \thepage  undefined on input line
- 19.
-
-
-LaTeX Warning: Citation `unity' on page \thepage  undefined on input line 26.
-
-
-LaTeX Warning: Citation `mobilephones' on page \thepage  undefined on input lin
-e 29.
-
-
-LaTeX Warning: Citation `contreras2017patents' on page \thepage  undefined on i
-nput line 29.
-
-
-LaTeX Warning: Citation `jioplans1' on page \thepage  undefined on input line 2
-9.
-
-
-LaTeX Warning: Citation `jioplans2' on page \thepage  undefined on input line 2
-9.
-
-
 LaTeX Warning: Reference `sec:motivation' on page \thepage  undefined on input 
 line 29.
 
 
 LaTeX Warning: Reference `sec:impact_cpu' on page \thepage  undefined on input 
 line 37.
-
-
-LaTeX Warning: Citation `wang2013demystifying' on page \thepage  undefined on i
-nput line 60.
-
-
-LaTeX Warning: Citation `nejati2016depth' on page \thepage  undefined on input 
-line 60.
 
 
 Overfull \hbox (3.87pt too wide) in paragraph at lines 82--86
@@ -818,17 +743,19 @@ PDF inclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/device-work/skype-motivation.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
->]) [12
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./paper.aux)
+) [12]
+(./paper.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
  5658 strings out of 493029
- 82439 string characters out of 6136234
- 176882 words of memory out of 5000000
+ 82439 string characters out of 6136233
+ 176953 words of memory out of 5000000
  8974 multiletter control sequences out of 15000+600000
  60412 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -850,7 +777,7 @@ ts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
 elvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
 pfb>
-Output written on paper.pdf (12 pages, 658096 bytes).
+Output written on paper.pdf (12 pages, 662019 bytes).
 PDF statistics:
  766 PDF objects out of 1000 (max. 8388607)
  197 compressed objects within 2 object streams

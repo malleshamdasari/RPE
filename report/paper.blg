@@ -13,6 +13,34 @@ Warning--entry type for "azscreen" isn't style-file defined
 --line 373 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
 --line 378 of file qos-qoe.bib
+Repeated entry---line 640 of file qos-qoe.bib
+ : @online{mancam
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "unity" isn't style-file defined
+--line 656 of file qos-qoe.bib
+Repeated entry---line 830 of file qos-qoe.bib
+ : @inproceedings{balachandran2012quest
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1049 of file qos-qoe.bib
+ : @online{azscreen
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1064 of file qos-qoe.bib
+ : @online{awc
+ :            ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "mobilephones" isn't style-file defined
+--line 1094 of file qos-qoe.bib
+Warning--entry type for "jioplans1" isn't style-file defined
+--line 1125 of file qos-qoe.bib
+Warning--entry type for "jioplans2" isn't style-file defined
+--line 1130 of file qos-qoe.bib
+Repeated entry---line 1157 of file qos-qoe.bib
+ : @inproceedings{yu2014can
+ :                         ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in spt
 Warning--to sort, need author or key in theblu
 Warning--to sort, need author or key in azscreen
@@ -20,45 +48,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 37 entries,
+You've used 54 entries,
             2118 wiz_defined-function locations,
-            665 strings with 8170 characters,
-and the built_in function-call counts, 9516 in all, are:
-= -- 899
-> -- 278
-< -- 5
-+ -- 128
-- -- 82
-* -- 458
-:= -- 1480
-add.period$ -- 101
-call.type$ -- 37
-change.case$ -- 151
+            746 strings with 11152 characters,
+and the built_in function-call counts, 16074 in all, are:
+= -- 1540
+> -- 590
+< -- 14
++ -- 253
+- -- 188
+* -- 857
+:= -- 2485
+add.period$ -- 152
+call.type$ -- 54
+change.case$ -- 255
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 457
-empty$ -- 990
-format.name$ -- 82
-if$ -- 2099
+cite$ -- 61
+duplicate$ -- 737
+empty$ -- 1520
+format.name$ -- 188
+if$ -- 3549
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 28
-newline$ -- 177
-num.names$ -- 62
-pop$ -- 254
+int.to.str$ -- 54
+missing$ -- 41
+newline$ -- 258
+num.names$ -- 96
+pop$ -- 394
 preamble$ -- 1
-purify$ -- 115
+purify$ -- 202
 quote$ -- 0
-skip$ -- 338
+skip$ -- 580
 stack$ -- 0
-substring$ -- 483
-swap$ -- 95
-text.length$ -- 5
+substring$ -- 838
+swap$ -- 198
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 146
+type$ -- 214
 warning$ -- 7
-while$ -- 87
-width$ -- 39
-write$ -- 351
-(There were 12 warnings)
+while$ -- 148
+width$ -- 56
+write$ -- 530
+(There were 5 error messages)
