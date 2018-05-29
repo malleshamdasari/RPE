@@ -18,6 +18,33 @@ Finally, coefficients are converted to binary data which is further compressed u
 \end{itemize}
 We highlight that inter-frame prediction depends on motion content in the video. The higher the motion in the video is, the lower the compression rate is. Similarly, intra-frame compression is affected by frame contents such as color variation. For instance, the blurrier the video is, the higher the compression rate is. In the next section, we design QoE metrics exploiting these video coding principles.
 
+\begin{table}[t]
+	\centering
+	\scriptsize
+	\vspace*{-0.5em}	
+%	\hspace{0.2in}
+%	\parbox{.5\linewidth} {
+		%\scalebox{1.1}{
+            \resizebox{\columnwidth}{!}{
+			\begin{tabular}{l|c}				
+				\hline \hline
+				\textbf{Application Category} & \textbf{Suitable Metric} \\
+				\hline
+				\hline
+				Adaptive Streaming & Startup delay, Buffering ratio, Stall ratio \\ \hline
+				Video Telephony & Bitrate, Fps, Blocking, Blurring \\ \hline
+				Progressive Downloads & PSNR, SSIM \\ \hline
+				VR/AR, Game Streaming & Latency, buffering ratio, Stall ratio \\ \hline 
+			\end{tabular}
+		}
+	\vspace*{0.5em}
+		\hfill 
+		\caption{Metrics based on application category}
+		\label{tab:qoe_metric}
+%	}
+	\vspace*{-1em}
+\end{table}
+
 \subsubsection{QoE Artefacts in Video Telephony}
 
 When a user is in a video telephony call, she can experience different aberrations in video quality, as follows.

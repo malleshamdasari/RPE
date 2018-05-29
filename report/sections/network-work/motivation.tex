@@ -7,34 +7,23 @@ While several works have motivated and addressed the problem of network-based Qo
 Table~\ref{tab:table1} shows that not all popular video applications provide QoE information. 
 Even for applications like Skype, availability of technical information depends on the version of the application and on the OS (e.g., no technical information for iOS). 
 
-\begin{table}[htb!]
-	\centering
-		\scriptsize
-			\vspace*{-0.5em}	
-            \resizebox{\columnwidth}{!}{
-			\begin{tabular}{l|c}
-				\hline \hline
-				\textbf{Application} & \textbf{Ground-truth} \\
-				\hline
-				\hline
-				Skype & \checkmark *on some versions \\  \hline
-				Hangouts/Duo & $\times$ \\ \hline
-				FaceTime & $\times$ \\ \hline
-				YouTube/Netflix & \checkmark \\ \hline 
-			\end{tabular} 
-		}
-        \vspace*{0.2em}
-		\hfill 
-		\caption{Availability of QoE ground-truth}
-		\label{tab:table1} 
-        	%\vspace*{-2em}	
-%	}
-\end{table}
-
 To apply QoE estimation models in real networks, we need to remove the dependency of QoE metrics on application features, such as Skype technical information. One way to achieve this is to simply record the video as it plays on the mobile device and analyze this video for quality. 
 
 \noindent {\bf Lack of scalable and reliable  QoE measures:}
-Prior work on video quality evaluation leverages \emph{subjective and/or objective} metrics. Subjective metrics are measured with MOS collected through user surveys. They capture absolute QoE but are tedious to conduct and to scale. QoE metrics need to scale to thousands of videos in order to train models that map QoS to QoE. Alternatively, objective metrics can be computed from the video. Objective metrics are further classified in two categories: reference and no-reference based. A reference-based metric uses both sent and received video, and compares the quality of sent vs.~received frames. As it is challenging to retrieve and synchronize reference videos for telephony applications, no-reference based quality metrics are preferred. Jana {\em et al}~\cite{jana2016qoe} have proposed a no-reference metric for QoE estimation in Skype and Vtok. They record received videos for each of these mobile telephony applications and compute three no-reference metrics: {\em blocking, blurring} and {\em temporal variations}. Then, they combine these three metrics into one QoE metric by using MOS from subjective user study. Their study shows that blocking does not impact MOS of a video clip. While they show that their {\em blur} and {\em temporal variation} metrics correlate well with MOS, they do not evaluate these metrics over a wide range of clips. For example, one can wonder if {\em blur} is sensitive to the video content. 
+Prior work on video quality evaluation leverages \emph{subjective and/or objective} metrics. 
+Subjective metrics are measured with MOS collected through user surveys. 
+They capture absolute QoE but are tedious to conduct and to scale. 
+QoE metrics need to scale to thousands of videos in order to train models that map QoS to QoE. 
+Alternatively, objective metrics can be computed from the video. 
+Objective metrics are further classified in two categories: reference and no-reference based. 
+A reference-based metric uses both sent and received video, and compares the quality of sent vs.~received frames. 
+As it is challenging to retrieve and synchronize reference videos for telephony applications, no-reference based quality metrics are preferred. 
+Jana {\em et al}~\cite{jana2016qoe} have proposed a no-reference metric for QoE estimation in Skype and Vtok. 
+They record received videos for each of these mobile telephony applications and compute three no-reference metrics: {\em blocking, blurring} and {\em temporal variations}. 
+Then, they combine these three metrics into one QoE metric by using MOS from subjective user study. 
+Their study shows that blocking does not impact MOS of a video clip. 
+While they show that their {\em blur} and {\em temporal variation} metrics correlate well with MOS, they do not evaluate these metrics over a wide range of clips. 
+%For example, one can wonder if {\em blur} is sensitive to the video content. 
 
 We conduct similar experiments with Skype to evaluate blur metric of prior works. 
 Our experimental setup is described in Section~\ref{label:design}. 
@@ -69,30 +58,26 @@ When analyzing a recorded video for an application, the QoE metric has to be sen
 
 To address the aforementioned requirements, we seek to answer the question: {\em How to scalably label the quality of a video call, without any support from the application?}
 
-\begin{table}[htb!]
+\begin{table}[t]
 	\centering
-	\scriptsize
-	\vspace*{-0.5em}	
-%	\hspace{0.2in}
-%	\parbox{.5\linewidth} {
-		%\scalebox{1.1}{
-            \resizebox{\columnwidth}{!}{
-			\begin{tabular}{l|c}				
+		\scriptsize
+			\vspace*{-0.5em}	
+%            \resizebox{\columnwidth}{!}{
+			\begin{tabular}{l|c}
 				\hline \hline
-				\textbf{Application Category} & \textbf{Suitable Metric} \\
+				\textbf{Application} & \textbf{Ground-truth} \\
 				\hline
 				\hline
-				Adaptive Streaming & Startup delay, Buffering ratio, Stall ratio \\ \hline
-				Video Telephony & Bitrate, Fps, Blocking, Blurring \\ \hline
-				Progressive Downloads & PSNR, SSIM \\ \hline
-				VR/AR, Game Streaming & Latency, buffering ratio, Stall ratio \\ \hline 
-			\end{tabular}
-		}
-	\vspace*{0.5em}
+				Skype & \checkmark *on some versions \\  \hline
+				Hangouts/Duo & $\times$ \\ \hline
+				FaceTime & $\times$ \\ \hline
+				YouTube/Netflix & \checkmark \\ \hline 
+			\end{tabular} 
+%		}
+        \vspace*{0.2em}
 		\hfill 
-		\caption{Metrics based on application category}
-		\label{tab:qoe_metric}
+		\caption{Availability of QoE ground-truth}
+		\label{tab:table1} 
+        	%\vspace*{-2em}	
 %	}
-	\vspace*{-1em}
 \end{table}
-

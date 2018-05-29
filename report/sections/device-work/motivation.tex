@@ -1,4 +1,25 @@
 %!TEX root = ../paper.tex
+\begin{figure*}[t]
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/clock-device}
+        \caption{Clock}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/plt-memory}
+        \caption{Memory}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/plt-gpu}
+        \caption{GPU}
+    \end{subfigure}
+     \caption{Impact of CPU, memory, and GPU resources on Page Load Time (PLT). Varying the CPU speeds has the most impact on PLT compared to the impact of varying memory availability or leveraging the GPU for rendering. }
+     \vspace{-0.2in}
+     \label{fig:isolation}
+\end{figure*}
+
 
 \subsection{Measurement Methodology} 
 \label{sec:motivation}
@@ -63,43 +84,22 @@ an Aruba Access Point (AP) with 72\,Mbps link speed, 10\,ms RTT and 0\% Loss. Th
 For each workload, we repeat the experiment 20 times and present the average and standard deviation. During the experiments, the average CPU load is less than 15\%. %\mallesh{We also measure the PLT under different CPU load and clock conditions. We observe a slight increase of 19\% PLT under 100\% load with 1512MHz clock while a significant increase of 86\% PLT under 100\% load with 384Mhz. } \todo{these last sentences in green do not make any sense.}
 %\todo{anything about governors?} \mallesh{For governors, I have two datasets. First I have a plot showing the impact of governors on PLT. There are four governors: ondemand, interactive, performance and powersave. Performance has around 3 seconds PLT, interactive and ondemand have around 4 seconds and powersave has 10seconds (because it uses low clock). Do we need this? The second plot that I have shows the clock frequency used by different governors during the pageload. I am not sure if we can motivate by showing this, that the governors change the clock during the application processing, and hence we focus on clock.}
 
-\begin{figure*}
-    \begin{subfigure}[b]{0.33\textwidth}
+\begin{figure*} [t]
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/clock-device}
-        \caption{Clock}
+        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/Throughput}
+        \caption{Throughput vs. Clock}
     \end{subfigure}
-    \begin{subfigure}[b]{0.33\textwidth}
+    \begin{subfigure}[b]{0.5\textwidth}
         \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/plt-memory}
-        \caption{Memory}
+        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/ppd}
+        \caption{Packet processing delay vs. Clock}
     \end{subfigure}%
-    \begin{subfigure}[b]{0.33\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/plt-gpu}
-        \caption{GPU}
-    \end{subfigure}
-     \caption{Impact of CPU, memory, and GPU resources on Page Load Time (PLT). Varying the CPU speeds has the most impact on PLT compared to the impact of varying memory availability or leveraging the GPU for rendering. }
-     \vspace{-0.2in}
-     \label{fig:isolation}
+     \caption{Second-order effect of CPU speed on network. (a) TCP throughput reduces from an average of 48 Mbps to 32 Mbps under slow clock under the same network conditions, b) The cause for this reduction in throughput is internal to the device; the average TCP packet processing delay increases by 12 ms at slow CPU speeds. Experiments conducted on Nexus 4.}
+     \label{fig:tcp-perf}
+     \vspace*{-1em}
 \end{figure*}
 
-
-%\begin{figure*}[t]
-%     \subfloat[Clock]{%
-%       \includegraphics[width=0.33\textwidth]{sections/clock-device}
-%     }
-%     \subfloat[Memory]{%
-%       \includegraphics[width=0.33\textwidth]{sections/plt-memory}
-%     }
-%     \subfloat[GPU]{%
-%       \includegraphics[width=0.33\textwidth]{sections/plt-gpu}
-%     }
-%     \vspace{-0.1in}
-%     \caption{Impact of CPU, memory, and GPU resources on Page Load Time (PLT). Varying the CPU speeds has the most impact on PLT compared to the impact of varying memory availability or leveraging the GPU for rendering. }
-%     \vspace{-0.2in}
-%     \label{fig:isolation}
-%\end{figure*}
 
 \subsubsection{Application QoE Across Low- and High-end Devices}
 
@@ -123,8 +123,6 @@ Governors set the best CPU speeds according to the load on the CPU and available
 The experiments were done with the phones connected to external power so that
 power does not impact performance. 
 %We find the three applications are behaving very differently on all devices. Web has nonlinear impact, \textit{YouTube} and \textit{Skype} have linear impact.  For video, we see a large gap in performance between \textit{YouTube} and \textit{Skype}. YouTube shows a linear increase in start-up latency from 2 to 5 seconds while Skype has a reduction in framerate of 10 from Pixel2 to Intex phone respectively. However, YouTube only has the start-up effect and shows zero effect of stall ratio across all devices. Although, the start-up latency is varied by more than 3 seconds across devices, the QoE impact while watching the video is zero. This descrepancy can be due to many device parameters such as CPU clock, RAM, hardware accelerators such as GPU, DSP and other application specific hardware chips. 
-
-
 
 
 \subsubsection{Individual Impacts of CPU, Memory and GPU}

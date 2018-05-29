@@ -1,20 +1,4 @@
 %!TEX root = ../paper.tex
-\begin{figure*}
-    \begin{subfigure}[b]{0.5\textwidth}
-        \centering
-        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/Throughput}
-        \caption{Throughput vs. Clock}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.5\textwidth}
-        \centering
-        \includegraphics[height=0.5\textwidth,width=1\textwidth]{sections/device-work/ppd}
-        \caption{Packet processing delay vs. Clock}
-    \end{subfigure}%
-     \caption{Second-order effect of CPU speed on network. (a) TCP throughput reduces from an average of 48 Mbps to 32 Mbps under slow clock under the same network conditions, b) The cause for this reduction in throughput is internal to the device; the average TCP packet processing delay increases by 12 ms at slow CPU speeds. Experiments conducted on Nexus 4.}
-     \label{fig:tcp-perf}
-     \vspace*{-1em}
-\end{figure*}
-
 %\begin{figure*}[h]
 %     \subfloat[Throughput vs. Clock]{%
 %       \includegraphics[height=0.27\textwidth,width=0.5\textwidth]{sections/Throughput}
@@ -26,6 +10,20 @@
 %     \caption{Second-order effect of CPU speed on network. (a) TCP throughput reduces from an average of 48 Mbps to 32 Mbps under slow clock under the same network conditions, b) The cause for this reduction in throughput is internal to the device; the average TCP packet processing delay increases by 12 ms at slow CPU speeds. Experiments conducted on Nexus 4.}
 %     \label{fig:tcp-perf}
 %\end{figure*}
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.8\linewidth]{sections/device-work/plt-isolate.pdf}
+    \caption{Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path~\cite{wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure~\ref{fig:plt_clock}. As the CPU slows down, the compute activities are affected more than the network activities. }\vspace{-0.2in}
+  \label{fig:plt_isolate}
+\end{figure*}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{sections/device-work/wprof-dp.pdf}
+    \caption{An example page load process divided into its network and compute activities, obtained from the WProf tool~\cite{wang2013demystifying,nejati2016depth}. The red line shows the critical path during the page load process, and represents the page load time. }
+  \label{fig:wprof-dp}
+\end{figure}
 
 \subsection{Second-Order Effect of CPU Clock on the Network} \label{label:throughput}
 

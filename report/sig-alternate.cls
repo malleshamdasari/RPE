@@ -878,7 +878,7 @@
      \lineskip .5em             % tabular environment
      \begin{tabular}[t]{c}\@author
      \end{tabular}\par}
-    \vskip 2em               % Vertical space after author.
+    %\vskip 2em               % Vertical space after author.
    \end{center}}
  \dimen0=\ht\@acmtitlebox
 % \advance\dimen0 by -12.75pc\relax % Increased space for title box -- KBT

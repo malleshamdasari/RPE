@@ -42,7 +42,6 @@ Therefore, our framework is divided into two phases: predicting MOS scores and l
         ADT       & 92.21                      & 92.00                   & 92.00                     &0.29                   \\ \hline 
     \end{tabular}
     }
-    \vspace*{-1em}
 \end{table}
 
 \begin{table}[t]
@@ -60,7 +59,6 @@ Therefore, our framework is divided into two phases: predicting MOS scores and l
         ADT       & 90.28                   & 90.00                  & 90.00                & 0.26                  \\ \hline 
     \end{tabular}
     }
-    \vspace*{-2em}
 \end{table}
 
 \begin{table}[t]
@@ -78,7 +76,6 @@ Therefore, our framework is divided into two phases: predicting MOS scores and l
         ADT       & 93.75                        & 93.33                       & 93.33                     & 0.38                  \\ \hline 
     \end{tabular}
     }
-        \vspace*{-1em}
 \end{table}
 
 \begin{table}[t]
@@ -101,7 +98,6 @@ Therefore, our framework is divided into two phases: predicting MOS scores and l
                                & Pixel Tab   & 88.20  & 94.40 & 94.00       \\ \hline
 \end{tabular}
 }
-    \vspace*{-1em}
 \end{table}
 
 \begin{table}[t]
@@ -141,7 +137,6 @@ Therefore, our framework is divided into two phases: predicting MOS scores and l
                                & Pixel Tab   & 86.17  & 86.67 & 86.67       \\ \hline
 \end{tabular}
 }
-\vspace*{-1em}
 \end{table}
 
 We first evaluate our metrics by fitting five most common regressors: Support Vector Regressor (SVR), Random Forests (RF), Multi-Layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Adaboosted Decision Tree Regressors (ADT). Each model is evaluated under 10 fold cross-validation. We perform a fine grid search to tune the hyper-parameters for all the models. We select the best parameters from the grid search and use the best estimator for the rest of the evaluations. This is repeated for Skype, FaceTime and Hangouts applications separately. The performance of each model is presented in terms of precision, accuracy and recall for three applications after labeling stage. We present micro-average metrics of accuracy, precision and recall, as the macro-average does not yield class importance~\cite{micro-avg}. Micro-average aggregates the contributions from all the classes to compute the average metric. We also report the mean squared error (MSE) for all models. We observe at least 88\% accuracy for all the models in all applications, except KNN regressor. This discrepancy is due to the weakness of KNN with multiple features. We observe that KNN does not generalize our dataset well and predicts most of the samples incorrectly. The mis-prediction is due the fact that each sample in higher dimension is an outlier as the distance metric (euclidean distance in our model) becomes weak with more features \cite{pestov2013k}, unless the data is well separated in all dimensions.

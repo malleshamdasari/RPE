@@ -3,12 +3,50 @@
 
 \section{Impact of Device Performance} \label{intro}
 
-%\mallesh{Large fraction of people in developing regions use cheap phones, though large fraction of networks there may provide adequate speed \cite{mobilephones,contreras2017patents,jioplans1,jioplans2}}
+\begin{figure*}[t]
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/plt-devices}
+        \caption{Web Browsing}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/youtube-motivation}
+        \caption{Video Streaming}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.33\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/skype-motivation}
+        \caption{Video Telephony}
+    \end{subfigure}
+     \caption{Mobile application performance across diverse devices: (a) Web Browsing, (b)Video Streaming, (c) Video Telephony. The horizontal axis shows the device type; their corresponding specifications are tabulated in Table~\ref{tab:device_types}.}
+     \label{fig:motivation}
+\end{figure*}
 
+\begin{table*}[t]
+  \centering
+   \scalebox{0.9}{
+  \begin{tabular}{c|c|c|c|c|c|c|c}
+  \hline \hline
+    \textbf{Device} & \textbf{Application} & \textbf{Number} & \textbf{OS} & \textbf{Clock} & \textbf{GPU} & \textbf{RAM} & \textbf{Release} \\
+      \textbf{Name} & \textbf{Processor} & \textbf{of Cores} & \textbf{Version} & \textbf{Min-Max (Mhz)}  & \textbf{Type} & \textbf{Size (GB)} & \textbf{Cost} \\
+    \hline
+    \hline
+    Intex Amaze+ &Spreadtrum SC9832A&4&6.0&300-1300 &Mali-400&1&\$60\\
+    Gionee F103 &MediaTek MT6735&4&5.0&300-1300 &Mali-T720&2&\$150\\
+    Nexus4 &Snapdragon S4 Pro&4&5.1.1&384-1512 &Adreno 320&2&\$200\\
+    SG S2-Tab &Exynos 5433&8&5.0.2&400-1300 &Mali-T760&3&\$450\\ 
+    Pixel-Tab &Tegra X1&4&8.0.0&204-1912& Maxwell&3&\$600\\ 
+    SG S6-edge &Exynos 7420&8&6.0.1&400-2100 &Mali-T760&3&\$880\\
+    Pixel2 &Snapdragon 835&8&8.0.0&300-2457 &Adreno 540&4&\$700\\ \hline \hline
+  \end{tabular}
+    }
+  \caption{The table shows the set of diverse mobile devices used in our motivation experiment and their corresponding specifications including cost, CPU capabilities, and memory capacity. }%Mobile Devices in our Experiments showing OS/Hardware Specifications: Shown are parameters that impact the performance of mobile applications}
+  \label{tab:device_types}
+\end{table*}
 While mobile smartphones have now penetrated 
 a significant fraction of world population, the devices 
 vary widely in terms of cost and performance. 
-%The mobile device penetration is characterized by a large diversity in smartphone/mobile devices to suit the needs for diverse users.
 For example, the smartphones in the market 
 range from $\approx$\$50 to $\approx$\$1000~\cite{mobilephones, contreras2017patents}, and the cost 
 largely depends on the hardware specifications. 
@@ -19,8 +57,6 @@ on the performance of mobile Internet applications is not well-studied. A large 
 the device. Some studies do address the compute performance of mobile Internet applications~\cite{zhu2017optimizing,jones2009parallelizing,mai2012case}, but the underlying
 technologies developed are more suited for higher end devices. 
 
-%\todo{Can we say these are for high-end devices? or that they only look at energy-- There has been work on improving the compute performance of mobile Internet applications~\cite{kilgard2012gpu,zhu2017optimizing,jones2009parallelizing, mai2012case}, but these works do not address the network performance directly.} \mallesh{Yes, 28 and 32 are browser parallelization work. 30 is gpu related work. 51 is energy specific work.}
-
 Given that a large fraction of mobile
 users in developing regions (62\%-68\% by some 
 account \cite{unity}) uses smartphones with relatively
@@ -29,7 +65,6 @@ to understand the impact of the device hardware on the
 performance of the mobile apps. In fact, with the increased 4G penetration, network speed is no longer the bottleneck in many developing countries~\cite{mobilephones,contreras2017patents,jioplans1,jioplans2}.  Our measurements show that mobile Web page loads on two popular phones in India, Intex Amaze 4 ($\approx$\$60) and Gionee ($\approx$\$150) are $5\times$ to $3\times$ worse, respectively, compared to Web page loads on Google Pixel2 ($\approx$\$700) under the same network conditions (\S\ref{sec:motivation}). 
 This underscores the importance of studying the influence of the device hardware
 on the performance and explore ways to improve the mobile web experience on lower end hardware. 
-%This is largely because unlike laptops, mobile Internet applications are often compute-bound and not network-bound~\cite{nejati2016depth}.  
 
 In this paper, we focus on three types of mobile Internet applications:  {\em (i)} Web browsing, {\em (ii)} video streaming, and {\em (iii)} video telephony. We study performance in terms of Quality of Experience (QoE) and energy. We especially focus on how the {\em CPU clock frequency} impacts performance 
 given that the clock frequency
@@ -74,88 +109,13 @@ Loading of Web objects, a network process, and processing of these objects, a co
     The QoE of video streaming is largely unaffected by slow CPU speeds, despite video streaming being a compute-intensive application. By isolating the impact of compute and network, we find that this paradox is because of two reasons. From the compute standpoint, 
      streaming applications use special hardware decoders, even available on low-end phones, to process video data rather than decode on the CPU.   %(e.g, \texttt{OMX.sprd.h264.decoder}). 
     From the networking standpoint, streaming applications pre-fetch enough data and are unaffected by the second-order network slow-downs caused by slow CPU. 
-    %Video streaming applications have two key QoE metrics, the startup latency and the stall rate. The startup latency, which is the time when the video can start streaming, does increase under slow clocks. However, after this initial startup, video streaming applications are not adversely affected by slow clocks. Using isolation, we find that varying the clock frequency has no effect on compute. 
     
-    %Clock frequencies {\em do} affect the network performance of video streaming, but this effect is masked by the read-ahead buffer since streaming applications prefetch frames. \newline%, and the stall rate is affected only if new data is not prefetched in time, which did not occur even under low clocks. 
-    
-  % Unlike streaming, video telephony cannot prefetch frames because of its interactive nature. Therefore the performance of telephony is impacted by slow clocks because of its second-order effect on the network. %The bitrate and framerate metrics reduces by 42\% and 33\% under low CPU clocks. 
-   %However, similar to streaming, telephony applications offloads computation to a hardware accelerator; as a result, slowing down the clock has little effect on the compute component.
-    
-      %Andriod that significantly reduces the effect of CPU. But, we observe greater impact of clock on Skype eventhough it has hardware accelerated video decoding. This is due to the second-order effect of hardware on network. This effect is vanished in streaming because of read-ahead (prefetch) capability. We isolate this second-order effect using an open source Andriod VLC player. To isolate network, we locally play videos and measure QoE (i.e, Fps and stall ratio) which has only compute impact. To isolate compute, we ignore video decoding and measure the start-up latency and number of segments in the frame buffer, which has only network impact.
+ %\item {\bf  Increasing CPU speeds beyond a inflection point has poor performance/power trade-off:} For all three applications, increasing  CPU speeds significantly increases energy consumption. However, the corresponding improvement in performance beyond a point is not commensurate with the energy cost. 
 
- \item {\bf  Increasing CPU speeds beyond a inflection point has poor performance/power trade-off:} For all three applications, increasing  CPU speeds significantly increases energy consumption. However, the corresponding improvement in performance beyond a point is not commensurate with the energy cost. 
-
- \item {\bf Leveraging hardware offloading is a promising approach to improving Web performance under slow CPU clock:}  Similar to the hardware offloading techniques used in video applications, offloading Javascript evaluation to a low-power DSP can potentially improve Web performance. Our preliminary 
+ \item {\bf Leveraging hardware offloading is a promising approach to improve Web performance under slow clock:}  Similar to the hardware offloading techniques used in video applications, offloading Javascript to a low-power DSP can potentially improve Web performance. Our preliminary 
  analysis with offloading only regular expression evaluations
 shows that the improvement can be as much as 18\% in page load time along with a $4\times$ 
 improvement in power consumption. %\todo{check the numbers.} 
- %\todo{this needs to be revisited to make sure it is still true.}
- 
-%\todo{Not sure if we should anything about energy}
-  %  Therefore, as we observe mobile browsing has severe effect of clock, we present different strategies to improve web performance in terms of compute. First, we measure emulated page loads under DOM parallelization. We replay the object downloads by emulating the computation activities such as scripting and parsing in parallel. We also experiment with scale-up of compute power and emulate pageloads under such scenarios. This gives a maximum of 5 seconds reduction in PLT. Second, we offload certain computation of Javascript to DSP processor which is available on most of the smartphones and often underutilized. We find decent ($>$2seconds) improvements in pageloads under low CPU clock. We also observed energy consumption of DSP much lower (20\%) compared to CPU. Improving web performance from the second-order effect is out of scope. 
-
 \end{itemize}
 
-%We also study energy consumption since we find that the applications consume power very differently. For example, video streaming and telephony have linearly increasing energy consumption with clock. But, in case of Web browsing, the energy consumption is more at low clock (384Mhz, 2.5Joules) gradually decreasing till 594Mhz (2Joules) then starts increasing drastically with the increase in clock. This descripancy is becuase the eventhough low clock has low power consumption, it has high pageload time ($>$10 seconds), and thus the overall energy consumption is high.
-
-%Summary: We find mobile browsing has a non-linear impact of clock while other applications has a linear impact. Video applications also has only second-order effect because of computation offloading to co-processors. Web browsing has both computation overhead and second-order effect of hardware on network. We try to solve computation effect by offloading certain Javascript computation to DSP.
-
-\begin{figure*}
-    \begin{subfigure}[b]{0.33\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/plt-devices}
-        \caption{Web Browsing}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.33\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/youtube-motivation}
-        \caption{Video Streaming}
-    \end{subfigure}%
-    \begin{subfigure}[b]{0.33\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/skype-motivation}
-        \caption{Video Telephony}
-    \end{subfigure}
-     \caption{Mobile application performance across diverse devices: (a) Web Browsing, (b)Video Streaming, (c) Video Telephony. The horizontal axis shows the device type; their corresponding specifications are tabulated in Table~\ref{tab:device_types}.}
-     \label{fig:motivation}
-\end{figure*}
-
-
-
-%\begin{figure*}[h!]
-%     \subfloat[Web Browsing]{%
-%       \includegraphics[width=0.33\textwidth]{sections/device-work/plt-devices}
-%     }
-%     \subfloat[Video Streaming]{%
-%       \includegraphics[width=0.33\textwidth]{sections/device-work/youtube-motivation}
-%     }
-%     \subfloat[Video Telephony]{%
-%       \includegraphics[width=0.33\textwidth]{sections/device-work/skype-motivation}
-%     }
-%     %\vspace{-0.15in}
-%     \caption{Mobile application performance across diverse devices: (a) Web Browsing, (b)Video Streaming, (c) Video Telephony. The horizontal axis shows the device type; their corresponding specifications are tabulated in Table~\ref{tab:device_types}.}
-%     %\vspace{-0.2in}
-%     \label{fig:motivation}
-%\end{figure*}
-\begin{table*}[h!]
-  \centering
-   \scalebox{0.9}{
-  \begin{tabular}{c|c|c|c|c|c|c|c}
-  \hline \hline
-    \textbf{Device} & \textbf{Application} & \textbf{Number} & \textbf{OS} & \textbf{Clock} & \textbf{GPU} & \textbf{RAM} & \textbf{Release} \\
-      \textbf{Name} & \textbf{Processor} & \textbf{of Cores} & \textbf{Version} & \textbf{Min-Max (Mhz)}  & \textbf{Type} & \textbf{Size (GB)} & \textbf{Cost} \\
-    \hline
-    \hline
-    Intex Amaze+ &Spreadtrum SC9832A&4&6.0&300-1300 &Mali-400&1&\$60\\
-    Gionee F103 &MediaTek MT6735&4&5.0&300-1300 &Mali-T720&2&\$150\\
-    Nexus4 &Snapdragon S4 Pro&4&5.1.1&384-1512 &Adreno 320&2&\$200\\
-    SG S2-Tab &Exynos 5433&8&5.0.2&400-1300 &Mali-T760&3&\$450\\ 
-    Pixel-Tab &Tegra X1&4&8.0.0&204-1912& Maxwell&3&\$600\\ 
-    SG S6-edge &Exynos 7420&8&6.0.1&400-2100 &Mali-T760&3&\$880\\
-    Pixel2 &Snapdragon 835&8&8.0.0&300-2457 &Adreno 540&4&\$700\\ \hline \hline
-  \end{tabular}
-    }
-  \caption{The table shows the set of diverse mobile devices used in our motivation experiment and their corresponding specifications including cost, CPU capabilities, and memory capacity. }%Mobile Devices in our Experiments showing OS/Hardware Specifications: Shown are parameters that impact the performance of mobile applications}
-  \label{tab:device_types}
-\end{table*}
 

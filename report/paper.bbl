@@ -42,6 +42,10 @@ Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben
 YouTube~Player API.
 \newblock https://developers.google.com/youtube/android/player/.
 
+\bibitem{htarch}
+Http Archive.
+\newblock https://httparchive.org/reports.
+
 \bibitem{awc}
 Android View~Cient (AVC).
 \newblock https://github.com/dtmilano/androidviewclient.

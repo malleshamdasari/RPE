@@ -9,80 +9,50 @@ Warning--entry type for "ggle" isn't style-file defined
 --line 43 of file qos-qoe.bib
 Warning--entry type for "xiph2008org" isn't style-file defined
 --line 48 of file qos-qoe.bib
-Warning--entry type for "awc" isn't style-file defined
---line 363 of file qos-qoe.bib
 Warning--entry type for "mancam" isn't style-file defined
---line 368 of file qos-qoe.bib
+--line 363 of file qos-qoe.bib
 Warning--entry type for "azscreen" isn't style-file defined
---line 373 of file qos-qoe.bib
+--line 368 of file qos-qoe.bib
 Warning--entry type for "ensemblemethods2008" isn't style-file defined
---line 378 of file qos-qoe.bib
-Repeated entry---line 619 of file qos-qoe.bib
- : @online{qualsnap
- :                 ,
-I'm skipping whatever remains of this entry
+--line 373 of file qos-qoe.bib
 Warning--entry type for "hexqual2013qcom" isn't style-file defined
---line 624 of file qos-qoe.bib
-Repeated entry---line 635 of file qos-qoe.bib
- : @online{ggle
- :             ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 640 of file qos-qoe.bib
- : @online{mancam
- :               ,
-I'm skipping whatever remains of this entry
+--line 614 of file qos-qoe.bib
 Warning--entry type for "statista2" isn't style-file defined
---line 651 of file qos-qoe.bib
+--line 631 of file qos-qoe.bib
 Warning--entry type for "unity" isn't style-file defined
---line 661 of file qos-qoe.bib
-Repeated entry---line 835 of file qos-qoe.bib
- : @inproceedings{balachandran2012quest
- :                                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 853 of file qos-qoe.bib
- : @inproceedings{sun2016cs2p
- :                           ,
-I'm skipping whatever remains of this entry
+--line 641 of file qos-qoe.bib
 Warning--entry type for "andriodvlc" isn't style-file defined
---line 1029 of file qos-qoe.bib
+--line 990 of file qos-qoe.bib
 Warning--entry type for "andriodsdk" isn't style-file defined
---line 1039 of file qos-qoe.bib
+--line 1000 of file qos-qoe.bib
 Warning--entry type for "youtubeapi" isn't style-file defined
---line 1044 of file qos-qoe.bib
-Repeated entry---line 1054 of file qos-qoe.bib
- : @online{azscreen
- :                 ,
-I'm skipping whatever remains of this entry
+--line 1005 of file qos-qoe.bib
 Warning--entry type for "adb" isn't style-file defined
---line 1059 of file qos-qoe.bib
+--line 1015 of file qos-qoe.bib
 Warning--entry type for "ocr-tesseract" isn't style-file defined
---line 1064 of file qos-qoe.bib
-Repeated entry---line 1069 of file qos-qoe.bib
- : @online{awc
- :            ,
-I'm skipping whatever remains of this entry
+--line 1020 of file qos-qoe.bib
+Warning--entry type for "awc" isn't style-file defined
+--line 1025 of file qos-qoe.bib
 Warning--entry type for "alexa" isn't style-file defined
---line 1074 of file qos-qoe.bib
+--line 1030 of file qos-qoe.bib
 Warning--entry type for "ad-governors" isn't style-file defined
---line 1079 of file qos-qoe.bib
+--line 1035 of file qos-qoe.bib
 Warning--entry type for "iperf-2015" isn't style-file defined
---line 1084 of file qos-qoe.bib
+--line 1040 of file qos-qoe.bib
 Warning--entry type for "netflix" isn't style-file defined
---line 1089 of file qos-qoe.bib
+--line 1045 of file qos-qoe.bib
 Warning--entry type for "hbogo" isn't style-file defined
---line 1094 of file qos-qoe.bib
+--line 1050 of file qos-qoe.bib
 Warning--entry type for "mobilephones" isn't style-file defined
---line 1099 of file qos-qoe.bib
+--line 1055 of file qos-qoe.bib
 Warning--entry type for "ramdisks" isn't style-file defined
---line 1104 of file qos-qoe.bib
+--line 1060 of file qos-qoe.bib
 Warning--entry type for "jioplans1" isn't style-file defined
---line 1130 of file qos-qoe.bib
+--line 1086 of file qos-qoe.bib
 Warning--entry type for "jioplans2" isn't style-file defined
---line 1135 of file qos-qoe.bib
-Repeated entry---line 1162 of file qos-qoe.bib
- : @inproceedings{yu2014can
- :                         ,
-I'm skipping whatever remains of this entry
+--line 1091 of file qos-qoe.bib
+Warning--entry type for "htarch" isn't style-file defined
+--line 1216 of file qos-qoe.bib
 Warning--to sort, need author or key in spt
 Warning--to sort, need author or key in theblu
 Warning--to sort, need author or key in azscreen
@@ -90,45 +60,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 88 entries,
+You've used 89 entries,
             2118 wiz_defined-function locations,
-            879 strings with 16923 characters,
-and the built_in function-call counts, 29156 in all, are:
-= -- 2810
-> -- 1232
+            882 strings with 16973 characters,
+and the built_in function-call counts, 29349 in all, are:
+= -- 2826
+> -- 1239
 < -- 34
-+ -- 510
-- -- 410
-* -- 1645
-:= -- 4472
-add.period$ -- 253
-call.type$ -- 88
-change.case$ -- 468
++ -- 513
+- -- 412
+* -- 1650
+:= -- 4503
+add.period$ -- 255
+call.type$ -- 89
+change.case$ -- 472
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 1253
-empty$ -- 2593
-format.name$ -- 410
-if$ -- 6446
+cite$ -- 96
+duplicate$ -- 1260
+empty$ -- 2615
+format.name$ -- 412
+if$ -- 6488
 int.to.chr$ -- 0
-int.to.str$ -- 88
+int.to.str$ -- 89
 missing$ -- 60
-newline$ -- 413
-num.names$ -- 164
-pop$ -- 718
+newline$ -- 417
+num.names$ -- 166
+pop$ -- 726
 preamble$ -- 1
-purify$ -- 381
+purify$ -- 384
 quote$ -- 0
-skip$ -- 1050
+skip$ -- 1060
 stack$ -- 0
-substring$ -- 1551
-swap$ -- 400
+substring$ -- 1556
+swap$ -- 401
 text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 350
+type$ -- 354
 warning$ -- 7
-while$ -- 270
-width$ -- 90
-write$ -- 860
-(There were 8 error messages)
+while$ -- 272
+width$ -- 91
+write$ -- 867
+(There were 32 warnings)

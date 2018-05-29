@@ -1,26 +1,13 @@
 %!TEX root = ../paper.tex
 
 \subsection{Web Browsing} \label{label:web}
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=0.9\linewidth]{sections/device-work/plt-clock}
-    \caption{Web QoE: The average Page Load Time (PLT) across 12 different CPU speeds on Nexus 4. As the CPU speed decreases, PLT increases significantly. }
-  \label{fig:plt_clock}
-\end{figure}
+%\begin{figure}[t]
+%  \centering
+%  \includegraphics[width=0.9\linewidth]{sections/device-work/plt-clock}
+%    \caption{Web QoE: The average Page Load Time (PLT) across 12 different CPU speeds on Nexus 4. As the CPU speed decreases, PLT increases significantly. }
+%  \label{fig:plt_clock}
+%\end{figure}
 
-\begin{figure*}[t]
-  \centering
-  \includegraphics[width=0.8\linewidth]{sections/device-work/plt-isolate.pdf}
-    \caption{Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path~\cite{wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure~\ref{fig:plt_clock}. As the CPU slows down, the compute activities are affected more than the network activities. }\vspace{-0.2in}
-  \label{fig:plt_isolate}
-\end{figure*}
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=\linewidth]{sections/device-work/wprof-dp.pdf}
-    \caption{An example page load process divided into its network and compute activities, obtained from the WProf tool~\cite{wang2013demystifying,nejati2016depth}. The red line shows the critical path during the page load process, and represents the page load time. }
-  \label{fig:wprof-dp}
-\end{figure}
 
 Different from our earlier experiments (\S\ref{sec:motivation}) which were conducted across devices, in this section we study Web QoE  across 12 different CPU speeds on the same device. The experiments are repeated over three smartphones---Nexus 4, Intex Amaze+, and Google Pixel 2 (see Table~\ref{tab:device_types} for specs). The experiments involve loading the top 50 Websites from the Alexa suite~\cite{alexa}.  We use the 
 same experimental set up as described in \S\ref{sec:setup}. The CPU speeds are changed using the governor~\cite{ad-governors}. We present the results from Nexus\,4 in detail and summarize the results from the other two phones for brevity.
