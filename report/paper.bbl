@@ -233,6 +233,12 @@ Mohammad~Ashraful Hoque, Matti Siekkinen, Jukka~K Nurminen, and Mika Aalto.
   2013 IEEE 14th International Symposium and Workshops on a}, pages 1--11.
   IEEE, 2013.
 
+\bibitem{hou2015blind}
+Weilong Hou, Xinbo Gao, Dacheng Tao, and Xuelong Li.
+\newblock Blind image quality assessment via deep learning.
+\newblock {\em IEEE transactions on neural networks and learning systems},
+  26(6):1275--1286, 2015.
+
 \bibitem{ggle}
 https://developer.chrome.com/devtools.
 \newblock Chrome developer tools.
@@ -275,6 +281,12 @@ Conor Kelton, Jihoon Ryoo, Aruna Balasubramanian, and Samir~R Das.
 \newblock Improving user perceived page load times using gaze.
 \newblock In {\em NSDI}, pages 545--559, 2017.
 
+\bibitem{le2006convolutional}
+Patrick Le~Callet, Christian Viard-Gaudin, and Dominique Barba.
+\newblock A convolutional neural network approach for objective video quality
+  assessment.
+\newblock {\em IEEE Transactions on Neural Networks}, 17(5):1316--1327, 2006.
+
 \bibitem{ramdisks}
 RAM~Disks. Linux.
 \newblock https://kerneltalks.com/linux/how-to-create-ram-disk-in-linux/.
@@ -301,6 +313,24 @@ Leo~A Meyerovich and Rastislav Bodik.
 \newblock Fast and parallel webpage layout.
 \newblock In {\em Proceedings of the 19th international conference on World
   wide web}, pages 711--720. ACM, 2010.
+
+\bibitem{mocanu2014deep}
+Decebal~Constantin Mocanu, Georgios Exarchakos, and Antonio Liotta.
+\newblock Deep learning for objective quality assessment of 3d images.
+\newblock In {\em Image Processing (ICIP), 2014 IEEE International Conference
+  on}, pages 758--762. IEEE, 2014.
+
+\bibitem{narwaria2010objective}
+Manish Narwaria and Weisi Lin.
+\newblock Objective image quality assessment based on support vector
+  regression.
+\newblock {\em IEEE Transactions on Neural Networks}, 21(3):515--519, 2010.
+
+\bibitem{narwaria2012low}
+Manish Narwaria, Weisi Lin, and Anmin Liu.
+\newblock Low-complexity video quality assessment using temporal quality
+  variations.
+\newblock {\em IEEE Transactions on Multimedia}, 14(3):525--535, 2012.
 
 \bibitem{nejati2016depth}
 Javad Nejati and Aruna Balasubramanian.
@@ -475,6 +505,19 @@ Mengbai Xiao, Viswanathan Swaminathan, Sheng Wei, and Songqing Chen.
 \newblock Dash2m: Exploring http/2 for internet streaming to mobile devices.
 \newblock In {\em Proceedings of the 2016 ACM on Multimedia Conference}, MM
   '16, pages 22--31, New York, NY, USA, 2016. ACM.
+
+\bibitem{xue2013learning}
+Wufeng Xue, Lei Zhang, and Xuanqin Mou.
+\newblock Learning without human scores for blind image quality assessment.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2013 IEEE
+  Conference on}, pages 995--1002. IEEE, 2013.
+
+\bibitem{ye2012unsupervised}
+Peng Ye, Jayant Kumar, Le~Kang, and David Doermann.
+\newblock Unsupervised feature learning framework for no-reference image
+  quality assessment.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 1098--1105. IEEE, 2012.
 
 \bibitem{zhu2017optimizing}
 Yuhao Zhu and Vijay~Janapa Reddi.

@@ -60,45 +60,45 @@ Warning--to sort, need author or key in ffmpeg
 Warning--to sort, need author or key in turk-amazon
 Warning--to sort, need author or key in micro-avg
 Warning--empty journal in forecast2016cisco
-You've used 89 entries,
+You've used 96 entries,
             2118 wiz_defined-function locations,
-            882 strings with 16973 characters,
-and the built_in function-call counts, 29349 in all, are:
-= -- 2826
-> -- 1239
-< -- 34
-+ -- 513
-- -- 412
-* -- 1650
-:= -- 4503
-add.period$ -- 255
-call.type$ -- 89
-change.case$ -- 472
+            922 strings with 18339 characters,
+and the built_in function-call counts, 32409 in all, are:
+= -- 3148
+> -- 1370
+< -- 37
++ -- 565
+- -- 456
+* -- 1874
+:= -- 4971
+add.period$ -- 279
+call.type$ -- 96
+change.case$ -- 515
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 1260
-empty$ -- 2615
-format.name$ -- 412
-if$ -- 6488
+cite$ -- 103
+duplicate$ -- 1375
+empty$ -- 2854
+format.name$ -- 456
+if$ -- 7153
 int.to.chr$ -- 0
-int.to.str$ -- 89
-missing$ -- 60
-newline$ -- 417
-num.names$ -- 166
-pop$ -- 726
+int.to.str$ -- 96
+missing$ -- 67
+newline$ -- 452
+num.names$ -- 180
+pop$ -- 770
 preamble$ -- 1
-purify$ -- 384
+purify$ -- 420
 quote$ -- 0
-skip$ -- 1060
+skip$ -- 1146
 stack$ -- 0
-substring$ -- 1556
-swap$ -- 401
-text.length$ -- 34
+substring$ -- 1811
+swap$ -- 440
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 354
+type$ -- 382
 warning$ -- 7
-while$ -- 272
-width$ -- 91
-write$ -- 867
+while$ -- 303
+width$ -- 98
+write$ -- 947
 (There were 32 warnings)

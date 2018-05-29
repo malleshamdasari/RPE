@@ -95,6 +95,22 @@ We verify (using Android logs)  that YouTube indeed offloads video decoding to a
 %However, if the GPU is enabled, we observe a consistent 30Fps util 594Mhz clock and a 5Fps reduction under very lower clocks. 
 %Thus, the presence of the GPU improves the QoE of video rendering on smartphones even when the clock frequencies are low.
 
+\begin{figure*}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/power-video}
+    	 \caption{\textit{Youtube and Skype}}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[width=1\linewidth]{sections/device-work/power-plt}
+   	\caption{\textit{Web page load}}
+    \end{subfigure}
+  \caption{Energy consumption vs. clock rate for (a) video streaming and telephony and (b) Web page load}
+  \label{fig:power-video-web}
+  \vspace{-0.15in}
+\end{figure*}
+
 
 
 \subsubsection{Video Telephony: Skype}

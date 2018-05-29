@@ -181,43 +181,45 @@
 \citation{nejati2016depth}
 \citation{wang2013demystifying}
 \citation{nejati2016depth}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure\nobreakspace  {}13\hbox {}. As the CPU slows down, the compute activities are affected more than the network activities. \relax }}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Isolating the effect of network activities and compute activities as the CPU speed changes. The PLT of the Web page is the sum of the time taken for compute activities and the time taken for the network activities on the critical path\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The PLT is the same as that shown in Figure\nobreakspace  {}15\hbox {}. As the CPU slows down, the compute activities are affected more than the network activities. \relax }}{\thepage }}
 \newlabel{fig:plt_isolate}{{13}{\thepage }}
 \@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces An example page load process divided into its network and compute activities, obtained from the WProf tool\nobreakspace  {}\cite  {wang2013demystifying,nejati2016depth}. The red line shows the critical path during the page load process, and represents the page load time. \relax }}{\thepage }}
 \newlabel{fig:wprof-dp}{{14}{\thepage }}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Web Browsing}{\thepage }}
 \newlabel{label:web}{{3.3}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The time spent on compute activities during page load is further divided into individual activities---Scripting (or Javascript evaluation), HTML Parsing, Layout, and Painting. The scripting time increases significantly when the CPU slows down. \relax }}{\thepage }}
-\newlabel{fig:dissect}{{15}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Web QoE: The average Page Load Time (PLT) across 12 different CPU speeds on Nexus 4. As the CPU speed decreases, PLT increases significantly. \relax }}{\thepage }}
+\newlabel{fig:plt_clock}{{15}{\thepage }}
 \citation{alexa}
 \citation{netflix}
 \citation{hbogo}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The time spent on compute activities during page load is further divided into individual activities---Scripting (or Javascript evaluation), HTML Parsing, Layout, and Painting. The scripting time increases significantly when the CPU slows down. \relax }}{\thepage }}
+\newlabel{fig:dissect}{{16}{\thepage }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Video}{\thepage }}
+\newlabel{label:video}{{3.4}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
+\newlabel{fig:sites-effect}{{17}{\thepage }}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Video Streaming: YouTube}{\thepage }}
 \citation{andriodvlc}
 \citation{andriodvlc}
 \citation{andriodsdk}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces PLT for three different CPU frequencies for different Webpage categories. The sports Webpages are Javascript-heavy and are affected the most by the CPU slow down. \relax }}{\thepage }}
-\newlabel{fig:sites-effect}{{16}{\thepage }}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Video}{\thepage }}
-\newlabel{label:video}{{3.4}{\thepage }}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Video Streaming: YouTube}{\thepage }}
-\citation{qualsnap}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
-\newlabel{fig:youtube}{{17}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em  is} affected by slow CPU. However, when rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table\nobreakspace  {}9\hbox {}) offload rendering to a hardware decoder. \relax }}{\thepage }}
-\newlabel{fig:vlc}{{18}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces (a) Effect of CPU speeds on YouTube: The start-up latency is increased by 50\% but the stall ratio is not affected by the slow clock across the 12 CPU speeds. (b) Isolating the effect of network on stall ratio: The read-ahead convergence time (RAC) is the time required for YouTube to prefetch a read-ahead buffer worth of data (typically 120 seconds of video content). Even under slow clock, the time it takes to prefetch content is well below 120 seconds, which is the time it takes to play the content. As a result, read-ahead buffer is always full and the user does not experience stalls. \relax }}{\thepage }}
+\newlabel{fig:youtube}{{18}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Isolating compute performance for video streaming by rendering videos locally via VLC player. When VLC is set to render in software, performance {\em  is} affected by slow CPU. However, when rendering is offloaded to hardware, CPU clock does not affect video rendering performance. All devices in our experiment (Table\nobreakspace  {}9\hbox {}) offload rendering to a hardware decoder. \relax }}{\thepage }}
+\newlabel{fig:vlc}{{19}{\thepage }}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Video Telephony: Skype}{\thepage }}
+\citation{qualsnap}
+\citation{ad-governors}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.\relax }}{\thepage }}
+\newlabel{fig:skype-framerate}{{20}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Effect of CPU speeds on the network-centric metric, call set-up delay.\relax }}{\thepage }}
+\newlabel{fig:skype-call}{{21}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Effect of CPU speeds on the network-centric metric, bitrate.\relax }}{\thepage }}
+\newlabel{fig:skype-bitrate}{{22}{\thepage }}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Energy consumption vs. clock rate for (a) video streaming and telephony and (b) Web page load\relax }}{\thepage }}
+\newlabel{fig:power-video-web}{{23}{\thepage }}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Discussions}{\thepage }}
 \newlabel{sec:energy}{{3.5}{\thepage }}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.1}Energy Consumption}{\thepage }}
-\citation{ad-governors}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Skype QoE: The frame rate decreases by 33\% when the CPU clock speed decreases.\relax }}{\thepage }}
-\newlabel{fig:skype-framerate}{{19}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Effect of CPU speeds on the network-centric metric, call set-up delay.\relax }}{\thepage }}
-\newlabel{fig:skype-call}{{20}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Effect of CPU speeds on the network-centric metric, bitrate.\relax }}{\thepage }}
-\newlabel{fig:skype-bitrate}{{21}{\thepage }}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Energy consumption vs. clock rate for (a) video streaming and telephony and (b) Web page load\relax }}{\thepage }}
-\newlabel{fig:power-video-web}{{22}{\thepage }}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.5.2}Speeding Up Web Page Load}{\thepage }}
 \newlabel{label:whatif}{{3.5.2}{\thepage }}
 \citation{hexqual2013qcom}
@@ -235,16 +237,16 @@
 \citation{chakraborty2016exbox}
 \citation{jana2016qoe}
 \citation{chen2006quantifying}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Evaluations for DSP offloading of Javascript functions\relax }}{\thepage }}
-\newlabel{fig:dsp}{{23}{\thepage }}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Summary}{\thepage }}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Related Works}{\thepage }}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Network-specific Optimizations}{\thepage }}
 \citation{jana2016qoe}
 \citation{golestaneh2014no}
 \citation{mittal2012no}
 \citation{tong2004blur}
 \citation{marziliano2002no}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Evaluations for DSP offloading of Javascript functions\relax }}{\thepage }}
+\newlabel{fig:dsp}{{24}{\thepage }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Summary}{\thepage }}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Related Works}{\thepage }}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Network-specific Optimizations}{\thepage }}
 \citation{wolf2009no}
 \citation{borer2010model}
 \citation{usman2017no}
@@ -252,6 +254,13 @@
 \citation{wolf2009no}
 \citation{jana2016qoe}
 \citation{pastrana2006automatic}
+\citation{hou2015blind}
+\citation{ye2012unsupervised}
+\citation{mocanu2014deep}
+\citation{xue2013learning}
+\citation{narwaria2010objective}
+\citation{le2006convolutional}
+\citation{narwaria2012low}
 \citation{butkiewicz2015klotski}
 \citation{netravali2016polaris}
 \citation{ruamviboonsuk2017vroom}
@@ -285,13 +294,14 @@
 \bibcite{agababov2015flywheel}{9}
 \bibcite{youtubeapi}{10}
 \bibcite{htarch}{11}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Device-specific Optimizations}{\thepage }}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{\thepage }}
+\@writefile{toc}{\contentsline {section}{\numberline {6}References}{\thepage }}
 \bibcite{awc}{12}
 \bibcite{balachandran2014modeling}{13}
 \bibcite{blake2010evolution}{14}
 \bibcite{butkiewicz2015klotski}{15}
 \bibcite{chakraborty2016exbox}{16}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Device-specific Optimizations}{\thepage }}
-\@writefile{toc}{\contentsline {section}{\numberline {5}References}{\thepage }}
 \bibcite{chen2006quantifying}{17}
 \bibcite{chen2016effective}{18}
 \bibcite{contreras2017patents}{19}
@@ -321,47 +331,54 @@
 \bibcite{hbogo}{43}
 \bibcite{ad-governors}{44}
 \bibcite{hoque2013dissecting}{45}
-\bibcite{ggle}{46}
-\bibcite{jioplans1}{47}
-\bibcite{jioplans2}{48}
-\bibcite{huang2010anatomizing}{49}
-\bibcite{iperf-2015}{50}
-\bibcite{jiang2017pytheas}{51}
-\bibcite{jones2009parallelizing}{52}
-\bibcite{kelton2017improving}{53}
-\bibcite{ramdisks}{54}
-\bibcite{mai2012case}{55}
-\bibcite{mancam}{56}
-\bibcite{xiph2008org}{57}
-\bibcite{ensemblemethods2008}{58}
-\bibcite{meyerovich2010fast}{59}
-\bibcite{nejati2016depth}{60}
-\bibcite{netflix}{61}
-\bibcite{netravali2016polaris}{62}
-\bibcite{qualsnap}{63}
-\bibcite{hexqual2013qcom}{64}
-\bibcite{pestov2013k}{65}
-\bibcite{qian2014characterizing}{66}
-\bibcite{rajaraman2014energy}{67}
-\bibcite{richardson2004h}{68}
-\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{69}
-\bibcite{ruamviboonsuk2017vroom}{70}
-\bibcite{andriodsdk}{71}
-\bibcite{series2012methodology}{72}
-\bibcite{Shafiqund}{73}
-\bibcite{singh2015flexiweb}{74}
-\bibcite{sivakumar2017nutshell}{75}
-\bibcite{sivakumar2014parcel}{76}
-\bibcite{statista2}{77}
-\bibcite{stokke2015energy}{78}
-\bibcite{sun2016cs2p}{79}
-\bibcite{ocr-tesseract}{80}
-\bibcite{unity}{81}
-\bibcite{andriodvlc}{82}
-\bibcite{wang2013demystifying}{83}
-\bibcite{wang2016speeding}{84}
-\bibcite{wang2012far}{85}
-\bibcite{alexa}{86}
-\bibcite{wolf2009no}{87}
-\bibcite{Xiaodash2m}{88}
-\bibcite{zhu2017optimizing}{89}
+\bibcite{hou2015blind}{46}
+\bibcite{ggle}{47}
+\bibcite{jioplans1}{48}
+\bibcite{jioplans2}{49}
+\bibcite{huang2010anatomizing}{50}
+\bibcite{iperf-2015}{51}
+\bibcite{jiang2017pytheas}{52}
+\bibcite{jones2009parallelizing}{53}
+\bibcite{kelton2017improving}{54}
+\bibcite{le2006convolutional}{55}
+\bibcite{ramdisks}{56}
+\bibcite{mai2012case}{57}
+\bibcite{mancam}{58}
+\bibcite{xiph2008org}{59}
+\bibcite{ensemblemethods2008}{60}
+\bibcite{meyerovich2010fast}{61}
+\bibcite{mocanu2014deep}{62}
+\bibcite{narwaria2010objective}{63}
+\bibcite{narwaria2012low}{64}
+\bibcite{nejati2016depth}{65}
+\bibcite{netflix}{66}
+\bibcite{netravali2016polaris}{67}
+\bibcite{qualsnap}{68}
+\bibcite{hexqual2013qcom}{69}
+\bibcite{pestov2013k}{70}
+\bibcite{qian2014characterizing}{71}
+\bibcite{rajaraman2014energy}{72}
+\bibcite{richardson2004h}{73}
+\bibcite{Ruamviboonsuk:2017:VAM:3098822.3098851}{74}
+\bibcite{ruamviboonsuk2017vroom}{75}
+\bibcite{andriodsdk}{76}
+\bibcite{series2012methodology}{77}
+\bibcite{Shafiqund}{78}
+\bibcite{singh2015flexiweb}{79}
+\bibcite{sivakumar2017nutshell}{80}
+\bibcite{sivakumar2014parcel}{81}
+\bibcite{statista2}{82}
+\bibcite{stokke2015energy}{83}
+\bibcite{sun2016cs2p}{84}
+\bibcite{ocr-tesseract}{85}
+\bibcite{unity}{86}
+\bibcite{andriodvlc}{87}
+\bibcite{wang2013demystifying}{88}
+\bibcite{wang2016speeding}{89}
+\bibcite{wang2012far}{90}
+\bibcite{alexa}{91}
+\bibcite{wolf2009no}{92}
+\bibcite{Xiaodash2m}{93}
+\bibcite{xue2013learning}{94}
+\bibcite{ye2012unsupervised}{95}
+\bibcite{zhu2017optimizing}{96}

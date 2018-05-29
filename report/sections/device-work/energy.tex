@@ -4,36 +4,6 @@
 
 In this section we discuss (a) the energy implications of changing the clock speed, and (2) a possible Web page optimization for low-end devices based on our observations in \S\ref{label:web}.
 
-%\begin{figure}[t]
-%  \centering
-%  \subfloat[Youtube and Skype]{
-%  \includegraphics[width=0.9\linewidth]{sections/power-video}}
-%  
-%\subfloat[Web page load]{
-%  \includegraphics[width=0.9\linewidth]{sections/power-plt}
-%  }
-%  \caption{Energy consumption vs. clock rate for
-%  (a) video streaming and telephony and (b) Web page load}
-%   %\vspace{-0.15in}
-%\label{fig:power-video-web}
-%\end{figure}
-
-\begin{figure*}
-    \begin{subfigure}[b]{0.5\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/power-video}
-    	 \caption{\textit{Youtube and Skype}}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.5\textwidth}
-        \centering
-        \includegraphics[width=1\linewidth]{sections/device-work/power-plt}
-   	\caption{\textit{Web page load}}
-    \end{subfigure}
-  \caption{Energy consumption vs. clock rate for (a) video streaming and telephony and (b) Web page load}
-  \label{fig:power-video-web}
-  \vspace{-0.15in}
-\end{figure*}
-
 \subsubsection{Energy Consumption}
 CPU clock frequency has an impact on the device's energy consumption and here low end devices may win. To evaluate 
 energy consumption we use the same set up as the one described in \S\ref{sec:setup}. The experiments are conducted on the Nexus 4 phone and we use the Snapdragon Profiler~\cite{qualsnap} to log the energy consumption. The profiler samples energy at a high sampling rate of 20 times a second. %energy consumption \todo{do we know anything about the accuracy of the profiler?}. \mallesh{The profiler has different sampling rates (50ms, 120ms, 240ms) at which the metrics can be collected. We use minimum value 50ms.}

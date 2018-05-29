@@ -20,26 +20,18 @@
 \usepackage{amssymb}
 \usepackage{multirow}
 \usepackage{etoolbox}
-
-%\usepackage{array}
 \usepackage{enumitem}
-%\usepackage{babel}
-%\usepackage{color}
-%\usepackage{bm}
-%\usepackage{spverbatim}
-%\usepackage{gensymb}
-%\usepackage[numbers]{natbib}
-%\usepackage{booktabs} % For formal tables
-%\usepackage{float} % For formal tables
+\usepackage{balance}
 
 \makeatletter
 
 \begin{document}
+
+\begin{figure}[htp]
+    \hspace*{-0.7in}  \includegraphics{frontpage.pdf}
+\end{figure}
+
 \title{Improving the QoE of Internet-based Mobile Applications}
-%\numberofauthors{1}
-%\author{Mallesham Dasari \\
-%Computer Science Department, Stony Brook University, Stony Brook, NY
-%}
 
 \maketitle
 \input{sections/abstract}
@@ -62,6 +54,8 @@
 \input{sections/device-work/conclusion.tex}
 \input{sections/network-work/related.tex}
 \input{sections/device-work/related.tex}
+\input{sections/conclusion}
 \bibliographystyle{plain}
+\balance
 \bibliography{qos-qoe}
 \end{document}
