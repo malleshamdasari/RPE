@@ -3,7 +3,7 @@ The massive use of smartphone Internet applications makes their quality of exper
 As of the year 2018, 51.12\% of the global web traffic and 63\% of the video traffic is mobile \cite{statista2}. 
 This is majorly due to the growing availability of diverse mobile Internet applications such as mobile browsing, video streaming, interactive telephony and many other social network applications.
 
-However, with the advent of heterogeneous devices and networks, it has become difficult to uncover if a user is having QoE issues and find the root cuase of any issue. 
+However, with the advent of heterogeneous devices and networks, it has become difficult to uncover if a user is having QoE issues and find the root cause of any issue. 
 Apart from server-side issues and Internet delays, the users face several issues on client-side ecosystem -- the client connected network, underlying device configuration such as OS and hardware, and the inherent application complexity.
 
 \begin{figure}[t]
@@ -16,7 +16,7 @@ Apart from server-side issues and Internet delays, the users face several issues
 \end{figure}
 
 Traditional network resource provisioning is based on QoS parameters (such as network throughput, latency, and loss) rather than QoE. 
-Also, the smartphone manufacturerers does not consider the QoE of applications while enhancing the device parameters.
+Also, the smartphone manufacturers does not consider the QoE of applications while enhancing the device parameters.
 Because of this, smartphones are not able to cope with the QoE requirements of applications (Fig. \ref{fig:evolv}).
 Based on the pageload history \cite{htarch} and device data mined from over 480 Android smartphone specifications over the past 8 years, we find that page load times are increased by 4$\times$ despite the improvement in device hardware (clock: 1Ghz to 2.7Ghz, memory: 512MB to 6GB, cores: 2 to 8) and network (3G to 4G and 802.11n to 802.11ac).
 Therefore, QoE based design trends of network resource provisioning and device hardware enhancement could potentially improve the experience of these applications.
@@ -46,3 +46,4 @@ In summary, our contributions and findings are following:
 \item We microbenchmark the QoE of three popular mobile Internet applications--- Web browsing, video streaming, and video telephony with different device parameters. We find that Web browsing is most sensitive to device hardware whereas video applications are exploiting specialized hardware accelerators (\S\ref{intro}). 
 \item Taking inspiration from video applications, we offload certain browsing computation onto DSP coprocessor opportunistically and achieve 18.5\% improvement in speeding up page loads with 4$\times$ reduction in energy consumption (\S \ref{sec:energy}).
 \end{itemize}
+

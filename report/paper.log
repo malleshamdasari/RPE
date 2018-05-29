@@ -1,40 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  29 MAY 2018 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  29 MAY 2018 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper.tex
-(./paper.tex
+**/home/mallesh/Desktop/Mallesh/RPE/report/paper
+(/home/mallesh/Desktop/Mallesh/RPE/report/paper.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(./sig-alternate.cls
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
+(./sig-alternate.cls (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.s
+ty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
-
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
-
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 95.
-
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count79
@@ -44,10 +36,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \epsfxsize=\dimen104
 \epsfysize=\dimen105
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
@@ -55,25 +45,20 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip41
-
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen106
-))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen107
-)
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count80
@@ -126,12 +111,10 @@ Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
 \ACM@basesize=\count92
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
-
 Excluding comment 'comment') Excluding comment 'CCSXML'
 \footheight=\dimen115
 \@maxsep=\dimen116
 \@dblmaxsep=\dimen117
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
@@ -152,7 +135,6 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 \c@table=\count100
 \titleboxnotes=\toks23
 \titleboxnoteflag=\count101
-
 Document Class: sig-alternate 2013/05/12 v2.7 based on acmproc.cls V1.3 <Nov. 3
 0 '99>
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -177,7 +159,6 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 \c@subsection=\count106
 \c@subsubsection=\count107
 \c@paragraph=\count108
-
 Using 'Abbrev' bibliography style
 LaTeX Info: Redefining \cite on input line 1409.
 \bibindent=\dimen122
@@ -191,12 +172,10 @@ LaTeX Info: Redefining \cite on input line 1409.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./acmcopyright.sty
 Package: acmcopyright 2014/06/29 v1.2 Copyright statemens for ACM classes
-
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
+ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
@@ -204,55 +183,43 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 \copyrightetc=\toks37
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
-
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
-
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 143.
-
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen123
 \extrarowheight=\dimen124
 \NC@list=\toks38
 \extratabsurround=\skip44
 \backup@length=\skip45
-)
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip46
 \enit@outerparindent=\dimen125
 \enit@toks=\toks39
 \enit@inbox=\box30
 \enitdp@description=\count111
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
@@ -282,14 +249,11 @@ tempboxa \hbox {\textbf {#1: #2}} \ifdim \wd \@tempboxa >\hsize \textbf {#1: #2
 \c@subtable=\count114
 ) (/usr/share/texlive/texmf-dist/tex/latex/spverbatim/spverbatim.sty
 Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
-)
-(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
-
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count115
@@ -297,14 +261,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box31
 \@float@everytoks=\toks41
 \@floatcapt=\box32
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks42
 \c@algorithm=\count116
-)
-(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count117
 \c@ALC@line=\count118
@@ -312,15 +274,12 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count120
 \ALC@tlm=\skip49
 \algorithmicindent=\skip50
-)
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen133
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count121
-)
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/preprint/balance.sty
 Package: balance 1999/02/23 4.3 (PWD)
 \oldvsize=\dimen134
 ) (./paper.aux)
@@ -338,7 +297,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
-
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
@@ -355,7 +313,6 @@ LaTeX Font Info:    ... okay on input line 28.
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
@@ -364,22 +321,16 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
@@ -391,7 +342,6 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
@@ -403,7 +353,6 @@ LaTeX Info: Redefining \celsius on input line 28.
 Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
 
 
-
 Package gensymb Warning: Not defining \perthousand.
 
 LaTeX Info: Redefining \ohm on input line 28.
@@ -413,7 +362,7 @@ Package gensymb Warning: Not defining \micro.
 
 <frontpage.pdf, id=1, 597.50829pt x 845.0471pt>
 File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf>
+<use frontpage.pdf>
 Package pdftex.def Info: frontpage.pdf used on input line 31.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
@@ -429,17 +378,14 @@ LaTeX Warning: Float too large for page by 179.04504pt on input line 32.
 
  <./frontpage.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 36.
-
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 36.
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
@@ -454,24 +400,22 @@ s
 
 <sections/evolv.pdf, id=18, 1011.78pt x 722.7pt>
 File: sections/evolv.pdf Graphic file (type pdf)
- <use sections/evolv.pdf>
+<use sections/evolv.pdf>
 Package pdftex.def Info: sections/evolv.pdf used on input line 11.
 (pdftex.def)             Requested size: 204.00146pt x 145.70634pt.
 
 Underfull \vbox (badness 1270) has occurred while \output is active []
 
- [2
+[2
 
  <./sections/evolv.pdf>]) (./sections/network-work/intro.tex
 LaTeX Font Info:    Try loading font information for T1+aett on input line 23.
-
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-))
-(./sections/network-work/motivation.tex
+)) (./sections/network-work/motivation.tex
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [3]
+[3]
 Overfull \hbox (1.95068pt too wide) in paragraph at lines 28--39
 \T1/aer/m/n/9 em-ploy dis-crete co-sine trans-form (DCT) co-ef-fi-cients [31] f
 rom
@@ -479,7 +423,6 @@ rom
 
 <sections/network-work/dct-blur.pdf, id=90, 1340.60847pt x 738.59943pt>
 File: sections/network-work/dct-blur.pdf Graphic file (type pdf)
-
 <use sections/network-work/dct-blur.pdf>
 Package pdftex.def Info: sections/network-work/dct-blur.pdf used on input line 
 43.
@@ -487,11 +430,10 @@ Package pdftex.def Info: sections/network-work/dct-blur.pdf used on input line
 
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
-)
-(./sections/network-work/background.tex
+) (./sections/network-work/background.tex
 Underfull \vbox (badness 6995) has occurred while \output is active []
 
- [4 <./sections/network-work/dct-blur.pdf>]
+[4 <./sections/network-work/dct-blur.pdf>]
 Overfull \hbox (5.68332pt too wide) in paragraph at lines 10--12
 \T1/aer/m/n/9 pre-dicted from pre-vi-ously en-coded mac-roblocks, ei-ther from
  []
@@ -514,17 +456,14 @@ Overfull \hbox (1.95946pt too wide) in paragraph at lines 55--56
 on.
  []
 
-) (./sections/network-work/design.tex
-<sections/network-work/setup.pdf, id=140, 1091.27695pt x 505.89pt>
+) (./sections/network-work/design.tex <sections/network-work/setup.pdf, id=140,
+ 1091.27695pt x 505.89pt>
 File: sections/network-work/setup.pdf Graphic file (type pdf)
-
 <use sections/network-work/setup.pdf>
 Package pdftex.def Info: sections/network-work/setup.pdf used on input line 4.
 (pdftex.def)             Requested size: 240.0pt x 111.25754pt.
- [5]
-<sections/network-work/bar-pbr.pdf, id=148, 1340.60847pt x 738.59943pt>
+[5] <sections/network-work/bar-pbr.pdf, id=148, 1340.60847pt x 738.59943pt>
 File: sections/network-work/bar-pbr.pdf Graphic file (type pdf)
-
 <use sections/network-work/bar-pbr.pdf>
 Package pdftex.def Info: sections/network-work/bar-pbr.pdf used on input line 3
 4.
@@ -536,74 +475,60 @@ Overfull \hbox (24.00146pt too wide) in paragraph at lines 34--36
 
 <sections/network-work/legend4.pdf, id=149, 1340.60847pt x 738.59943pt>
 File: sections/network-work/legend4.pdf Graphic file (type pdf)
-
 <use sections/network-work/legend4.pdf>
 Package pdftex.def Info: sections/network-work/legend4.pdf used on input line 4
 3.
 (pdftex.def)             Requested size: 504.0pt x 17.45685pt.
-
 <sections/network-work/content-bitrate.pdf, id=151, 1445.4pt x 722.7pt>
 File: sections/network-work/content-bitrate.pdf Graphic file (type pdf)
-
 <use sections/network-work/content-bitrate.pdf>
 Package pdftex.def Info: sections/network-work/content-bitrate.pdf used on inpu
 t line 52.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
-
 <sections/network-work/app-bitrate.pdf, id=152, 1445.4pt x 722.7pt>
 File: sections/network-work/app-bitrate.pdf Graphic file (type pdf)
-
 <use sections/network-work/app-bitrate.pdf>
 Package pdftex.def Info: sections/network-work/app-bitrate.pdf used on input li
 ne 57.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
-
 <sections/network-work/dev-bitrate.pdf, id=153, 1445.4pt x 722.7pt>
 File: sections/network-work/dev-bitrate.pdf Graphic file (type pdf)
-
 <use sections/network-work/dev-bitrate.pdf>
 Package pdftex.def Info: sections/network-work/dev-bitrate.pdf used on input li
 ne 62.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
-
 <sections/network-work/content-stutter.pdf, id=154, 1445.4pt x 722.7pt>
 File: sections/network-work/content-stutter.pdf Graphic file (type pdf)
-
 <use sections/network-work/content-stutter.pdf>
 Package pdftex.def Info: sections/network-work/content-stutter.pdf used on inpu
 t line 68.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
-
 <sections/network-work/app-stutter.pdf, id=155, 1445.4pt x 722.7pt>
 File: sections/network-work/app-stutter.pdf Graphic file (type pdf)
-
 <use sections/network-work/app-stutter.pdf>
 Package pdftex.def Info: sections/network-work/app-stutter.pdf used on input li
 ne 73.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
-
 <sections/network-work/dev-stutter.pdf, id=156, 1445.4pt x 722.7pt>
 File: sections/network-work/dev-stutter.pdf Graphic file (type pdf)
-
 <use sections/network-work/dev-stutter.pdf>
 Package pdftex.def Info: sections/network-work/dev-stutter.pdf used on input li
 ne 78.
 (pdftex.def)             Requested size: 166.32092pt x 83.15837pt.
- [6 <./sections/network-work/setup.pdf> <./sections/network-work/bar-pbr.pdf
+[6 <./sections/network-work/setup.pdf> <./sections/network-work/bar-pbr.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/bar-pbr.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
 >] <sections/network-work/mos.pdf, id=256, 1340.60847pt x 738.59943pt>
 File: sections/network-work/mos.pdf Graphic file (type pdf)
-
 <use sections/network-work/mos.pdf>
 Package pdftex.def Info: sections/network-work/mos.pdf used on input line 127.
 (pdftex.def)             Requested size: 504.0pt x 277.67285pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./sections/network-work/legend4.pdf> <./sections/network-work/content-bitr
-ate.pdf
+[7 <./sections/network-work/legend4.pdf> <./sections/network-work/content-bitra
+te.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/content-bitrate.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
@@ -647,12 +572,11 @@ Overfull \hbox (3.52553pt too wide) in paragraph at lines 142--146
 
 <sections/network-work/scores.pdf, id=522, 1340.60847pt x 738.59943pt>
 File: sections/network-work/scores.pdf Graphic file (type pdf)
-
 <use sections/network-work/scores.pdf>
 Package pdftex.def Info: sections/network-work/scores.pdf used on input line 14
 9.
 (pdftex.def)             Requested size: 240.0pt x 132.22087pt.
- [9]
+[9]
 Overfull \hbox (1.71742pt too wide) in paragraph at lines 169--176
 \T1/aer/m/n/9 for-mance of Face-Time model across dif-fer-ent re-gres-sors. Sim
 -
@@ -665,21 +589,17 @@ Overfull \hbox (4.54594pt too wide) in paragraph at lines 1--1
 
 [10] <sections/network-work/baseline.pdf, id=530, 1340.60847pt x 738.59943pt>
 File: sections/network-work/baseline.pdf Graphic file (type pdf)
-
 <use sections/network-work/baseline.pdf>
 Package pdftex.def Info: sections/network-work/baseline.pdf used on input line 
 7.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
-
 <sections/network-work/feature-imp.pdf, id=531, 1340.60847pt x 738.59943pt>
 File: sections/network-work/feature-imp.pdf Graphic file (type pdf)
-
 <use sections/network-work/feature-imp.pdf>
 Package pdftex.def Info: sections/network-work/feature-imp.pdf used on input li
 ne 16.
 (pdftex.def)             Requested size: 226.79846pt x 124.95164pt.
-)
-(./sections/network-work/conclusion.tex
+) (./sections/network-work/conclusion.tex
 Overfull \hbox (2.84132pt too wide) in paragraph at lines 6--7
 \T1/aer/m/n/9 tion of video tele-phony in en-ter-prise net-works (Sec-tion 2.1[
 ]). 
@@ -691,32 +611,26 @@ Overfull \hbox (12.85588pt too wide) in paragraph at lines 7--8
  2.3[]). 
  []
 
-) (./sections/device-work/intro.tex
-<sections/device-work/plt-devices.pdf, id=532, 1300.86pt x 722.7pt>
+) (./sections/device-work/intro.tex <sections/device-work/plt-devices.pdf, id=5
+32, 1300.86pt x 722.7pt>
 File: sections/device-work/plt-devices.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-devices.pdf>
 Package pdftex.def Info: sections/device-work/plt-devices.pdf used on input lin
 e 9.
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
-
 <sections/device-work/youtube-motivation.pdf, id=533, 1300.86pt x 722.7pt>
 File: sections/device-work/youtube-motivation.pdf Graphic file (type pdf)
-
 <use sections/device-work/youtube-motivation.pdf>
 Package pdftex.def Info: sections/device-work/youtube-motivation.pdf used on in
 put line 14.
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
-
 <sections/device-work/skype-motivation.pdf, id=534, 1300.86pt x 722.7pt>
 File: sections/device-work/skype-motivation.pdf Graphic file (type pdf)
-
 <use sections/device-work/skype-motivation.pdf>
 Package pdftex.def Info: sections/device-work/skype-motivation.pdf used on inpu
 t line 19.
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
- [11 <./sections/network-work/scores.pdf> <./sections/network-work/baseline.pdf
-
+[11 <./sections/network-work/scores.pdf> <./sections/network-work/baseline.pdf
 
 pdfTeX warning: pdflatex (file ./sections/network-work/baseline.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
@@ -748,32 +662,27 @@ Overfull \hbox (17.9416pt too wide) in paragraph at lines 108--112
 \T1/aer/m/n/9 slow CPU speeds, de-spite video stream-ing be-ing a compute-
  []
 
-) (./sections/device-work/motivation.tex
-<sections/device-work/clock-device.pdf, id=657, 1156.32pt x 867.24pt>
+) (./sections/device-work/motivation.tex <sections/device-work/clock-device.pdf
+, id=657, 1156.32pt x 867.24pt>
 File: sections/device-work/clock-device.pdf Graphic file (type pdf)
-
 <use sections/device-work/clock-device.pdf>
 Package pdftex.def Info: sections/device-work/clock-device.pdf used on input li
 ne 5.
 (pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
-
 <sections/device-work/plt-memory.pdf, id=658, 1156.32pt x 867.24pt>
 File: sections/device-work/plt-memory.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-memory.pdf>
 Package pdftex.def Info: sections/device-work/plt-memory.pdf used on input line
  10.
 (pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
-
 <sections/device-work/plt-gpu.pdf, id=659, 1156.32pt x 867.24pt>
 File: sections/device-work/plt-gpu.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-gpu.pdf>
 Package pdftex.def Info: sections/device-work/plt-gpu.pdf used on input line 15
 .
 (pdftex.def)             Requested size: 166.32092pt x 124.73425pt.
- [12 <./sections/device-work/plt-devices.pdf> <./sections/device-work/youtube-m
-otivation.pdf
+[12 <./sections/device-work/plt-devices.pdf> <./sections/device-work/youtube-mo
+tivation.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/youtube-motivation.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
@@ -784,18 +693,14 @@ F inclusion: multiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 3780) has occurred while \output is active []
 
-
 <sections/device-work/Throughput.pdf, id=809, 1445.4pt x 722.7pt>
 File: sections/device-work/Throughput.pdf Graphic file (type pdf)
-
 <use sections/device-work/Throughput.pdf>
 Package pdftex.def Info: sections/device-work/Throughput.pdf used on input line
  90.
 (pdftex.def)             Requested size: 252.00043pt x 126.0002pt.
-
 <sections/device-work/ppd.pdf, id=810, 1340.60847pt x 722.7pt>
 File: sections/device-work/ppd.pdf Graphic file (type pdf)
-
 <use sections/device-work/ppd.pdf>
 Package pdftex.def Info: sections/device-work/ppd.pdf used on input line 95.
 (pdftex.def)             Requested size: 251.9976pt x 126.0002pt.
@@ -807,8 +712,8 @@ Overfull \hbox (2.05199pt too wide) in paragraph at lines 88--98
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./sections/device-work/clock-device.pdf> <./sections/device-work/plt-memo
-ry.pdf
+[13 <./sections/device-work/clock-device.pdf> <./sections/device-work/plt-memor
+y.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/plt-memory.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
@@ -828,18 +733,15 @@ Overfull \hbox (13.52536pt too wide) in paragraph at lines 134--135
 s---
  []
 
-) (./sections/device-work/network.tex
-<sections/device-work/plt-isolate.pdf, id=927, 2023.56pt x 722.7pt>
+) (./sections/device-work/network.tex <sections/device-work/plt-isolate.pdf, id
+=927, 2023.56pt x 722.7pt>
 File: sections/device-work/plt-isolate.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-isolate.pdf>
 Package pdftex.def Info: sections/device-work/plt-isolate.pdf used on input lin
 e 16.
 (pdftex.def)             Requested size: 403.20154pt x 143.99709pt.
-
 <sections/device-work/wprof-dp.pdf, id=928, 719.5683pt x 383.031pt>
 File: sections/device-work/wprof-dp.pdf Graphic file (type pdf)
-
 <use sections/device-work/wprof-dp.pdf>
 Package pdftex.def Info: sections/device-work/wprof-dp.pdf used on input line 2
 3.
@@ -859,18 +761,15 @@ gh-
 
 pdfTeX warning: pdflatex (file ./sections/device-work/ppd.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
->]) (./sections/device-work/web.tex
-<sections/device-work/plt-clock.pdf, id=1015, 1589.94pt x 867.24pt>
+>]) (./sections/device-work/web.tex <sections/device-work/plt-clock.pdf, id=101
+5, 1589.94pt x 867.24pt>
 File: sections/device-work/plt-clock.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-clock.pdf>
 Package pdftex.def Info: sections/device-work/plt-clock.pdf used on input line 
 6.
 (pdftex.def)             Requested size: 215.99854pt x 117.8134pt.
-
 <sections/device-work/plt-pie.pdf, id=1016, 1662.21pt x 867.24pt>
 File: sections/device-work/plt-pie.pdf Graphic file (type pdf)
-
 <use sections/device-work/plt-pie.pdf>
 Package pdftex.def Info: sections/device-work/plt-pie.pdf used on input line 23
 .
@@ -878,8 +777,8 @@ Package pdftex.def Info: sections/device-work/plt-pie.pdf used on input line 23
 
 Underfull \vbox (badness 2894) has occurred while \output is active []
 
- [15 <./sections/device-work/plt-isolate.pdf> <./sections/device-work/wprof-dp.
-pdf
+[15 <./sections/device-work/plt-isolate.pdf> <./sections/device-work/wprof-dp.p
+df
 
 pdfTeX warning: pdflatex (file ./sections/device-work/wprof-dp.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -895,23 +794,18 @@ HTML
 
 <sections/device-work/sites-effect.pdf, id=1184, 1445.4pt x 722.7pt>
 File: sections/device-work/sites-effect.pdf Graphic file (type pdf)
-
 <use sections/device-work/sites-effect.pdf>
 Package pdftex.def Info: sections/device-work/sites-effect.pdf used on input li
 ne 48.
 (pdftex.def)             Requested size: 240.0pt x 119.99022pt.
-
 <sections/device-work/youtube-clock.pdf, id=1185, 1445.4pt x 722.7pt>
 File: sections/device-work/youtube-clock.pdf Graphic file (type pdf)
-
 <use sections/device-work/youtube-clock.pdf>
 Package pdftex.def Info: sections/device-work/youtube-clock.pdf used on input l
 ine 58.
 (pdftex.def)             Requested size: 252.00043pt x 126.0002pt.
-
 <sections/device-work/youtube-rac.pdf, id=1186, 1445.4pt x 722.7pt>
 File: sections/device-work/youtube-rac.pdf Graphic file (type pdf)
-
 <use sections/device-work/youtube-rac.pdf>
 Package pdftex.def Info: sections/device-work/youtube-rac.pdf used on input lin
 e 63.
@@ -921,34 +815,27 @@ Overfull \hbox (2.05199pt too wide) in paragraph at lines 56--66
 [][] [] 
  []
 
-) (./sections/device-work/video.tex
-<sections/device-work/vlc-fps.pdf, id=1187, 1445.4pt x 867.24pt>
+) (./sections/device-work/video.tex <sections/device-work/vlc-fps.pdf, id=1187,
+ 1445.4pt x 867.24pt>
 File: sections/device-work/vlc-fps.pdf Graphic file (type pdf)
-
 <use sections/device-work/vlc-fps.pdf>
 Package pdftex.def Info: sections/device-work/vlc-fps.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 192.00073pt x 115.19325pt.
-
 <sections/device-work/skype-fps.pdf, id=1188, 1445.4pt x 867.24pt>
 File: sections/device-work/skype-fps.pdf Graphic file (type pdf)
-
 <use sections/device-work/skype-fps.pdf>
 Package pdftex.def Info: sections/device-work/skype-fps.pdf used on input line 
 60.
 (pdftex.def)             Requested size: 166.32092pt x 99.79005pt.
-
 <sections/device-work/skype-call-setup.pdf, id=1189, 1445.4pt x 867.24pt>
 File: sections/device-work/skype-call-setup.pdf Graphic file (type pdf)
-
 <use sections/device-work/skype-call-setup.pdf>
 Package pdftex.def Info: sections/device-work/skype-call-setup.pdf used on inpu
 t line 67.
 (pdftex.def)             Requested size: 166.32092pt x 99.79005pt.
-
 <sections/device-work/skype-bitrate.pdf, id=1190, 1445.4pt x 867.24pt>
 File: sections/device-work/skype-bitrate.pdf Graphic file (type pdf)
-
 <use sections/device-work/skype-bitrate.pdf>
 Package pdftex.def Info: sections/device-work/skype-bitrate.pdf used on input l
 ine 74.
@@ -972,18 +859,14 @@ eo
 
 Underfull \vbox (badness 1769) has occurred while \output is active []
 
-
 <sections/device-work/power-video.pdf, id=1282, 1445.4pt x 722.7pt>
 File: sections/device-work/power-video.pdf Graphic file (type pdf)
-
 <use sections/device-work/power-video.pdf>
 Package pdftex.def Info: sections/device-work/power-video.pdf used on input lin
 e 101.
 (pdftex.def)             Requested size: 252.0pt x 126.0002pt.
-
 <sections/device-work/power-plt.pdf, id=1283, 1445.4pt x 722.7pt>
 File: sections/device-work/power-plt.pdf Graphic file (type pdf)
-
 <use sections/device-work/power-plt.pdf>
 Package pdftex.def Info: sections/device-work/power-plt.pdf used on input line 
 106.
@@ -996,8 +879,8 @@ Overfull \hbox (2.05199pt too wide) in paragraph at lines 99--109
 ) (./sections/device-work/energy.tex
 Underfull \vbox (badness 6284) has occurred while \output is active []
 
- [17 <./sections/device-work/youtube-clock.pdf> <./sections/device-work/youtube
--rac.pdf
+[17 <./sections/device-work/youtube-clock.pdf> <./sections/device-work/youtube-
+rac.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/youtube-rac.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
@@ -1005,18 +888,15 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/device-work/vlc-fps.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->]) (./sections/device-work/dspimp.tex
-<sections/device-work/dsp-plt.pdf, id=1431, 1300.86pt x 722.7pt>
+>]) (./sections/device-work/dspimp.tex <sections/device-work/dsp-plt.pdf, id=14
+31, 1300.86pt x 722.7pt>
 File: sections/device-work/dsp-plt.pdf Graphic file (type pdf)
-
 <use sections/device-work/dsp-plt.pdf>
 Package pdftex.def Info: sections/device-work/dsp-plt.pdf used on input line 8.
 
 (pdftex.def)             Requested size: 166.32092pt x 92.39941pt.
-
 <sections/device-work/dsp-power.pdf, id=1432, 1300.86pt x 722.7pt>
 File: sections/device-work/dsp-power.pdf Graphic file (type pdf)
-
 <use sections/device-work/dsp-power.pdf>
 Package pdftex.def Info: sections/device-work/dsp-power.pdf used on input line 
 13.
@@ -1028,13 +908,12 @@ Underfull \hbox (badness 3219) in paragraph at lines 14--14
 
 <sections/device-work/dsp-plt5.pdf, id=1433, 1300.86pt x 794.97pt>
 File: sections/device-work/dsp-plt5.pdf Graphic file (type pdf)
-
 <use sections/device-work/dsp-plt5.pdf>
 Package pdftex.def Info: sections/device-work/dsp-plt5.pdf used on input line 1
 8.
 (pdftex.def)             Requested size: 166.32092pt x 101.63936pt.
- [18 <./sections/device-work/skype-fps.pdf> <./sections/device-work/skype-call-
-setup.pdf
+[18 <./sections/device-work/skype-fps.pdf> <./sections/device-work/skype-call-s
+etup.pdf
 
 pdfTeX warning: pdflatex (file ./sections/device-work/skype-call-setup.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
@@ -1050,9 +929,9 @@ lusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./sections/device-work/power-plt.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->]) (./sections/device-work/conclusion.tex)
-(./sections/network-work/related.tex [19 <./sections/device-work/dsp-plt.pdf> <
-./sections/device-work/dsp-power.pdf
+>]) (./sections/device-work/conclusion.tex) (./sections/network-work/related.te
+x [19 <./sections/device-work/dsp-plt.pdf> <./sections/device-work/dsp-power.pd
+f
 
 pdfTeX warning: pdflatex (file ./sections/device-work/dsp-power.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
@@ -1063,8 +942,7 @@ ion: multiple pdfs with page group included in a single page
 >]) (./sections/device-work/related.tex
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
-)
-(./sections/conclusion.tex
+) (./sections/conclusion.tex
 Overfull \hbox (1.02309pt too wide) in paragraph at lines 4--9
 []\T1/aer/m/n/9 From the networking-standpoint, we have shown that prior
  []
@@ -1087,7 +965,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Overfull \vbox (1.37096pt too high) has occurred while \output is active []
 
-
 [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1100,22 +977,21 @@ Overfull \vbox (2.125pt too high) has occurred while \output is active []
 
 Overfull \vbox (1.375pt too high) has occurred while \output is active []
 
- [22]
+[22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 Overfull \vbox (0.99799pt too high) has occurred while \output is active []
 
-
 [23] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 5881 strings out of 493029
- 88278 string characters out of 6136234
+ 5882 strings out of 493029
+ 88399 string characters out of 6136234
  177736 words of memory out of 5000000
  9143 multiletter control sequences out of 15000+600000
  62884 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,11n,94p,1851b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,11n,94p,1888b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/te
