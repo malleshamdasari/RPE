@@ -1,0 +1,40 @@
+%!TEX root = ../paper.tex
+\section{Device-specific Optimizations}
+%The literature is categorized into following: \\
+%\textbf{Understanding Web Complexity:} \cite{wang2012far,butkiewicz2015klotski}
+
+There is an extensive literature on studying and improving Web and video performance for mobile devices. We discuss these in next. 
+
+\noindent\textbf{Web performance:}
+There has been considerable work in improving the Web page load time by optimizing the network activities of the page load process. Works including Klotski~\cite{butkiewicz2015klotski}, Polaris~\cite{netravali2016polaris}, and Vroom~\cite{ruamviboonsuk2017vroom} prioritize network object loading by taking into account the dependencies across network activities. 
+Shandian~\cite{wang2016speeding}, Nutshell~\cite{sivakumar2017nutshell}, and Parcel~\cite{sivakumar2014parcel} use a Web proxy to perform the network activities, and only send the resulting Document Object Model (DOM) to the mobile device. Zhen \emph{et al.}~\cite{wang2012far} uses a client-only approach to predict the sub-resource of  webpage from a given URL and then to speculatively load these predicted sub-resources. 
+
+Google's compression proxy \cite{agababov2015flywheel} compresses web content to significantly reduce the use of expensive cellular data.
+Flexiweb~\cite{singh2015flexiweb} implements a framework based on Flywheel which uses object size and the network condition information to ensure that the middlebox does not affect the page load time. 
+Balachandran \emph{et al.}~\cite{balachandran2014modeling} models mobile user browsing experience (QoE) in a cellular network. 
+They use mobile traffic data of HTTP session records and radio level information(including handover, throughput, power level)  to predict web QoE metrics. %They show that network factors alone (that are not often considered as important by network operators) are sufficient enough to fully anticipate users' web QoE in a mobile network. 
+Qian \emph{et al.}~\cite{qian2014characterizing} provide detailed measurement study on mobile browsers focusing on cellular data and energy usage. 
+
+Leo \emph{et al.}~\cite{meyerovich2010fast} develop a parallel algorithm that shows the advantage of using multicore architectures for mobile browsers. The Webcore work~\cite{zhu2017optimizing} optimizes the mobile
+hardware architecture to improve PLT and minimize energy consumption.
+
+%\textit{Device Related:}
+%Nejati \emph{et al.}~\cite{nejati2016depth} perform in-depth analysis of mobile web performance. They show that desktop browsers are limited by network while mobile devices are bottlenecked by compute. 
+%Similarly~\cite{erman2015towards} shows that mobile browsers does not show improvement with SPDY/HTTP2 unlike desktop browsers.
+ %They show that page rendering and page loading times are similar in about 60\% of the pages they measured.
+%A recent study \cite{kim2014gpunet} provides networking abstractions for the GPU that can provide a significant performance improvement. However, this is application specific improvement where there is a significant parallelism available. The study also illustrates the potential challenges of offloading traditional network stack onto GPU. 
+%Recently, DeepEar\cite{lane2015early} prototypes offloading deep learning models on GPU and DSP to optimize the resource consumption on embedded devices. This motivates our work to improve the Web performance by offloading scripting to DSP.
+
+\noindent\textbf{Video Performance:}
+Rajaraman \emph{et al.} \cite{rajaraman2014energy} dissect the energy consumption of live video streaming from smartphones.
+Hoque \emph{et al.} \cite{hoque2013dissecting} explores ways of optimizing energy consumption by looking at different characteristics of the device such as network used and user habits.
+In \cite{stokke2015energy}, the authors study the energy consumption of streaming applications on mobile GPU.
+These works minimize energy consumption in mobile devices by customizing the applications but not study the corresponding the QoE.
+
+Balachandran \emph{et al.} \cite{balachandran2012quest} propose new QoE metrics for Internet video. 
+Jian \emph{et al.} \cite{jiang2017pytheas, sun2016cs2p} propose data-driven approaches to cover all the parameters that impact QoE, in the video delivery path. They show that the QoE can be largely improved by adapting bitrate by data-driven throughput prediction.
+Huang \emph{et al.} \cite{huang2010anatomizing} study the effect of network on quality of video streaming applications in mobile devices.
+
+Different from these works, our studies focusses on studying the impact of device hardware on Web and video applications.
+
+

@@ -1,0 +1,578 @@
+\begin{thebibliography}{96}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[azs()]{azscreen}
+http://az-screen-recorder.en.uptodown.com/android.
+
+\bibitem[ffm()]{ffmpeg}
+{FFmpeg}.
+\newblock ffmpeg.org/.
+
+\bibitem[mic()]{micro-avg}
+{Micro- vs. Macro-Average}.
+\newblock https://www.clips.uantwerpen.be/~vincent/pdf/microaverage.pdf.
+
+\bibitem[spt()]{spt}
+{Space Pirate Trainer}.
+\newblock {www.spacepiratetrainer.com/}.
+
+\bibitem[the()]{theblu}
+{theBlu: Encounter}.
+\newblock {wevr.com/project/theblu-encounter}.
+
+\bibitem[tur()]{turk-amazon}
+{Amazon Mechanical Turk}.
+\newblock https://www.mturk.com/.
+
+\bibitem[2017.()]{mobilephones}
+Smartphone~Stats 2017.
+\newblock https://perma.cc/ya27-x5hf.
+
+\bibitem[ADB.()]{adb}
+ADB.
+\newblock developer.android.com/tools/help/adb.html.
+
+\bibitem[Agababov et~al.(2015)Agababov, Buettner, Chudnovsky, Cogan,
+  Greenstein, McDaniel, Piatek, Scott, Welsh, and Yin]{agababov2015flywheel}
+Victor Agababov, Michael Buettner, Victor Chudnovsky, Mark Cogan, Ben
+  Greenstein, Shane McDaniel, Michael Piatek, Colin Scott, Matt Welsh, and
+  Bolian Yin.
+\newblock Flywheel: Google's data compression proxy for the mobile web.
+\newblock In \emph{NSDI}, volume~15, pages 367--380, 2015.
+
+\bibitem[API.()]{youtubeapi}
+YouTube~Player API.
+\newblock https://developers.google.com/youtube/android/player/.
+
+\bibitem[Archive.()]{htarch}
+Http Archive.
+\newblock https://httparchive.org/reports.
+
+\bibitem[(AVC).()]{awc}
+Android View~Cient (AVC).
+\newblock https://github.com/dtmilano/androidviewclient.
+
+\bibitem[Balachandran et~al.(2014)Balachandran, Aggarwal, Halepovic, Pang,
+  Seshan, Venkataraman, and Yan]{balachandran2014modeling}
+Athula Balachandran, Vaneet Aggarwal, Emir Halepovic, Jeffrey Pang, Srinivasan
+  Seshan, Shobha Venkataraman, and He~Yan.
+\newblock Modeling web quality-of-experience on cellular networks.
+\newblock In \emph{Proceedings of the 20th annual international conference on
+  Mobile computing and networking}, pages 213--224. ACM, 2014.
+
+\bibitem[Blake et~al.(2010)Blake, Dreslinski, Mudge, and
+  Flautner]{blake2010evolution}
+Geoffrey Blake, Ronald~G Dreslinski, Trevor Mudge, and Kriszti{\'a}n Flautner.
+\newblock Evolution of thread-level parallelism in desktop applications.
+\newblock \emph{ACM SIGARCH Computer Architecture News}, 38\penalty0
+  (3):\penalty0 302--313, 2010.
+
+\bibitem[Butkiewicz et~al.(2015)Butkiewicz, Wang, Wu, Madhyastha, and
+  Sekar]{butkiewicz2015klotski}
+Michael Butkiewicz, Daimeng Wang, Zhe Wu, Harsha~V Madhyastha, and Vyas Sekar.
+\newblock Klotski: Reprioritizing web content to improve user experience on
+  mobile devices.
+\newblock In \emph{NSDI}, pages 439--453, 2015.
+
+\bibitem[Chakraborty et~al.(2016)Chakraborty, Sanadhya, Das, Kim, and
+  Kim]{chakraborty2016exbox}
+Ayon Chakraborty, Shruti Sanadhya, Samir~R Das, Dongho Kim, and Kyu-Han Kim.
+\newblock Exbox: Experience management middlebox for wireless networks.
+\newblock In \emph{Proceedings of the 12th International on Conference on
+  emerging Networking EXperiments and Technologies}, pages 145--159. ACM, 2016.
+
+\bibitem[Chen et~al.(2006)Chen, Huang, Huang, and Lei]{chen2006quantifying}
+Kuan-Ta Chen, Chun-Ying Huang, Polly Huang, and Chin-Laung Lei.
+\newblock Quantifying skype user satisfaction.
+\newblock In \emph{ACM SIGCOMM}, 2006.
+
+\bibitem[Chen and Huang(2016)]{chen2016effective}
+Ling-Jyh Chen and Ting-Kai Huang.
+\newblock Effective file transfer in mobile opportunistic networks.
+\newblock \emph{Mobile Opportunistic Networks: Architectures, Protocols and
+  Applications}, page 205, 2016.
+
+\bibitem[Contreras and Lakshan{\'e}(2017)]{contreras2017patents}
+Jorge~L Contreras and Rohini Lakshan{\'e}.
+\newblock Patents and mobile devices in india: An empirical survey.
+\newblock \emph{Vand. J. Transnat'l L.}, 50:\penalty0 1, 2017.
+
+\bibitem[Corral et~al.(2016)Corral, Fronza, El~Ioini, Janes, and
+  Plant]{corral2016preserving}
+Luis Corral, Ilenia Fronza, Nabil El~Ioini, Andrea Janes, and Peter Plant.
+\newblock Preserving energy resources using an android kernel extension: a case
+  study.
+\newblock In \emph{Proceedings of the International Conference on Mobile
+  Software Engineering and Systems}, pages 23--24. ACM, 2016.
+
+\bibitem[Cui and Allen(2008)]{cui2008image}
+Li~Cui and Alastair~R Allen.
+\newblock An image quality metric based on corner, edge and symmetry maps.
+\newblock In \emph{BMVC}, pages 1--10, 2008.
+
+\bibitem[Drucker(1997)]{drucker1997improving}
+Harris Drucker.
+\newblock Improving regressors using boosting techniques.
+\newblock In \emph{ICML}, 1997.
+
+\bibitem[et.al(2014{\natexlab{a}})]{aggarwal2014prometheus}
+Aggarwal et.al.
+\newblock Prometheus: toward quality-of-experience estimation for mobile apps
+  from passive network measurements.
+\newblock In \emph{ACM HotMobile}, 2014{\natexlab{a}}.
+
+\bibitem[et.al(2012{\natexlab{a}})]{balachandran2012quest}
+Balachandran et.al.
+\newblock A quest for an internet video quality-of-experience metric.
+\newblock In \emph{ACM Hotnets}, 2012{\natexlab{a}}.
+
+\bibitem[et.al(2013)]{balachandran2013developing}
+Balachandran et.al.
+\newblock Developing a predictive model of quality of experience for internet
+  video.
+\newblock In \emph{ACM SIGCOMM}, 2013.
+
+\bibitem[et.al(2010{\natexlab{a}})]{borer2010model}
+Borer et.al.
+\newblock A model of jerkiness for temporal impairments in video transmission.
+\newblock In \emph{IEEE QoMEX}, 2010{\natexlab{a}}.
+
+\bibitem[et.al(2014{\natexlab{b}})]{chen2014qoe}
+Chen et.al.
+\newblock Qoe doctor: Diagnosing mobile app qoe with automated ui control and
+  cross-layer analysis.
+\newblock In \emph{ACM IMC}, 2014{\natexlab{b}}.
+
+\bibitem[et.al(2010{\natexlab{b}})]{fiedler2010generic}
+Fiedler et.al.
+\newblock A generic quantitative relationship between quality of experience and
+  quality of service.
+\newblock \emph{IEEE Network}, 24\penalty0 (2), 2010{\natexlab{b}}.
+
+\bibitem[et.al(2014{\natexlab{c}})]{golestaneh2014no}
+Golestaneh et.al.
+\newblock No-reference quality assessment of jpeg images via a quality
+  relevance map.
+\newblock \emph{IEEE signal processing letters}, 21\penalty0 (2):\penalty0
+  155--158, 2014{\natexlab{c}}.
+
+\bibitem[et.al(2016)]{jana2016qoe}
+Jana et.al.
+\newblock Qoe prediction model for mobile video telephony.
+\newblock \emph{Multimedia Tools and Applications}, 75\penalty0 (13):\penalty0
+  7957--7980, 2016.
+
+\bibitem[et.al(1999)]{marichal1999blur}
+Marichal et.al.
+\newblock Blur determination in the compressed domain using dct information.
+\newblock In \emph{IEEE ICIP}, 1999.
+
+\bibitem[et.al(2002)]{marziliano2002no}
+Marziliano et.al.
+\newblock A no-reference perceptual blur metric.
+\newblock In \emph{IEEE ICIP}, 2002.
+
+\bibitem[et.al(2012{\natexlab{b}})]{mittal2012no}
+Mittal et.al.
+\newblock No-reference image quality assessment in the spatial domain.
+\newblock \emph{IEEE Transactions on Image Processing}, pages 4695--4708,
+  2012{\natexlab{b}}.
+
+\bibitem[et.al(2006)]{pastrana2006automatic}
+Pastrana-Vidal et.al.
+\newblock Automatic quality assessment of video fluidity impairments using a
+  no-reference metric.
+\newblock In \emph{VPQM}, 2006.
+
+\bibitem[et.al(2015)]{seufert2015survey}
+Seufert et.al.
+\newblock A survey on quality of experience of http adaptive streaming.
+\newblock \emph{IEEE Communications Surveys \& Tutorials}, pages 469--492,
+  2015.
+
+\bibitem[et.al(2004)]{tong2004blur}
+Tong et.al.
+\newblock Blur detection for digital images using wavelet transform.
+\newblock In \emph{IEEE ICME}, 2004.
+
+\bibitem[et.al(2017)]{usman2017no}
+Usman et.al.
+\newblock A no reference video quality metric based on jerkiness estimation
+  focusing on multiple frame freezing in video streaming.
+\newblock \emph{IETE Technical Review}, 34\penalty0 (3):\penalty0 309--320,
+  2017.
+
+\bibitem[et.al(2014{\natexlab{d}})]{yu2014can}
+Yu~et.al.
+\newblock Can you see me now? a measurement study of mobile video calls.
+\newblock In \emph{IEEE INFOCOM}, 2014{\natexlab{d}}.
+
+\bibitem[et.al(2012{\natexlab{c}})]{zhang2012profiling}
+Zhang et.al.
+\newblock Profiling skype video calls: Rate control and video quality.
+\newblock In \emph{IEEE INFOCOM}, 2012{\natexlab{c}}.
+
+\bibitem[Forecast(2017)]{forecast2016cisco}
+Cisco~VNI Forecast.
+\newblock Cisco visual networking index: Global mobile data traffic forecast
+  update, 2016--2021 white paper.
+\newblock 2017.
+
+\bibitem[Freund and Schapire(1997)]{freund1997decision}
+Yoav Freund and Robert~E Schapire.
+\newblock A decision-theoretic generalization of on-line learning and an
+  application to boosting.
+\newblock \emph{Journal of computer and system sciences}, 55\penalty0
+  (1):\penalty0 119--139, 1997.
+
+\bibitem[Gao et~al.(2015)Gao, Gutierrez, Rajan, Dreslinski, Mudge, and
+  Wu]{gao2015study}
+Cao Gao, Anthony Gutierrez, Madhav Rajan, Ronald~G Dreslinski, Trevor Mudge,
+  and Carole-Jean Wu.
+\newblock A study of mobile device utilization.
+\newblock In \emph{Performance Analysis of Systems and Software (ISPASS), 2015
+  IEEE International Symposium on}, pages 225--234. IEEE, 2015.
+
+\bibitem[Go.()]{hbogo}
+HBO Go.
+\newblock https://play.hbogo.com/.
+
+\bibitem[Governors.()]{ad-governors}
+Android Governors.
+\newblock https://androidmodguide.blogspot.com/p/blog-page.html.
+
+\bibitem[Hoque et~al.(2013)Hoque, Siekkinen, Nurminen, and
+  Aalto]{hoque2013dissecting}
+Mohammad~Ashraful Hoque, Matti Siekkinen, Jukka~K Nurminen, and Mika Aalto.
+\newblock Dissecting mobile video services: An energy consumption perspective.
+\newblock In \emph{World of Wireless, Mobile and Multimedia Networks (WoWMoM),
+  2013 IEEE 14th International Symposium and Workshops on a}, pages 1--11.
+  IEEE, 2013.
+
+\bibitem[Hou et~al.(2015)Hou, Gao, Tao, and Li]{hou2015blind}
+Weilong Hou, Xinbo Gao, Dacheng Tao, and Xuelong Li.
+\newblock Blind image quality assessment via deep learning.
+\newblock \emph{IEEE transactions on neural networks and learning systems},
+  26\penalty0 (6):\penalty0 1275--1286, 2015.
+
+\bibitem[https://developer.chrome.com/devtools()]{ggle}
+https://developer.chrome.com/devtools.
+\newblock Chrome developer tools.
+
+\bibitem[https://www.jio.com/en-in/4g plans()]{jioplans1}
+https://www.jio.com/en-in/4g plans.
+\newblock 4g data plans, jio.
+
+\bibitem[https://www.ndtv.com/business/jios-sub-rs-200-prepaid-recharge-plans-with-more-data-than-before-budget
+  2018-1808464()]{jioplans2}
+https://www.ndtv.com/business/jios-sub-rs-200-prepaid-recharge-plans-with-more-data-than-before-budget
+  2018-1808464.
+\newblock 4g data plans, jio.
+
+\bibitem[Huang et~al.(2010)Huang, Xu, Tiwana, Mao, Zhang, and
+  Bahl]{huang2010anatomizing}
+Junxian Huang, Qiang Xu, Birjodh Tiwana, Z~Morley Mao, Ming Zhang, and Paramvir
+  Bahl.
+\newblock Anatomizing application performance differences on smartphones.
+\newblock In \emph{Proceedings of the 8th international conference on Mobile
+  systems, applications, and services}, pages 165--178. ACM, 2010.
+
+\bibitem[IPerf.()]{iperf-2015}
+IPerf.
+\newblock https://iperf.fr/.
+
+\bibitem[Jiang et~al.(2017)Jiang, Sun, Sekar, and Zhang]{jiang2017pytheas}
+Junchen Jiang, Shijie Sun, Vyas Sekar, and Hui Zhang.
+\newblock Pytheas: Enabling data-driven quality of experience optimization
+  using group-based exploration-exploitation.
+\newblock In \emph{NSDI}, volume~1, page~3, 2017.
+
+\bibitem[Jones et~al.(2009)Jones, Liu, Meyerovich, Asanovic, and
+  Bodik]{jones2009parallelizing}
+Christopher~Grant Jones, Rose Liu, Leo Meyerovich, Krste Asanovic, and
+  Rastislav Bodik.
+\newblock Parallelizing the web browser.
+\newblock In \emph{Proceedings of the First USENIX Workshop on Hot Topics in
+  Parallelism}, 2009.
+
+\bibitem[Kelton et~al.(2017)Kelton, Ryoo, Balasubramanian, and
+  Das]{kelton2017improving}
+Conor Kelton, Jihoon Ryoo, Aruna Balasubramanian, and Samir~R Das.
+\newblock Improving user perceived page load times using gaze.
+\newblock In \emph{NSDI}, pages 545--559, 2017.
+
+\bibitem[Le~Callet et~al.(2006)Le~Callet, Viard-Gaudin, and
+  Barba]{le2006convolutional}
+Patrick Le~Callet, Christian Viard-Gaudin, and Dominique Barba.
+\newblock A convolutional neural network approach for objective video quality
+  assessment.
+\newblock \emph{IEEE Transactions on Neural Networks}, 17\penalty0
+  (5):\penalty0 1316--1327, 2006.
+
+\bibitem[Linux.()]{ramdisks}
+RAM~Disks. Linux.
+\newblock https://kerneltalks.com/linux/how-to-create-ram-disk-in-linux/.
+
+\bibitem[Mai et~al.(2012)Mai, Tang, King, Cascaval, and
+  Montesinos]{mai2012case}
+Haohui Mai, Shuo Tang, Samuel~T King, Calin Cascaval, and Pablo Montesinos.
+\newblock A case for parallelizing web pages.
+\newblock In \emph{HotPar}, 2012.
+
+\bibitem[Manycam.()]{mancam}
+Manycam.
+\newblock https://manycam.com/.
+
+\bibitem[media.xiph.org/video/derf/()]{xiph2008org}
+media.xiph.org/video/derf/.
+\newblock {Xiph.org Video Test Media}.
+
+\bibitem[Methods.()]{ensemblemethods2008}
+Ensemble Methods.
+\newblock http://scikit-learn.org/stable/modules/ensemble.html.
+
+\bibitem[Meyerovich and Bodik(2010)]{meyerovich2010fast}
+Leo~A Meyerovich and Rastislav Bodik.
+\newblock Fast and parallel webpage layout.
+\newblock In \emph{Proceedings of the 19th international conference on World
+  wide web}, pages 711--720. ACM, 2010.
+
+\bibitem[Mocanu et~al.(2014)Mocanu, Exarchakos, and Liotta]{mocanu2014deep}
+Decebal~Constantin Mocanu, Georgios Exarchakos, and Antonio Liotta.
+\newblock Deep learning for objective quality assessment of 3d images.
+\newblock In \emph{Image Processing (ICIP), 2014 IEEE International Conference
+  on}, pages 758--762. IEEE, 2014.
+
+\bibitem[Narwaria and Lin(2010)]{narwaria2010objective}
+Manish Narwaria and Weisi Lin.
+\newblock Objective image quality assessment based on support vector
+  regression.
+\newblock \emph{IEEE Transactions on Neural Networks}, 21\penalty0
+  (3):\penalty0 515--519, 2010.
+
+\bibitem[Narwaria et~al.(2012)Narwaria, Lin, and Liu]{narwaria2012low}
+Manish Narwaria, Weisi Lin, and Anmin Liu.
+\newblock Low-complexity video quality assessment using temporal quality
+  variations.
+\newblock \emph{IEEE Transactions on Multimedia}, 14\penalty0 (3):\penalty0
+  525--535, 2012.
+
+\bibitem[Nejati and Balasubramanian(2016)]{nejati2016depth}
+Javad Nejati and Aruna Balasubramanian.
+\newblock An in-depth study of mobile browser performance.
+\newblock In \emph{Proc. WWW 2016}, pages 1305--1315, 2016.
+
+\bibitem[Netflix.()]{netflix}
+Netflix.
+\newblock https://www.netflix.com/.
+
+\bibitem[Netravali et~al.(2016)Netravali, Goyal, Mickens, and
+  Balakrishnan]{netravali2016polaris}
+Ravi Netravali, Ameesh Goyal, James Mickens, and Hari Balakrishnan.
+\newblock Polaris: Faster page loads using fine-grained dependency tracking.
+\newblock In \emph{NSDI}, pages 123--136, 2016.
+
+\bibitem[Network({\natexlab{a}})]{hexqual2013qcom}
+Qualcomm~Development Network.
+\newblock https://developer.qualcomm.com/software/hexagon-dsp-sdk/tools,
+  {\natexlab{a}}.
+
+\bibitem[Network({\natexlab{b}})]{qualsnap}
+Qualcomm~Development Network.
+\newblock developer.qualcomm.com/software/snapdragon-profiler, {\natexlab{b}}.
+
+\bibitem[Pestov(2013)]{pestov2013k}
+Vladimir Pestov.
+\newblock Is the k-nn classifier in high dimensions affected by the curse of
+  dimensionality?
+\newblock \emph{Computers \& Mathematics with Applications}, 65\penalty0
+  (10):\penalty0 1427--1437, 2013.
+
+\bibitem[Qian et~al.(2014)Qian, Sen, and Spatscheck]{qian2014characterizing}
+Feng Qian, Subhabrata Sen, and Oliver Spatscheck.
+\newblock Characterizing resource usage for mobile web browsing.
+\newblock In \emph{Proceedings of the 12th annual international conference on
+  Mobile systems, applications, and services}, pages 218--231. ACM, 2014.
+
+\bibitem[Rajaraman et~al.(2014)Rajaraman, Siekkinen, and
+  Hoque]{rajaraman2014energy}
+Swaminathan~Vasanth Rajaraman, Matti Siekkinen, and Mohammad~A Hoque.
+\newblock Energy consumption anatomy of live video streaming from a smartphone.
+\newblock In \emph{Personal, Indoor, and Mobile Radio Communication (PIMRC),
+  2014 IEEE 25th Annual International Symposium on}, pages 2013--2017. IEEE,
+  2014.
+
+\bibitem[Richardson(2004)]{richardson2004h}
+Iain~E Richardson.
+\newblock \emph{H. 264 and MPEG-4 video compression: video coding for
+  next-generation multimedia}.
+\newblock John Wiley \& Sons, 2004.
+
+\bibitem[Ruamviboonsuk et~al.(2017{\natexlab{a}})Ruamviboonsuk, Netravali,
+  Uluyol, and Madhyastha]{Ruamviboonsuk:2017:VAM:3098822.3098851}
+Vaspol Ruamviboonsuk, Ravi Netravali, Muhammed Uluyol, and Harsha~V.
+  Madhyastha.
+\newblock Vroom: Accelerating the mobile web with server-aided dependency
+  resolution.
+\newblock In \emph{Proceedings of the Conference of the ACM Special Interest
+  Group on Data Communication}, SIGCOMM '17, pages 390--403, New York, NY, USA,
+  2017{\natexlab{a}}. ACM.
+\newblock ISBN 978-1-4503-4653-5.
+\newblock \doi{10.1145/3098822.3098851}.
+\newblock URL \url{http://doi.acm.org/10.1145/3098822.3098851}.
+
+\bibitem[Ruamviboonsuk et~al.(2017{\natexlab{b}})Ruamviboonsuk, Netravali,
+  Uluyol, and Madhyastha]{ruamviboonsuk2017vroom}
+Vaspol Ruamviboonsuk, Ravi Netravali, Muhammed Uluyol, and Harsha~V Madhyastha.
+\newblock Vroom: Accelerating the mobile web with server-aided dependency
+  resolution.
+\newblock In \emph{Proceedings of the Conference of the ACM Special Interest
+  Group on Data Communication}, pages 390--403. ACM, 2017{\natexlab{b}}.
+
+\bibitem[SDK.()]{andriodsdk}
+Android SDK.
+\newblock https://developer.android.com/sdk/download.html.
+
+\bibitem[Series(2012)]{series2012methodology}
+BT~Series.
+\newblock Methodology for the subjective assessment of the quality of
+  television pictures.
+\newblock \emph{Recommendation ITU-R BT}, pages 500--13, 2012.
+
+\bibitem[Shafiq et~al.(2014)Shafiq, Erman, Ji, Liu, Pang, and Wang]{Shafiqund}
+Muhammad~Zubair Shafiq, Jeffrey Erman, Lusheng Ji, Alex~X. Liu, Jeffrey Pang,
+  and Jia Wang.
+\newblock Understanding the impact of network dynamics on mobile video user
+  engagement.
+\newblock In \emph{The 2014 ACM International Conference on Measurement and
+  Modeling of Computer Systems}, SIGMETRICS '14, pages 367--379, New York, NY,
+  USA, 2014. ACM.
+\newblock ISBN 978-1-4503-2789-3.
+\newblock \doi{10.1145/2591971.2591975}.
+\newblock URL \url{http://doi.acm.org/10.1145/2591971.2591975}.
+
+\bibitem[Singh et~al.(2015)Singh, Madhyastha, Krishnamurthy, and
+  Govindan]{singh2015flexiweb}
+Shailendra Singh, Harsha~V Madhyastha, Srikanth~V Krishnamurthy, and Ramesh
+  Govindan.
+\newblock Flexiweb: Network-aware compaction for accelerating mobile web
+  transfers.
+\newblock In \emph{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking}, pages 604--616. ACM, 2015.
+
+\bibitem[Sivakumar et~al.(2014)Sivakumar, Puzhavakath~Narayanan,
+  Gopalakrishnan, Lee, Rao, and Sen]{sivakumar2014parcel}
+Ashiwan Sivakumar, Shankaranarayanan Puzhavakath~Narayanan, Vijay
+  Gopalakrishnan, Seungjoon Lee, Sanjay Rao, and Subhabrata Sen.
+\newblock Parcel: Proxy assisted browsing in cellular networks for energy and
+  latency reduction.
+\newblock In \emph{Proceedings of the 10th ACM International on Conference on
+  emerging Networking Experiments and Technologies}, pages 325--336. ACM, 2014.
+
+\bibitem[Sivakumar et~al.(2017)Sivakumar, Jiang, Nam, Puzhavakath~Narayanan,
+  Gopalakrishnan, Rao, Sen, Thottethodi, and Vijaykumar]{sivakumar2017nutshell}
+Ashiwan Sivakumar, Chuan Jiang, Yun~Seong Nam, Shankaranarayanan
+  Puzhavakath~Narayanan, Vijay Gopalakrishnan, Sanjay~G Rao, Subhabrata Sen,
+  Mithuna Thottethodi, and TN~Vijaykumar.
+\newblock Nutshell: Scalable whittled proxy execution for low-latency web over
+  cellular networks.
+\newblock In \emph{Proceedings of the 23rd Annual International Conference on
+  Mobile Computing and Networking}, pages 448--461. ACM, 2017.
+
+\bibitem[Stats.()]{statista2}
+Smartphone~Web Stats.
+\newblock
+  https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/.
+
+\bibitem[Stokke et~al.(2015)Stokke, Stensland, Griwodz, and
+  Halvorsen]{stokke2015energy}
+Kristoffer~Robin Stokke, H{\aa}kon~Kvale Stensland, Carsten Griwodz, and
+  P{\aa}l Halvorsen.
+\newblock Energy efficient continuous multimedia processing using the tegra k1
+  mobile soc.
+\newblock In \emph{Proceedings of the 7th ACM International Workshop on Mobile
+  Video}, pages 15--16. ACM, 2015.
+
+\bibitem[Sun et~al.(2016)Sun, Yin, Jiang, Sekar, Lin, Wang, Liu, and
+  Sinopoli]{sun2016cs2p}
+Yi~Sun, Xiaoqi Yin, Junchen Jiang, Vyas Sekar, Fuyuan Lin, Nanshu Wang, Tao
+  Liu, and Bruno Sinopoli.
+\newblock Cs2p: Improving video bitrate selection and adaptation with
+  data-driven throughput prediction.
+\newblock In \emph{Proceedings of the 2016 conference on ACM SIGCOMM 2016
+  Conference}, pages 272--285. ACM, 2016.
+
+\bibitem[Tesseract()]{ocr-tesseract}
+Tesseract.
+\newblock https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/.
+
+\bibitem[Unity.()]{unity}
+Unity.
+\newblock http://hwstats.unity3d.com/mobile/.
+
+\bibitem[VLC.()]{andriodvlc}
+Android VLC.
+\newblock https://code.videolan.org/videolan/vlc-android.
+
+\bibitem[Wang et~al.(2013)Wang, Balasubramanian, Krishnamurthy, and
+  Wetherall]{wang2013demystifying}
+Xiao~Sophia Wang, Aruna Balasubramanian, Arvind Krishnamurthy, and David
+  Wetherall.
+\newblock Demystifying page load performance with wprof.
+\newblock In \emph{NSDI}, pages 473--485, 2013.
+
+\bibitem[Wang et~al.(2016)Wang, Krishnamurthy, and Wetherall]{wang2016speeding}
+Xiao~Sophia Wang, Arvind Krishnamurthy, and David Wetherall.
+\newblock Speeding up web page loads with shandian.
+\newblock In \emph{NSDI}, pages 109--122, 2016.
+
+\bibitem[Wang et~al.(2012)Wang, Lin, Zhong, and Chishtie]{wang2012far}
+Zhen Wang, Felix~Xiaozhu Lin, Lin Zhong, and Mansoor Chishtie.
+\newblock How far can client-only solutions go for mobile browser speed?
+\newblock In \emph{Proceedings of the 21st international conference on World
+  Wide Web}, pages 31--40. ACM, 2012.
+
+\bibitem[Websites.()]{alexa}
+Alexa Websites.
+\newblock https://www.alexa.com/topsites.
+
+\bibitem[Wolf and Pinson(2009)]{wolf2009no}
+Stephen Wolf and M~Pinson.
+\newblock A no reference (nr) and reduced reference (rr) metric for detecting
+  dropped video frames.
+\newblock In \emph{VPQM}, 2009.
+
+\bibitem[Xiao et~al.(2016)Xiao, Swaminathan, Wei, and Chen]{Xiaodash2m}
+Mengbai Xiao, Viswanathan Swaminathan, Sheng Wei, and Songqing Chen.
+\newblock Dash2m: Exploring http/2 for internet streaming to mobile devices.
+\newblock In \emph{Proceedings of the 2016 ACM on Multimedia Conference}, MM
+  '16, pages 22--31, New York, NY, USA, 2016. ACM.
+\newblock ISBN 978-1-4503-3603-1.
+\newblock \doi{10.1145/2964284.2964313}.
+\newblock URL \url{http://doi.acm.org/10.1145/2964284.2964313}.
+
+\bibitem[Xue et~al.(2013)Xue, Zhang, and Mou]{xue2013learning}
+Wufeng Xue, Lei Zhang, and Xuanqin Mou.
+\newblock Learning without human scores for blind image quality assessment.
+\newblock In \emph{Computer Vision and Pattern Recognition (CVPR), 2013 IEEE
+  Conference on}, pages 995--1002. IEEE, 2013.
+
+\bibitem[Ye et~al.(2012)Ye, Kumar, Kang, and Doermann]{ye2012unsupervised}
+Peng Ye, Jayant Kumar, Le~Kang, and David Doermann.
+\newblock Unsupervised feature learning framework for no-reference image
+  quality assessment.
+\newblock In \emph{Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 1098--1105. IEEE, 2012.
+
+\bibitem[Zhu and Reddi(2017)]{zhu2017optimizing}
+Yuhao Zhu and Vijay~Janapa Reddi.
+\newblock Optimizing general-purpose cpus for energy-efficient mobile web
+  computing.
+\newblock \emph{ACM Transactions on Computer Systems (TOCS)}, 35\penalty0
+  (1):\penalty0 1, 2017.
+
+\end{thebibliography}

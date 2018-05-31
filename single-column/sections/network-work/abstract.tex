@@ -1,0 +1,16 @@
+\begin{abstract} 
+%Recent work has shown the need for network administrators to model video quality of experience (QoE) for effective utilization of network resources. The key challenge here is to get the QoE information of video applications (since only few applications provide QoE info but not all). This work presents a practical application independent video QoE model for enterprise wireless networks. The model is robust in dealing with different video content and motion. We present two metrics that capture the application agnostic QoE: intra coded bitrate and stutter ratio to capture spatial (blur) and temporal (video freezes) artifacts of experience. We conduct extensive measurements with these two metrics under different applications, video content, video motion and different devices. 
+Mobile video traffic is dominant in cellular and enterprise wireless networks.
+With the advent of myriads of applications from video telephony and streaming to virtual reality,
+network administrators face the challenge to provide high quality of experience (QoE) in the face of 
+diverse wireless conditions and application contents. Yet, state-of-the-art networks lack 
+analytics for QoE, as 
+this requires support from the application or user feedback.
+While there are existing techniques to map quality of service (QoS) to QoE by training machine learning (ML) models without requiring user feedback, these
+techniques are limited to only few applications (e.g., Skype), due to insufficient 
+QoE ground-truth annotation for ML. To address these limitations, we focus on 
+video telephony applications and model key artefacts of spatial and temporal video QoE. Our key contribution is designing content- and device-independent metrics and training across diverse \wifi conditions. We show that our metrics achieve a median 90\% accuracy 
+by comparing with mean-opinion-score (MOS) from more than 200 users and 800 video samples. Our content-independent metrics significantly reduce the MOS prediction error of previous works and 
+are validated over three popular video telephony applications -- Skype, FaceTime and Google Hangouts.
+
+\end{abstract}
