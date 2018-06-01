@@ -1,0 +1,134 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: plainnat.bst
+Database file #1: qos-qoe.bib.bib
+Warning--entry type for "qualsnap" isn't style-file defined
+--line 38 of file qos-qoe.bib.bib
+Warning--entry type for "ggle" isn't style-file defined
+--line 43 of file qos-qoe.bib.bib
+Warning--entry type for "xiph2008org" isn't style-file defined
+--line 48 of file qos-qoe.bib.bib
+Warning--entry type for "mancam" isn't style-file defined
+--line 363 of file qos-qoe.bib.bib
+Warning--entry type for "azscreen" isn't style-file defined
+--line 368 of file qos-qoe.bib.bib
+Warning--entry type for "ensemblemethods2008" isn't style-file defined
+--line 373 of file qos-qoe.bib.bib
+Warning--entry type for "hexqual2013qcom" isn't style-file defined
+--line 614 of file qos-qoe.bib.bib
+Warning--entry type for "statista2" isn't style-file defined
+--line 631 of file qos-qoe.bib.bib
+Warning--entry type for "unity" isn't style-file defined
+--line 641 of file qos-qoe.bib.bib
+Warning--entry type for "andriodvlc" isn't style-file defined
+--line 990 of file qos-qoe.bib.bib
+Warning--entry type for "andriodsdk" isn't style-file defined
+--line 1000 of file qos-qoe.bib.bib
+Warning--entry type for "youtubeapi" isn't style-file defined
+--line 1005 of file qos-qoe.bib.bib
+Warning--entry type for "adb" isn't style-file defined
+--line 1015 of file qos-qoe.bib.bib
+Warning--entry type for "ocr-tesseract" isn't style-file defined
+--line 1020 of file qos-qoe.bib.bib
+Warning--entry type for "awc" isn't style-file defined
+--line 1025 of file qos-qoe.bib.bib
+Warning--entry type for "alexa" isn't style-file defined
+--line 1030 of file qos-qoe.bib.bib
+Warning--entry type for "ad-governors" isn't style-file defined
+--line 1035 of file qos-qoe.bib.bib
+Warning--entry type for "iperf-2015" isn't style-file defined
+--line 1040 of file qos-qoe.bib.bib
+Warning--entry type for "netflix" isn't style-file defined
+--line 1045 of file qos-qoe.bib.bib
+Warning--entry type for "hbogo" isn't style-file defined
+--line 1050 of file qos-qoe.bib.bib
+Warning--entry type for "mobilephones" isn't style-file defined
+--line 1055 of file qos-qoe.bib.bib
+Warning--entry type for "ramdisks" isn't style-file defined
+--line 1060 of file qos-qoe.bib.bib
+Warning--entry type for "jioplans1" isn't style-file defined
+--line 1086 of file qos-qoe.bib.bib
+Warning--entry type for "jioplans2" isn't style-file defined
+--line 1091 of file qos-qoe.bib.bib
+Warning--entry type for "htarch" isn't style-file defined
+--line 1216 of file qos-qoe.bib.bib
+Warning--to sort, need author or key in spt
+Warning--to sort, need author or key in theblu
+Warning--to sort, need author or key in azscreen
+Warning--to sort, need author or key in ffmpeg
+Warning--to sort, need author or key in turk-amazon
+Warning--to sort, need author or key in micro-avg
+Warning--empty year in azscreen
+Warning--empty year in ffmpeg
+Warning--empty year in micro-avg
+Warning--empty year in spt
+Warning--empty year in theblu
+Warning--empty year in turk-amazon
+Warning--empty year in mobilephones
+Warning--empty year in adb
+Warning--empty year in youtubeapi
+Warning--empty year in htarch
+Warning--empty year in awc
+Warning--empty journal in forecast2016cisco
+Warning--empty year in hbogo
+Warning--empty year in ad-governors
+Warning--empty year in ggle
+Warning--empty year in jioplans1
+Warning--empty year in jioplans2
+Warning--empty year in iperf-2015
+Warning--empty year in ramdisks
+Warning--empty year in mancam
+Warning--empty year in xiph2008org
+Warning--empty year in ensemblemethods2008
+Warning--empty year in netflix
+Warning--empty year in hexqual2013qcom
+Warning--empty year in qualsnap
+Warning--empty year in andriodsdk
+Warning--empty year in statista2
+Warning--empty year in ocr-tesseract
+Warning--empty year in unity
+Warning--empty year in andriodvlc
+Warning--empty year in alexa
+You've used 96 entries,
+            2773 wiz_defined-function locations,
+            1026 strings with 19428 characters,
+and the built_in function-call counts, 44310 in all, are:
+= -- 3953
+> -- 2230
+< -- 92
++ -- 788
+- -- 684
+* -- 3129
+:= -- 6322
+add.period$ -- 288
+call.type$ -- 96
+change.case$ -- 515
+chr.to.int$ -- 88
+cite$ -- 235
+duplicate$ -- 2243
+empty$ -- 4009
+format.name$ -- 792
+if$ -- 9710
+int.to.chr$ -- 9
+int.to.str$ -- 1
+missing$ -- 67
+newline$ -- 466
+num.names$ -- 360
+pop$ -- 1368
+preamble$ -- 1
+purify$ -- 420
+quote$ -- 0
+skip$ -- 1793
+stack$ -- 0
+substring$ -- 1516
+swap$ -- 453
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1051
+warning$ -- 37
+while$ -- 393
+width$ -- 0
+write$ -- 1164
+(There were 62 warnings)

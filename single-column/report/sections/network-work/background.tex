@@ -1,0 +1,63 @@
+\subsection{Background} \label{label:background}
+
+Before designing our no-reference QoE metrics, we present a video coding primer and QoE artefacts in video telephony.
+In Section~\ref{label:design}, we harness these coding properties to carefully craft accurate metrics that capture such artefacts.
+
+\subsubsection{Video Coding Primer}
+Video coding is performed in three critical steps: 
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{Frame prediction:}
+    The encoder takes images of video and divides each image into macroblocks (typically 16x16, 16x8, 8x16, 8x8, 4x4 pixel blocks). The macroblocks are predicted from previously encoded macroblocks, either from current image (called \emph{intra-frame prediction}) or from previous frames and future frames (called \emph{inter-frame prediction}). Depending on the intra- and inter-macroblocks, frames are classified as I, P and B frames. The I frame uses only intra-frame prediction i.e., it does not employ any previously coded frames as reference. Whereas P frames are predicted using previously coded frames and B frames are encoded from previous and future frames. The encoder typically combines both intra- and inter-prediction techniques to exploit spatial and temporal redundancy, respectively. Intra-frame prediction involves different prediction modes \cite{richardson2004h} while finding candidate macroblocks. Inter-frame prediction uses motion estimation by employing different block matching algorithms (such as Hexagon based or full exhaustive search) to identify the candidate macroblock across frames. Finally, a residual is calculated by taking the difference (measured typically using mean absolute difference (MAD) or mean squared error (MSE)) between the predicted and current macroblock. The prediction stage produces 4x4 to 16x16 blocks of absolute-pixel or residual values. 
+
+\item \textbf{Transform coding and quantization:}
+These absolute values are then transformed and quantized for further compression. Typically, two transform coding techniques (block or wavelet based) are used to convert pixel values into transform coefficients. A subset of these transform coefficients are sufficient to construct actual pixel values, which means reduced data upon quantization. The most popular transform coding is DCT over 8x8 macroblocks. 
+
+\item \textbf{Entropy coding:}
+Finally, coefficients are converted to binary data which is further compressed using entropy coding techniques, such as CABAC, CAVLC or Huffman. Richardson presents details of video compression~\cite{richardson2004h}.
+\end{itemize}
+We highlight that inter-frame prediction depends on motion content in the video. The higher the motion in the video is, the lower the compression rate is. Similarly, intra-frame compression is affected by frame contents such as color variation. For instance, the blurrier the video is, the higher the compression rate is. In the next section, we design QoE metrics exploiting these video coding principles.
+
+\begin{table}[t]
+	\centering
+	\scriptsize
+	\vspace*{-0.5em}	
+%	\hspace{0.2in}
+%	\parbox{.5\linewidth} {
+		%\scalebox{1.1}{
+            \resizebox{\columnwidth}{!}{
+			\begin{tabular}{l|c}				
+				\hline \hline
+				\textbf{Application Category} & \textbf{Suitable Metric} \\
+				\hline
+				\hline
+				Adaptive Streaming & Startup delay, Buffering ratio, Stall ratio \\ \hline
+				Video Telephony & Bitrate, Fps, Blocking, Blurring \\ \hline
+				Progressive Downloads & PSNR, SSIM \\ \hline
+				VR/AR, Game Streaming & Latency, buffering ratio, Stall ratio \\ \hline 
+			\end{tabular}
+		}
+	\vspace*{0.5em}
+		\hfill 
+		\caption{Metrics based on application category}
+		\label{tab:qoe_metric}
+%	}
+	\vspace*{-1em}
+\end{table}
+
+\subsubsection{QoE Artefacts in Video Telephony}
+
+When a user is in a video telephony call, she can experience different aberrations in video quality, as follows.
+
+\noindent \textbf{Video freeze} is a temporal disruption in a video. A user may experience freeze when the incoming video stalls abruptly and the same frame is displayed for a long duration. Additionally, freeze may appear as a fast play of video, where the decoder tries to recover from frame losses by playing contiguous frames in quick succession, creating a perception of \texttt{fast} movement. Both these temporal artefacts are grouped into freeze. 
+This happens mainly due to network loss (where some frames or blocks lost) or delay (where the frames are dropped because the frames are decoded too late to display). 
+
+\noindent \textbf{Blurriness} appears when encoder uses high quantization parameters (QP) during transform coding. Typically, servers use adaptive encoding based on network conditions. In adaptive encoding, server attempts to adjust QP to minimize bitrate in poor network conditions, which degrades the quality of encoded frame. High QP reduces the magnitude of high frequency DCT coefficients almost down to zero, consequently losing information and making it impossible to extract original DCT coefficients at the time of de-quantization.  Loss of high-frequency information results in blurriness. 
+
+\noindent \textbf{Blocking:} Most of the current coding standards (such as H.26x and VPx) are block based, where each image is divided into blocks (from 4x4 to 32x32 and recent 64x64 block in H.265). The blocking metric captures the loss of these blocks due to high network-packet loss. The decoder can introduce visual impairments at the block boundaries or place random blocks in place of original blocks, if the presentation timestamp elapses, which creates bad experience. 
+
+\noindent \textbf{Call startup delay} is the duration of call setup from the time the caller initiates the call until the callee receives it. 
+We observe an 11 s worst case and 7 s median delay when there is 20\% network packet loss, whereas we obtain a median 3 s delay in best network conditions.
+Although call startup delay does measure user experience, it can only provide information at the beginning of the call, and not during the call.
+
+In this work, we focus on freeze and blurriness artefacts. In our extensive experiments over Skype, Hangouts, FaceTime, we do not observe any blocking artefacts, hence we omit this metric for video telephony. We notice video freezes (temporal artefact) and blurring (spatial artefact). For video freezes, we  explore multiple metrics that capture freeze ratio for whole clip, number of freezes per clip and duration of freezes. We do not consider startup delay, as it is an one-time metric.

@@ -1,0 +1,104 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: plain.bst
+Database file #1: qos-qoe.bib
+Warning--entry type for "qualsnap" isn't style-file defined
+--line 38 of file qos-qoe.bib
+Warning--entry type for "ggle" isn't style-file defined
+--line 43 of file qos-qoe.bib
+Warning--entry type for "xiph2008org" isn't style-file defined
+--line 48 of file qos-qoe.bib
+Warning--entry type for "mancam" isn't style-file defined
+--line 363 of file qos-qoe.bib
+Warning--entry type for "azscreen" isn't style-file defined
+--line 368 of file qos-qoe.bib
+Warning--entry type for "ensemblemethods2008" isn't style-file defined
+--line 373 of file qos-qoe.bib
+Warning--entry type for "hexqual2013qcom" isn't style-file defined
+--line 614 of file qos-qoe.bib
+Warning--entry type for "statista2" isn't style-file defined
+--line 631 of file qos-qoe.bib
+Warning--entry type for "unity" isn't style-file defined
+--line 641 of file qos-qoe.bib
+Warning--entry type for "andriodvlc" isn't style-file defined
+--line 990 of file qos-qoe.bib
+Warning--entry type for "andriodsdk" isn't style-file defined
+--line 1000 of file qos-qoe.bib
+Warning--entry type for "youtubeapi" isn't style-file defined
+--line 1005 of file qos-qoe.bib
+Warning--entry type for "adb" isn't style-file defined
+--line 1015 of file qos-qoe.bib
+Warning--entry type for "ocr-tesseract" isn't style-file defined
+--line 1020 of file qos-qoe.bib
+Warning--entry type for "awc" isn't style-file defined
+--line 1025 of file qos-qoe.bib
+Warning--entry type for "alexa" isn't style-file defined
+--line 1030 of file qos-qoe.bib
+Warning--entry type for "ad-governors" isn't style-file defined
+--line 1035 of file qos-qoe.bib
+Warning--entry type for "iperf-2015" isn't style-file defined
+--line 1040 of file qos-qoe.bib
+Warning--entry type for "netflix" isn't style-file defined
+--line 1045 of file qos-qoe.bib
+Warning--entry type for "hbogo" isn't style-file defined
+--line 1050 of file qos-qoe.bib
+Warning--entry type for "mobilephones" isn't style-file defined
+--line 1055 of file qos-qoe.bib
+Warning--entry type for "ramdisks" isn't style-file defined
+--line 1060 of file qos-qoe.bib
+Warning--entry type for "jioplans1" isn't style-file defined
+--line 1086 of file qos-qoe.bib
+Warning--entry type for "jioplans2" isn't style-file defined
+--line 1091 of file qos-qoe.bib
+Warning--entry type for "htarch" isn't style-file defined
+--line 1216 of file qos-qoe.bib
+Warning--to sort, need author or key in spt
+Warning--to sort, need author or key in theblu
+Warning--to sort, need author or key in azscreen
+Warning--to sort, need author or key in ffmpeg
+Warning--to sort, need author or key in turk-amazon
+Warning--to sort, need author or key in micro-avg
+Warning--empty journal in forecast2016cisco
+You've used 96 entries,
+            2118 wiz_defined-function locations,
+            922 strings with 18339 characters,
+and the built_in function-call counts, 32409 in all, are:
+= -- 3148
+> -- 1370
+< -- 37
++ -- 565
+- -- 456
+* -- 1874
+:= -- 4971
+add.period$ -- 279
+call.type$ -- 96
+change.case$ -- 515
+chr.to.int$ -- 0
+cite$ -- 103
+duplicate$ -- 1375
+empty$ -- 2854
+format.name$ -- 456
+if$ -- 7153
+int.to.chr$ -- 0
+int.to.str$ -- 96
+missing$ -- 67
+newline$ -- 452
+num.names$ -- 180
+pop$ -- 770
+preamble$ -- 1
+purify$ -- 420
+quote$ -- 0
+skip$ -- 1146
+stack$ -- 0
+substring$ -- 1811
+swap$ -- 440
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 382
+warning$ -- 7
+while$ -- 303
+width$ -- 98
+write$ -- 947
+(There were 32 warnings)

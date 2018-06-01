@@ -1,0 +1,12 @@
+%!TEX root = ../main.tex
+%\begin{abstract}
+
+Applications for mobile Internet have proliferated with the increase in smartphone usage. Popular applications include Web browsing, video streaming and interactive telephony. A critical performance issue in these applications is quality of experience (QoE) of end-users. It is now widely understood that resource control mechanisms for such applications should optimize for QoE rather than more traditional quality of service (QoS) metrics that capture parameters such as latency or throughput.  The reason for this is that these QoS metrics do not always correlate well with the application-specific user experience or may have complex dependencies. In our work, we study the QoE aspects of three popular mobile applications -- YouTube for video streaming, Skype for telephony and Google Chrome for Web browsing. Our general goal is to aid resource control mechanisms to optimize for the QoE of applications. 
+     
+In the first part of our work, we conduct a survey of existing work on QoE optimizations and highlight their limitations. We then propose a machine learning-based QoE modeling approach. 
+%This model is to be located at a WiFi access point or cellular base station. 
+The model learns the QoE of applications under diverse network conditions and helps the network administrator to efficiently provision resources to maximize the QoE. The proposed approach improves the model accuracy significantly relative to prior approaches. 
+      
+In the second part of our work, we perform a detailed study on how underlying device hardware performance may impact the QoE of mobile applications when there are sufficient network resources available. For this study, we microbenchmark the applications with respect to device hardware parameters such as CPU clock speed, memory, GPU and number of CPU cores. We find that Web browsing is the most affected application when hardware resources are limited among the applications studied. The reason is that Web browsing is inefficient in exploiting any of the device accelerators or coprocessors. We show that offloading Web page load related computations opportunistically to the DSP coprocessor can lead to up to 18\% improvement in page load times while saving energy consumption by a factor of 4.
+
+%\end{abstract}

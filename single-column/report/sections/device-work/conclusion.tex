@@ -1,0 +1,17 @@
+%!TEX root = ../paper.tex
+
+\subsection{Summary}
+
+In this work, we analyze the impact of the device hardware on key mobile Internet applications -- Web browsing, video streaming (YouTube), and video telephony (Skype). Our study is motivated by a survey of 7 diverse smartphone devices, ranging from \$60 to \$800 in cost, where show that device hardware does have an impact on 
+the application's QoE. Our study then
+specifically focuses on the impact of CPU speeds on QoE. Our key takeaway is that Web browsing is significantly impacted by slow CPU speeds. At slow CPU frequencies, compute time increases but  network processing time also increases. The latter is because of a second-order effect we observe, where slow CPU significantly increase the latency of TCP packet processing. Video applications, especially streaming, is less affected by slow CPU speeds. This is largely because (a) streaming applications offload decoding to special hardware that is available in all phones including low-end phones, and (b) streaming applications prefetch video data, and this prefetching masks the network processing latency. We supplement the performance study by exploring
+possible offloading mechanisms for Web page loads that 
+have potential for improving the Web experience for low-end phones while being
+energy efficient at the same time. 
+
+
+%hardware 
+%
+%We first find that the applications are largely impacted by CPU clock frequency across different devices. Further, as these applications are interdependent on network and compute, we isolate the impact of CPU clock on network and compute activities. As a result, we find that low clock frequency has a second-order effect on network performance which in turn affect throughput speed and packet processing times.
+%
+%Across all applications, the combination of compute as well as network activities becomes far worse in Web browsing as compared to video applications. This is true because, unlike web browsing, video applications benefit from offloading and acceleration techniques that are present even on low-end mobile phones. These findings have implications on web browsing optimizations that do not consider low-end devices where device hardware is not comparable to that of high-end phones. Additionally, we find that scripting is the most time consuming part of web browsing especially for sports and news applications. As a result, we show that the DSP coprocessor, which is often underutilized during Webpage loads, can be used to offload some of the suitable scripting functionality, which improves Web browsing performance and energy efficiency. Although we obtain improvements doing minor DSP programming, the current implementation does not take full advantage of all DSP coprocessor capabilities such as assembly optimizations which can further improve results.

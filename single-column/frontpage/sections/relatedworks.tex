@@ -1,0 +1,106 @@
+%!TEX root = ../main.tex
+\chapter{Related works}\label{ch:relatedworks}
+In this chapter, we investigate previous efforts related to our work.
+We start by studying other similar testbeds. Then we  explore proposed page load time improvement techniques, whether they are client side, server side or industry tools. We wrap up this chapter by looking into notable measurement studies related to our work.
+\section{Testbeds}
+\textbf{Mahimahi} \cite{mahimahi} is a framework to record traffic from HTTP-based applications, and later replay it under emulated network conditions. Mahimahi highlights it's features in  3 main parts:
+\begin{enumerate}
+
+\item It takes into account the multi-server nature of a webpage (external linked objects). Mahimahi launches separate web server instances for each external server to better emulate how web objects are delivered to the browser. Their results show that lack of multi-server emulation yields significantly worse performance at higher link rates.
+
+\item It employs linux network namespace feature to isolate TCP/IP interactions for each instance.
+
+\item The design is modular in the sense that different shells can be put together to build different architectures (like Lego blocks). Mahimahi is structured as a set of UNIX shells: 
+\begin{itemize}
+\item RecordShell, allows a user to record all HTTP traffic for any process spawned within it.
+\item ReplayShell, replays recorded content using local servers that emulate the application servers.
+\item To emulate network conditions, Mahimahi includes DelayShell, which emulates a fixed network propagation delay. 
+\item  LinkShell, which emulates both fixed-capacity and variable-capacity links.
+\end{itemize}
+\end{enumerate}
+
+\noindent While we share using Linux network name space with Mahimahi, there are  some fundamental differences between Mahimahi and  our approach. \\
+In our testbed, we mainly focus on studying the critical path, and therefore record the page load time at the object
+level rather than at the HTTP level as Mahimahi does.\\
+
+\noindent Also, we are using well-proven Linux's Traffic Control program instead of a new link emulation software.\\
+
+\noindent In addition, site manipulation is easier in our testbed as we have the whole page structure locally. For example, we can easily minify scripts and replay the new modified version locally.\\
+
+\noindent Moreover, our testbed supports real mobile access, while MahiMahi emulates mobile devices.\\
+
+\noindent \textbf{WebProphet} \cite{webprophet} was one of the first works to discuss dependencies for desktop browsers. WebProphet extracts dependencies in desktop browsers, and treats all computational activities as a black box. WProf, improved over WebProphet by uncovering dependencies in both networking and computational aspects of page load. We are also using mobile version of WProf to study dependencies in a mobile environment.\\
+
+\noindent Finally, there are measurement platforms such as WebPageTest\cite{webpagetest} and HTTP Archives \cite{httparchive} which allow researchers to perform Web page measurements from several vantage points. They provide measurement data from a large number of networks and devices. However, we still lack tools to directly compare the performance of desktop and mobile browsers, or analyze the critical path.
+
+ \section {Page load time improvements}
+ There has been number of proposals to improve page load time in mobile environment. They either incline toward server or client side.
+  \subsection {Client side improvements}
+Qian et al.\cite{webcaching}, study  mobile web cache implementations across a wide range of applications and browsers, using data collected both from a large cellular operator (AT\&T) as well as 20 real users over several months. They study the impact of redundant transfers and identify the key root cause being broken caching logic in many HTTP library implementations used by native apps.  The result is that 18\% to 20\%  of HTTP transfers are redundant and could be eliminated with correct caching implementations.\\
+Their results show that there exists a big gap between the protocol specification and implementation on mobile devices, which leads to significant amounts of redundant {\em network} traffic.\\
+
+\noindent Zhue et al. \cite{webcore} take a "hardware-level" optimization approach by proposing the {\em "WebCore"} , a general-purpose core customized and specialized for the mobile Web browsing workload, to achieve both energy-efficiency and performance improvements in mobile web browsing.\\
+ They aim to improve the {\em computation} part of mobile web browsing.
+Their findings show that there are two main bottlenecks in current designs: Instruction delivery and data feeding.
+{\em WebCore} adds two new components to the current CPU architecture:  Style Resolution Unit (SRU) and Software-Managed Browser Engine Cache.
+
+\noindent Their results show that customizations alone on the existing general-purpose mobile processor design lead to 22.2\% performance improvement and 18.6\% energy saving.\\
+
+ \noindent Wang et al.\cite{wang_www2012} add speculative loading to the current caching and pre-fetching solutions. In speculative loading, instead of trying to predict user behavior (pre-fetching), server's behavior is predicted.\\
+Also, speculative loading starts loading the resources only after the user requests a webpage's URL in contrast to prefetching that loads the resources beforehand.\\
+In their experiments, they observe on average, 76\% of the resources in one webpage are shared by at least one other webpage from the same website. Hence, they conclude that after a user visits a website for enough times and the resource graph is constructed, the browser can potentially predict the majority of the sub-resources (mostly CSS and Javascript) needed for a new webpage visit, and thus speculatively load them.\\
+
+\noindent On their experiments they observed a maximum of 1.4 seconds improvement in page load time and consider this as a limit for any client-only solution.\\
+However, they consider network RTT as the major bottleneck in mobile browser performance . %This may make sense as this paper was written in 2012 (The RTT of typical 3G network is around 200 ms) but the result may not hold any more.
+ 
+ \subsection {Server side improvements}
+Sivakumar et al.\cite{cloud_hotmobile2014} compare CB (cloud based) with Direct (device based) mobile browsing and how they affect page load time and total energy. 
+In a CB, all or part of the computation or netwoorking tasks are offloaded to the cloud, while in Direct, every thing is done on the client device.
+By using CB, mobile device can offload heavy processing components such as JavaScript to the cloud in order to reduce CPU time and energy. Then the processed page is returned in a specific notation (Called CBML: Cloud Based Markup Language) to the mobile device. \\
+
+\noindent Another benefit of using CB is data compaction performed in cloud which aims to decrease page load time and transferred bytes.
+Their evaluations indicate that neither Direct nor CB is better under all scenarios. For e.g. while CB decreases the download time compared to Direct for 38.87\% of pages, it increases it by as much as 29.8s for other pages. Similarly CB increases energy usage by up to 21.31J compared to Direct for some pages.
+They have found root causes of these variances to be: Extent and duration of Javascript run in the page and compaction ratio.\\
+
+\noindent PARCEL\cite{parcel} moves the task of identifying and downloading objects needed to render a Webpage to a proxy. Main focus of PARCEL is to support cellular friendly data-transfers by reducing the number of HTTP request-response interactions. Unlike {\em cloud based browsing} \cite{cloud_hotmobile2014}, PARCEL keeps most other functionalities including Javascript execution in the client browser and does not try to offload the {\em computation} part.
+PARCEL uses it's own browser to communicate with the proxy part and therefore is more of a mixed (client and server) solution.\\
+
+\noindent FlyWheel\cite{flywheel} is Google's data reduction proxy service that provides an average 58\% byte size reduction of HTTP content. FlyWheel also focuses  on {\em network} bytes transfer. Overhead of compression and decompression on CPU time and energy consumption has not been studied in FlyWheel.\\
+
+\noindent KLOTSKI\cite{klotski} states that "the increasing complexity of web page content and decreasing user tolerance will outpace the benefits from incremental performance enhancements such as compression, caching, cloud based browsers, \ldots". Therefore, they focus on improving user experience, instead of decreasing total page load time. In order to do that, they propose a platform which dynamically reprioritizes web content so that the resources on a page that are critical to the user experience are delivered sooner.
+To respond to a request, KLOTSKI first selects the subset of resources on the page that it should prioritize. Thereafter, as the client executes the page load, the front-end alters the sequence in which the page's content is delivered to the client, in order to prioritize the delivery of the selected subset of resources.\\
+ \subsection {Industry tools}
+Google's PageSpeed Insights \cite{pagespeedinsight} is a tool that analyzes web pages and generates tailored suggestions to make the pages faster. PageSpeed Insights analysis does not use real devices, instead it changes the user-agent for desktop and mobile in webkit renderer accordingly.
+
+\noindent PageSpeed Insights uses a set of predefined rules to evaluate a webpage. Each PageSpeed rule generates an impact number that indicates the importance or priority of implementing the rule-result suggestions for the rule, relative to other rules. \\
+ 
+\noindent YSLOW \cite{yslow} is Yahoo's performance analysis tool that grades a web page, based on one of three predefined ruleset or a user-defined ruleset. It also offers suggestions for improving the page's performance.\\
+
+\noindent Neither PageSpeed Insights nor YSlow metrics, directly indicate page load time. Part of our current project is defining a new scoring system that is correlated with page load time and shows amount of improvement based on the page load time improvement.\\
+
+
+\section{Measurement studies}
+Qian et al. \cite{qian_mobisys2014} provide a comprehensive measurement study to  examine  the resource usage of mobile browsers, but mainly focus on cellular bandwidth and energy usage rather than computation and page load times.\\
+
+\noindent Bui et al. \cite{bui2015rethinking} propose techniques to optimize the energy consumption of web page loading on cellphones.
+Their network-aware resource processing and adaptive content painting, aim to address energy inefficiency issues of the current mobile web browsers in its content processing and graphic processing pipelines.\\
+Application assisted scheduling's goal is  to balance the trade-off between the energy saving and the QoS in ARM's big.LITTLE platforms.\\
+However, their focus is more on lowering energy consumption, without affecting the original page load time.\\
+
+\noindent Singh et al. \cite{singh2015flexiweb} show that compression middleboxes are not always helpful. Compression middleboxes are middle servers that compress page content and are usually deployed as part of a content delivery network.
+commonly used today. 
+ They observe from extensive measurements that the compression middle-box should be used only when network conditions are bad and otherwise, should be directly fetched from the original web server. 
+Based on this observation, they build FlexiWeb, a framework that supports network-aware middle-box usage. In addition, FlexiWeb  performs dynamic network-aware compression to provide further performance gain.\\
+
+\noindent Butkiewicz et al. \cite{butkiewicz2011understanding} characterize Web page complexity.
+They show a website's popularity is not a good indicator of its complexity, whereas its category does matter. For example, {\em www.google.com} is a popular website but not a complex one.
+They have also found news sites load more objects from more servers and origins than other categories. Their analysis show that number of objects and number of servers are the dominant indicators of page load time and variability in page load times, respectively.\\
+
+%{\em What about moving this to complexity part? As a good reasoning why complexity is important}.
+
+\noindent Wang et al. \cite{spdy_nsdi} show that although SPDY has been designed to decrease transfer time because of it's use of a single TCP connection, but this feature is also detrimental under high packet loss.
+
+
+
+
+

@@ -1,0 +1,54 @@
+%\documentclass[a4paper,conference]{IEEEtran}
+\documentclass[10pt,conference,letterpaper]{IEEEtran}
+\usepackage{xspace}
+\usepackage[dvipsnames]{color}
+\newcommand{\tbd}[1]{XX-#1-XX}
+\newcommand{\subparagraph}{}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{epsfig}
+\usepackage{color}
+\usepackage{subfigure} 
+\usepackage{spverbatim}
+\usepackage{gensymb}
+\usepackage{algorithm,algorithmic}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{etoolbox}
+
+\newcommand{\wifi}{WiFi\xspace}
+\newcommand{\christina}[1]{{\color{blue}[\textit{Christina: #1}]}} %Christina's comments
+\newcommand{\mquote}[1]{``#1''} %Christina's quotes
+\newcommand{\mallesh}[1]{{\color{green}[\textit{Mallesh: #1}]}} %Mallesh's comments
+
+\makeatletter
+\patchcmd{\@maketitle}
+  {\addvspace{0.5\baselineskip}\egroup}
+  {\addvspace{-1.0\baselineskip}\egroup}
+  {}
+  {}
+\makeatother
+
+\begin{document}
+\title{ Scalable Ground-Truth Annotation for Video QoE Modeling in Enterprise WiFi}
+\author{\IEEEauthorblockN{\#10 Pages, Paper ID \#18}
+}
+
+\maketitle
+\input{abstract}
+\input{intro}
+\input{motivation}
+\input{background}
+\input{design}
+\input{user-study}
+\input{model}
+\input{feature_vs_baseline}
+\input{related}
+\input{conclusion}
+\bibliographystyle{plain}
+\bibliography{qos-qoe}
+\end{document}
